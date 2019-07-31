@@ -1,0 +1,6 @@
+name: rpeptidesapp
+channels:
+  - conda-forge
+  - salilab
+  - defaults
+prefix: /home/chmrodrigues/anaconda2/envs/rpeptidesapp

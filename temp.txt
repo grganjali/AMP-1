@@ -1,0 +1,867 @@
+source('aaCheck.R')source('aaCheck.R')source('aaCheck.R')source('aaCheck.R')#' @export charge
+#' @importFrom utils data
+#' @title Compute the theoretical net charge of a protein sequence
+#' @description This function computes the net charge of a protein sequence based on the Henderson-Hasselbalch equation described by Moore, D. S. (1985). The net charge can be calculated at defined pH using one of the 9 pKa scales availables: \code{Bjellqvist}, \code{Dawson}, \code{EMBOSS}, \code{Lehninger}, \code{Murray}, \code{Rodwell}, \code{Sillero}, \code{Solomon} or \code{Stryer}.
+#' @param seq An amino-acids sequence
+#' @param pH A pH value
+#' @param pKscale A character string specifying the pKa scale to be used; must be one of \code{"Bjellqvist"}, \code{"Dawson"}, \code{"EMBOSS"}, \code{"Lehninger"}, \code{"Murray"}, \code{"Rodwell"}, \code{"Sillero"}, \code{"Solomon"} or \code{"Stryer"}
+#' @references
+#' Kiraga, J. (2008) Analysis and computer simulations of variability of isoelectric point of proteins in the proteomes. PhD thesis, University of Wroclaw, Poland.
+#'
+#' Bjellqvist, B., Hughes, G.J., Pasquali, Ch., Paquet, N., Ravier, F., Sanchez, J.Ch., Frutige,r S., Hochstrasser D. (1993) The focusing positions of polypeptides in immobilized pH gradients can be predicted from their amino acid sequences. Electrophoresis, 14:1023-1031.
+#'
+#' Dawson, R. M. C.; Elliot, D. C.; Elliot, W. H.; Jones, K. M. Data for biochemical research. Oxford University Press, 1989; p. 592.
+#'
+#' EMBOSS data are from http://emboss.sourceforge.net/apps/release/5.0/emboss/apps/iep.html.
+#'
+#' Nelson, D. L.; Cox, M. M. Lehninger Principles of Biochemistry, Fourth Edition; W. H. Freeman, 2004; p. 1100.
+#'
+#' Murray, R.K., Granner, D.K., Rodwell, V.W. (2006) Harper's illustrated Biochemistry. 27th edition. Published by The McGraw-Hill Companies.
+#'
+#' Rodwell, J. Heterogeneity of component bands in isoelectric focusing patterns. Analytical Biochemistry, 1982, 119 (2), 440-449.
+#'
+#' Sillero, A., Maldonado, A. (2006) Isoelectric point determination of proteins and other macromolecules: oscillating method. Comput Biol Med., 36:157-166.
+#'
+#' Solomon, T.W.G. (1998) Fundamentals of Organic Chemistry, 5th edition. Published by Wiley.
+#'
+#' Stryer L. (1999) Biochemia. czwarta edycja. Wydawnictwo Naukowe PWN.
+#'
+#' @examples # COMPARED TO EMBOSS PEPSTATS
+#' # http://emboss.bioinformatics.nl/cgi-bin/emboss/pepstats
+#' # SEQUENCE: FLPVLAGLTPSIVPKLVCLLTKKC
+#' # Charge   = 3.0
+#'
+#' charge(seq= "FLPVLAGLTPSIVPKLVCLLTKKC",pH= 7, pKscale= "Bjellqvist")
+#' # [1] 2.737303
+#' charge(seq= "FLPVLAGLTPSIVPKLVCLLTKKC",pH= 7, pKscale= "EMBOSS")
+#' # [1] 2.914112
+#' charge(seq= "FLPVLAGLTPSIVPKLVCLLTKKC",pH= 7, pKscale= "Murray")
+#' # [1] 2.907541
+#' charge(seq= "FLPVLAGLTPSIVPKLVCLLTKKC",pH= 7, pKscale= "Sillero")
+#' # [1] 2.919812
+#' charge(seq= "FLPVLAGLTPSIVPKLVCLLTKKC",pH= 7, pKscale= "Solomon")
+#' # [1] 2.844406
+#' charge(seq= "FLPVLAGLTPSIVPKLVCLLTKKC",pH= 7, pKscale= "Stryer")
+#' # [1] 2.876504
+#' charge(seq= "FLPVLAGLTPSIVPKLVCLLTKKC",pH= 7, pKscale= "Lehninger")
+#' # [1] 2.87315
+#' charge(seq= "FLPVLAGLTPSIVPKLVCLLTKKC",pH= 7, pKscale= "Dawson")
+#' # [1] 2.844406
+#' charge(seq= "FLPVLAGLTPSIVPKLVCLLTKKC",pH= 7, pKscale= "Rodwell")
+#' # [1] 2.819755
+#'
+#' # COMPARED TO YADAMP
+#' # http://yadamp.unisa.it/showItem.aspx?yadampid=845&x=0,7055475
+#' # SEQUENCE: FLPVLAGLTPSIVPKLVCLLTKKC
+#' # CHARGE pH5: 3.00
+#' # CHARGE pH7: 2.91
+#' # CHARGE pH9: 1.09
+
+#' charge(seq= "FLPVLAGLTPSIVPKLVCLLTKKC",pH= 5, pKscale= "EMBOSS")
+#' # [1] 3.037398
+#' charge(seq= "FLPVLAGLTPSIVPKLVCLLTKKC",pH= 7, pKscale= "EMBOSS")
+#' # [1] 2.914112
+#' charge(seq= "FLPVLAGLTPSIVPKLVCLLTKKC",pH= 9, pKscale= "EMBOSS")
+#' # [1] 0.7184524
+#'
+#' # JUST ONE COMMAND
+#' charge(seq= "FLPVLAGLTPSIVPKLVCLLTKKC",pH= seq(from = 5,to = 9,by = 2), pKscale= "EMBOSS")
+#' # [1] 3.0373984 2.9141123 0.7184524
+
+charge<- function(seq, pH = 7, pKscale = "Lehninger") {
+  seq <- toupper(seq)
+  pKscale <- names(AAdata$pK)[pmatch(pKscale,names(AAdata$pK))]
+  if(is.na(pKscale)){
+    stop("The selected pK scale is not available. pKscale must be one of: 'Bjellqvist','Dawson', 'EMBOSS', 'Lehninger', 'Murray', 'Rodwell', 'Sillero', 'Solomon', or 'Stryer'.")
+  }
+  if(!is.numeric(pH)){
+    stop("The pH must be numeric.")
+  }
+  if(length(seq) == 1 || length(pH) == 1){
+    return(unlist(chargeList(seq = seq,pH = pH, pKscale = pKscale)))
+  } else {
+    return(chargeList(seq = seq,pH = pH, pKscale = pKscale))
+  }
+}
+source('aaCheck.R')#' @export hydrophobicity
+#' @title Compute the hydrophobicity index of a protein sequence
+#' @description This function calculates the GRAVY hydrophobicity index of an amino acids sequence using one of the 38 scales from different sources.
+#' @param seq An amino-acids sequence
+#' @param scale A character string specifying the hydophobicity scale to be used; must be one of \code{"Aboderin"}, \code{"AbrahamLeo"}, \code{"Argos"}, \code{"BlackMould"}, \code{"BullBreese"}, \code{"Casari"}, \code{"Chothia"}, \code{"Cid"}, \code{"Cowan3.4"}, \code{"Cowan7.5"}, \code{"Eisenberg"}, \code{"Engelman"}, \code{"Fasman"}, \code{"Fauchere"}, \code{"Goldsack"}, \code{"Guy"}, \code{"HoppWoods"}, \code{"Janin"}, \code{"Jones"}, \code{"Juretic"}, \code{"Kidera"}, \code{"Kuhn"}, \code{"KyteDoolittle"}, \code{"Levitt"}, \code{"Manavalan"}, \code{"Miyazawa"}, \code{"Parker"}, \code{"Ponnuswamy"}, \code{"Prabhakaran"}, \code{"Rao"}, \code{"Rose"}, \code{"Roseman"}, \code{"Sweet"}, \code{"Tanford"}, \code{"Welling"}, \code{"Wilson"}, \code{"Wolfenden"}, \code{"Zimmerman"}, \code{"interfaceScale_pH8"}, \code{"interfaceScale_pH2"}, \code{"octanolScale_pH8"}, \code{"octanolScale_pH2"}, \code{"oiScale_pH8"} or \code{"oiScale_pH2"}.
+#' @return The computed GRAVY index for a given amino-acid sequence
+#' @references Aboderin, A. A. (1971). An empirical hydrophobicity scale for alpha-amino-acids and some of its applications. International Journal of Biochemistry, 2(11), 537-544.
+#'
+#' Abraham D.J., Leo A.J. Hydrophobicity (delta G1/2 cal). Proteins: Structure, Function and Genetics 2:130-152(1987).
+#' 
+#' Argos, P., Rao, J. K., & Hargrave, P. A. (1982). Structural Prediction of Membrane-Bound Proteins. European Journal of Biochemistry, 128(2-3), 565-575.
+#' 
+#' Black S.D., Mould D.R. Hydrophobicity of physiological L-alpha amino acids. Anal. Biochem. 193:72-82(1991).
+#' 
+#' Bull H.B., Breese K. Hydrophobicity (free energy of transfer to surface in kcal/mole). Arch. Biochem. Biophys. 161:665-670(1974).
+#' 
+#' Casari, G., & Sippl, M. J. (1992). Structure-derived hydrophobic potential: hydrophobic potential derived from X-ray structures of globular proteins is able to identify native folds. Journal of molecular biology, 224(3), 725-732.
+#' 
+#' Chothia, C. (1976). The nature of the accessible and buried surfaces in proteins. Journal of molecular biology, 105(1), 1-12.
+#' 
+#' Cid, H., Bunster, M., Canales, M., & Gazitua, F. (1992). Hydrophobicity and structural classes in proteins. Protein engineering, 5(5), 373-375.
+#' 
+#' Cowan R., Whittaker R.G. Hydrophobicity indices at pH 3.4 determined by HPLC. Peptide Research 3:75-80(1990).
+#' 
+#' Cowan R., Whittaker R.G. Hydrophobicity indices at pH 7.5 determined by HPLC. Peptide Research 3:75-80(1990).
+#' 
+#' Eisenberg D., Schwarz E., Komarony M., Wall R. Normalized consensus hydrophobicity scale. J. Mol. Biol. 179:125-142(1984).
+#' 
+#' Engelman, D. M., Steitz, T. A., & Goldman, A. (1986). Identifying nonpolar transbilayer helices in amino acid sequences of membrane proteins. Annual review of biophysics and biophysical chemistry, 15(1), 321-353.
+#' 
+#' Fasman, G. D. (Ed.). (1989). Prediction of protein structure and the principles of protein conformation. Springer.
+#' 
+#' Fauchere J.-L., Pliska V.E. Hydrophobicity scale (pi-r). Eur. J. Med. Chem. 18:369-375(1983).
+#' 
+#' Goldsack, D. E., & Chalifoux, R. C. (1973). Contribution of the free energy of mixing of hydrophobic side chains to the stability of the tertiary structure of proteins. Journal of theoretical biology, 39(3), 645-651.
+#' 
+#' Guy H.R. Hydrophobicity scale based on free energy of transfer (kcal/mole). Biophys J. 47:61-70(1985).
+#' 
+#' Hopp T.P., Woods K.R. Hydrophilicity. Proc. Natl. Acad. Sci. U.S.A. 78:3824-3828(1981).
+#' 
+#' Janin J. Free energy of transfer from inside to outside of a globular protein. Nature 277:491-492(1979).
+#' 
+#' Jones, D. D. (1975). Amino acid properties and side-chain orientation in proteins: a cross correlation approach. Journal of theoretical biology, 50(1), 167-183.
+#' 
+#' Juretic, D., Lucic, B., Zucic, D., & Trinajstic, N. (1998). Protein transmembrane structure: recognition and prediction by using hydrophobicity scales through preference functions. Theoretical and computational chemistry, 5, 405-445.
+#' 
+#' Kidera, A., Konishi, Y., Oka, M., Ooi, T., & Scheraga, H. A. (1985). Statistical analysis of the physical properties of the 20 naturally occurring amino acids. Journal of Protein Chemistry, 4(1), 23-55.
+#' 
+#' Kuhn, L. A., Swanson, C. A., Pique, M. E., Tainer, J. A., & Getzoff, E. D. (1995). Atomic and residue hydrophilicity in the context of folded protein structures. Proteins: Structure, Function, and Bioinformatics, 23(4), 536-547.
+#' 
+#' Kyte J., Doolittle R.F. Hydropathicity. J. Mol. Biol. 157:105-132(1982).
+#' 
+#' Levitt, M. (1976). A simplified representation of protein conformations for rapid simulation of protein folding. Journal of molecular biology, 104(1), 59-107.
+#' 
+#' Manavalan P., Ponnuswamy Average surrounding hydrophobicity. P.K. Nature 275:673-674(1978).
+#' 
+#' Miyazawa S., Jernigen R.L. Hydrophobicity scale (contact energy derived from 3D data). Macromolecules 18:534-552(1985).
+#' 
+#' Parker J.M.R., Guo D., Hodges R.S. Hydrophilicity scale derived from HPLC peptide retention times. Biochemistry 25:5425-5431(1986).
+#' 
+#' Ponnuswamy, P. K. (1993). Hydrophobic charactesristics of folded proteins. Progress in biophysics and molecular biology, 59(1), 57-103.
+#' 
+#' Prabhakaran, M. (1990). The distribution of physical, chemical and conformational properties in signal and nascent peptides. Biochem. J, 269, 691-696.
+#' 
+#' Rao M.J.K., Argos P. Membrane buried helix parameter. Biochim. Biophys. Acta 869:197-214(1986).
+#' 
+#' Rose G.D., Geselowitz A.R., Lesser G.J., Lee R.H., Zehfus M.H. Mean fractional area loss (f) [average area buried/standard state area]. Science 229:834-838(1985)
+#' 
+#' Roseman M.A. Hydrophobicity scale (pi-r). J. Mol. Biol. 200:513-522(1988).
+#' 
+#' Sweet R.M., Eisenberg D. Optimized matching hydrophobicity (OMH). J. Mol. Biol. 171:479-488(1983).
+#' 
+#' Tanford C. Hydrophobicity scale (Contribution of hydrophobic interactions to the stability of the globular conformation of proteins). J. Am. Chem. Soc. 84:4240-4274(1962).
+#' 
+#' Welling G.W., Weijer W.J., Van der Zee R., Welling-Wester S. Antigenicity value X 10. FEBS Lett. 188:215-218(1985).
+#' 
+#' Wilson K.J., Honegger A., Stotzel R.P., Hughes G.J. Hydrophobic constants derived from HPLC peptide retention times. Biochem. J. 199:31-41(1981).
+#' 
+#' Wolfenden R.V., Andersson L., Cullis P.M., Southgate C.C.F. Hydration potential (kcal/mole) at 25C. Biochemistry 20:849-855(1981).
+#' 
+#' Zimmerman, J. M., Eliezer, N., & Simha, R. (1968). The characterization of amino acid sequences in proteins by statistical methods. Journal of theoretical biology, 21(2), 170-201.
+#' 
+#' Nakai, K., Kidera, A., and Kanehisa, M.; Cluster analysis of amino acid indices for prediction of protein structure and function. Protein Eng. 2, 93-100 (1988).
+#' 
+#' Tomii, K. and Kanehisa, M.; Analysis of amino acid indices and mutation matrices for sequence comparison and structure prediction of proteins. Protein Eng. 9, 27-36 (1996). 
+#' 
+#' Kawashima, S., Ogata, H., and Kanehisa, M.; AAindex: amino acid index database. Nucleic Acids Res. 27, 368-369 (1999).
+#' 
+#' Kawashima, S. and Kanehisa, M.; AAindex: amino acid index database. Nucleic Acids Res. 28, 374 (2000).
+#' 
+#' Kawashima, S., Pokarowski, P., Pokarowska, M., Kolinski, A., Katayama, T., and Kanehisa, M.; AAindex: amino acid index database, progress report 2008. Nucleic Acids Res. 36, D202-D205 (2008). 
+#' 
+#' White, Stephen (2006-06-29). "Experimentally Determined Hydrophobicity Scales". University of California, Irvine. Retrieved 2017-05-25
+#' @details The hydrophobicity is an important stabilization force in protein folding; this force changes depending on the solvent in which the protein is found. The hydrophobicity index is calculated adding the hydrophobicity of individual amino acids and dividing this value by the length of the sequence.
+#' @examples 
+#' # COMPARED TO GRAVY Grand average of hydropathicity (GRAVY) ExPASy
+#' # http://web.expasy.org/cgi-bin/protparam/protparam
+#' # SEQUENCE: QWGRRCCGWGPGRRYCVRWC
+#' # GRAVY: -0.950
+#' 
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Aboderin")
+#' #[1] 3.84
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "AbrahamLeo")
+#' #[1] 0.092
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Argos")
+#' #[1] 1.033
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "BlackMould")
+#' #[1] 0.50125
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "BullBreese")
+#' #[1] 0.1575
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Casari")
+#' #[1] 0.38
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Chothia")
+#' #[1] 0.262
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Cid")
+#' #[1] 0.198
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Cowan3.4")
+#' #[1] 0.0845
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Cowan7.5")
+#' #[1] 0.0605
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Eisenberg")
+#' #[1] -0.3265
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Engelman")
+#' #[1] 2.31
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Fasman")
+#' #[1] -1.2905
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Fauchere")
+#' #[1] 0.527
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Goldsack")
+#' #[1] 1.2245
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Guy")
+#' #[1] 0.193
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "HoppWoods")
+#' #[1] -0.14
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Janin")
+#' #[1] -0.105
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Jones")
+#' #[1] 1.4675
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Juretic")
+#' #[1] -1.106
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Kidera")
+#' #[1] -0.0405
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Kuhn")
+#' #[1] 0.9155
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "KyteDoolittle")
+#' #[1] -0.95
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Levitt")
+#' #[1] -0.21
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Manavalan")
+#' #[1] 13.0445
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Miyazawa")
+#' #[1] 5.739
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Parker")
+#' #[1] 1.095
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Ponnuswamy")
+#' #[1] 0.851
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Prabhakaran")
+#' #[1] 9.67
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Rao")
+#' #[1] 0.813
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Rose")
+#' #[1] 0.7575
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Roseman")
+#' #[1] -0.495
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Sweet")
+#' #[1] -0.1135
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Tanford")
+#' #[1] -0.2905
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Welling")
+#' #[1] -0.666
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Wilson")
+#' #[1] 3.16
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Wolfenden")
+#' #[1] -6.307
+#' hydrophobicity(seq = "QWGRRCCGWGPGRRYCVRWC",scale = "Zimmerman")
+#' #[1] 0.943
+hydrophobicity <- function(seq, scale = "KyteDoolittle") {
+  # Loading hydrophobicity scales
+  Hydrophobicity <- AAdata$Hydrophobicity
+  # Setting the hydrophobicity scale
+  scale <- match.arg(scale, names(Hydrophobicity))
+  # Split sequence by aminoacids
+  seq <- aaCheck(seq)
+  # Sum the hydrophobicity of each amino acid and divide them between the sequence length
+  # Return the GRAVY value
+  h <-
+    lapply(seq, function(seq) {
+      (sum(Hydrophobicity[[scale]][seq], na.rm = TRUE) / length(seq))
+    })
+  return(unlist(h))
+}
+source('aaCheck.R')#' @export blosumIndices
+#' @title Compute the BLOSUM62 derived indices of a protein sequence
+#' @description BLOSUM indices were derived of physicochemical properties that have been subjected to a VARIMAX analyses and an alignment matrix of the 20 natural AAs using the BLOSUM62 matrix.
+#' @references Georgiev, A. G. (2009). Interpretable numerical descriptors of amino acid space. Journal of Computational Biology, 16(5), 703-723.
+#' @param seq An amino-acids sequence
+#' @return The computed average of BLOSUM indices of all the amino acids in the corresponding peptide sequence.
+#' @examples blosumIndices(seq = "KLKLLLLLKLK")
+#' # [[1]]
+#' #   BLOSUM1    BLOSUM2    BLOSUM3    BLOSUM4    BLOSUM5    
+#' # -0.4827273 -0.5618182 -0.8509091 -0.4172727  0.3172727  
+#' 
+#' #  BLOSUM6   BLOSUM7     BLOSUM8    BLOSUM9   BLOSUM10 
+#' # 0.2527273  0.1463636  0.1427273 -0.2145455 -0.3218182 
+#' 
+blosumIndices <- function(seq) {
+
+  # Split the sequence by amino-acids
+  # Remove spaces and line breaks
+  seq <- aaCheck(seq)
+  
+  # Load the BLOSUM indices
+  scales <- AAdata$BLOSUM
+  
+  # Computes the BLOSUM indices for given sequences
+  lapply(seq, function(seq) {
+    sapply(names(scales), function(scale) {
+      (sum(scales[[scale]][seq], na.rm = TRUE) / length(seq))
+    })
+  })
+}source('aaCheck.R')#' @export autoCovariance
+#' @title Compute the auto-covariance index of a protein sequence
+#' @description This function computes the Cruciani et al (2004) auto-corvariance index. The \code{autoCovariance} index is calculated for a lag 'd' using a descriptor 'f' (centred) over a sequence of length 'L'.
+#'
+#' @param sequence An amino-acids sequence
+#' @param lag A value for a lag, the max value is equal to the length of the shortest peptide minus one.
+#' @param property A property to use as value to evaluate the covariance.
+#' @param center A logical value \code{TRUE} or \code{FALSE} if the property must be centered.
+#'
+#' @return The computed auto-covariance index for a given amino-acids sequence
+#' @references Cruciani, G., Baroni, M., Carosati, E., Clementi, M., Valigi, R., and Clementi, S. (2004) Peptide studies by means of principal properties of amino acids derived from MIF descriptors. J. Chemom. 18, 146-155.
+#' @examples
+#' # Loading a property to evaluate its autocorrelation
+#' data(AAdata)
+#'
+#' # Calculate the auto-covariance index for a lag=1
+#' autoCovariance(
+#'   sequence = "SDKEVDEVDAALSDLEITLE",
+#'   lag = 1,
+#'   property = AAdata$Hydrophobicity$KyteDoolittle,
+#'   center = TRUE
+#' )
+#' # [1] -0.4140053
+#'
+#' # Calculate the auto-covariance index for a lag=5
+#' autoCovariance(
+#'   sequence = "SDKEVDEVDAALSDLEITLE",
+#'   lag = 5,
+#'   property = AAdata$Hydrophobicity$KyteDoolittle,
+#'   center = TRUE
+#' )
+#' # [1] 0.001000336
+autoCovariance <- function(sequence, lag, property, center = TRUE) {
+  if (center == TRUE) {
+    property <- scale(property)[,]
+  }
+  # Split sequence by amino acids
+  sequence <- aaCheck(sequence)
+  if (lag < (min(lengths(sequence)) - 1)) {
+    # Apply the Cruciani formula
+    unlist(lapply(sequence, function(sequence) {
+      sum(sapply(seq_len(length(sequence) - lag), function(position) {
+        property[sequence[[position]]] * property[sequence[[position + lag]]]
+      }, USE.NAMES = FALSE)) / length(sequence)
+    }))
+  } else {
+    stop("The lag max possible value must be equal to the length of shortest peptide minus one")
+  }
+}source('aaCheck.R')#' @export instaIndex
+#' @title Compute the instability index of a protein sequence
+#' @description This function calculates the instability index proposed by Guruprasad (1990). This index predicts the stability of a protein based on its amino acid composition, a protein whose instability index is smaller than 40 is predicted as stable, a value above 40 predicts that the protein may be unstable.
+#' @param seq An amino-acids sequence
+#' @return The computed instability index for a given amino-acids sequence
+#' @references Guruprasad K, Reddy BV, Pandit MW (1990). "Correlation between stability of a protein and its dipeptide composition: a novel approach for predicting in vivo stability of a protein from its primary sequence". Protein Eng. 4 (2): 155 - 61. doi:10.1093/protein/4.2.155
+#' @examples
+#' # COMPARED TO ExPASy INSTAINDEX
+#' # http://web.expasy.org/protparam/
+#' # SEQUENCE: QWGRRCCGWGPGRRYCVRWC
+#' # The instability index (II) is computed to be 83.68
+#'
+#' instaIndex(seq = "QWGRRCCGWGPGRRYCVRWC")
+#' # [1] 83.68
+#'
+instaIndex <- function(seq) {
+  # Setting the Guruprasad scale
+  guruprasad <-
+    c(
+      WW = 1,
+      WC = 1,
+      WM = 24.68,
+      WH = 24.68,
+      WY = 1,
+      WF = 1,
+      WQ = 1,
+      WN = 13.34,
+      WI = 1,
+      WR = 1,
+      WD = 1,
+      WP = 1,
+      WT = -14.03,
+      WK = 1,
+      WE = 1,
+      WV = -7.49,
+      WS = 1,
+      WG = -9.37,
+      WA = -14.03,
+      WL = 13.34,
+      CW = 24.68,
+      CC = 1,
+      CM = 33.6,
+      CH = 33.6,
+      CY = 1,
+      CF = 1,
+      CQ = -6.54,
+      CN = 1,
+      CI = 1,
+      CR = 1,
+      CD = 20.26,
+      CP = 20.26,
+      CT = 33.6,
+      CK = 1,
+      CE = 1,
+      CV = -6.54,
+      CS = 1,
+      CG = 1,
+      CA = 1,
+      CL = 20.26,
+      MW = 1,
+      MC = 1,
+      MM = -1.88,
+      MH = 58.28,
+      MY = 24.68,
+      MF = 1,
+      MQ = -6.54,
+      MN = 1,
+      MI = 1,
+      MR = -6.54,
+      MD = 1,
+      MP = 44.94,
+      MT = -1.88,
+      MK = 1,
+      ME = 1,
+      MV = 1,
+      MS = 44.94,
+      MG = 1,
+      MA = 13.34,
+      ML = 1,
+      HW = -1.88,
+      HC = 1,
+      HM = 1,
+      HH = 1,
+      HY = 44.94,
+      HF = -9.37,
+      HQ = 1,
+      HN = 24.68,
+      HI = 44.94,
+      HR = 1,
+      HD = 1,
+      HP = -1.88,
+      HT = -6.54,
+      HK = 24.68,
+      HE = 1,
+      HV = 1,
+      HS = 1,
+      HG = -9.37,
+      HA = 1,
+      HL = 1,
+      YW = -9.37,
+      YC = 1,
+      YM = 44.94,
+      YH = 13.34,
+      YY = 13.34,
+      YF = 1,
+      YQ = 1,
+      YN = 1,
+      YI = 1,
+      YR = -15.91,
+      YD = 24.68,
+      YP = 13.34,
+      YT = -7.49,
+      YK = 1,
+      YE = -6.54,
+      YV = 1,
+      YS = 1,
+      YG = -7.49,
+      YA = 24.68,
+      YL = 1,
+      FW = 1,
+      FC = 1,
+      FM = 1,
+      FH = 1,
+      FY = 33.6,
+      FF = 1,
+      FQ = 1,
+      FN = 1,
+      FI = 1,
+      FR = 1,
+      FD = 13.34,
+      FP = 20.26,
+      FT = 1,
+      FK = -14.03,
+      FE = 1,
+      FV = 1,
+      FS = 1,
+      FG = 1,
+      FA = 1,
+      FL = 1,
+      QW = 1,
+      QC = -6.54,
+      QM = 1,
+      QH = 1,
+      QY = -6.54,
+      QF = -6.54,
+      QQ = 20.26,
+      QN = 1,
+      QI = 1,
+      QR = 1,
+      QD = 20.26,
+      QP = 20.26,
+      QT = 1,
+      QK = 1,
+      QE = 20.26,
+      QV = -6.54,
+      QS = 44.94,
+      QG = 1,
+      QA = 1,
+      QL = 1,
+      NW = -9.37,
+      NC = -1.88,
+      NM = 1,
+      NH = 1,
+      NY = 1,
+      NF = -14.03,
+      NQ = -6.54,
+      NN = 1,
+      NI = 44.94,
+      NR = 1,
+      ND = 1,
+      NP = -1.88,
+      NT = -7.49,
+      NK = 24.68,
+      NE = 1,
+      NV = 1,
+      NS = 1,
+      NG = -14.03,
+      NL = 1,
+      IW = 1,
+      IC = 1,
+      IM = 1,
+      IH = 13.34,
+      IY = 1,
+      IF = 1,
+      IQ = 1,
+      IN = 1,
+      II = 1,
+      IR = 1,
+      ID = 1,
+      IP = -1.88,
+      IT = 1,
+      IK = -7.49,
+      IE = 44.94,
+      IV = -7.49,
+      IS = 1,
+      IG = 1,
+      IA = 1,
+      IL = 20.26,
+      RW = 58.28,
+      RC = 1,
+      RM = 1,
+      RH = 20.26,
+      RY = -6.54,
+      RF = 1,
+      RQ = 20.26,
+      RN = 13.34,
+      RI = 1,
+      RR = 58.28,
+      RD = 1,
+      RP = 20.26,
+      RT = 1,
+      RK = 1,
+      RE = 1,
+      RV = 1,
+      RS = 44.94,
+      RG = -7.49,
+      RA = 1,
+      RL = 1,
+      DW = 1,
+      DC = 1,
+      DM = 1,
+      DH = 1,
+      DY = 1,
+      DF = -6.54,
+      DQ = 1,
+      DN = 1,
+      DI = 1,
+      DR = -6.54,
+      DD = 1,
+      DP = 1,
+      DT = -14.03,
+      DK = -7.49,
+      DE = 1,
+      DV = 1,
+      DS = 20.26,
+      DG = 1,
+      DA = 1,
+      DL = 1,
+      PW = -1.88,
+      PC = -6.54,
+      PM = -6.54,
+      PH = 1,
+      PY = 1,
+      PF = 20.26,
+      PQ = 20.26,
+      PN = 1,
+      PI = 1,
+      PR = -6.54,
+      PD = -6.54,
+      PP = 20.26,
+      PT = 1,
+      PK = 1,
+      PE = 18.38,
+      PV = 20.26,
+      PS = 20.26,
+      PG = 1,
+      PA = 20.26,
+      PL = 1,
+      TW = -14.03,
+      TC = 1,
+      TM = 1,
+      TH = 1,
+      TY = 1,
+      TF = 13.34,
+      TQ = -6.54,
+      TN = -14.03,
+      TI = 1,
+      TR = 1,
+      TD = 1,
+      TP = 1,
+      TT = 1,
+      TK = 1,
+      TE = 20.26,
+      TV = 1,
+      TS = 1,
+      TG = -7.49,
+      TA = 1,
+      TL = 1,
+      KW = 1,
+      KC = 1,
+      KM = 33.6,
+      KH = 1,
+      KY = 1,
+      KF = 1,
+      KQ = 24.68,
+      KN = 1,
+      KI = -7.49,
+      KR = 33.6,
+      KD = 1,
+      KP = -6.54,
+      KT = 1,
+      KK = 1,
+      KE = 1,
+      KV = -7.49,
+      KS = 1,
+      KG = -7.49,
+      KA = 1,
+      KL = -7.49,
+      EW = -14.03,
+      EC = 44.94,
+      EM = 1,
+      EH = -6.54,
+      EY = 1,
+      EF = 1,
+      EQ = 20.26,
+      EN = 1,
+      EI = 20.26,
+      ER = 1,
+      ED = 20.26,
+      EP = 20.26,
+      ET = 1,
+      EK = 1,
+      EE = 33.6,
+      EV = 1,
+      ES = 20.26,
+      EG = 1,
+      EA = 1,
+      EL = 1,
+      VW = 1,
+      VC = 1,
+      VM = 1,
+      VH = 1,
+      VY = -6.54,
+      VF = 1,
+      VQ = 1,
+      VN = 1,
+      VI = 1,
+      VR = 1,
+      VD = -14.03,
+      VP = 20.26,
+      VT = -7.49,
+      VK = -1.88,
+      VE = 1,
+      VV = 1,
+      VS = 1,
+      VG = -7.49,
+      VA = 1,
+      VL = 1,
+      SW = 1,
+      SC = 33.6,
+      SM = 1,
+      SH = 1,
+      SY = 1,
+      SF = 1,
+      SQ = 20.26,
+      SN = 1,
+      SI = 1,
+      SR = 20.26,
+      SD = 1,
+      SP = 44.94,
+      ST = 1,
+      SK = 1,
+      SE = 20.26,
+      SV = 1,
+      SS = 20.26,
+      SG = 1,
+      SA = 1,
+      SL = 1,
+      GW = 13.34,
+      GC = 1,
+      GM = 1,
+      GH = 1,
+      GY = -7.49,
+      GF = 1,
+      GQ = 1,
+      GN = -7.49,
+      GI = -7.49,
+      GR = 1,
+      GD = 1,
+      GP = 1,
+      GT = -7.49,
+      GK = -7.49,
+      GE = -6.54,
+      GV = 1,
+      GS = 1,
+      GG = 13.34,
+      GA = -7.49,
+      GL = 1,
+      AW = 1,
+      AC = 44.94,
+      AM = 1,
+      AH = -7.49,
+      AY = 1,
+      AF = 1,
+      AQ = 1,
+      AN = 1,
+      AI = 1,
+      AR = 1,
+      AD = -7.49,
+      AP = 20.26,
+      AT = 1,
+      AK = 1,
+      AE = 1,
+      AV = 1,
+      AS = 1,
+      AG = 1,
+      AA = 1,
+      AL = 1,
+      LW = 24.68,
+      LC = 1,
+      LM = 1,
+      LH = 1,
+      LY = 1,
+      LF = 1,
+      LQ = 33.6,
+      LN = 1,
+      LI = 1,
+      LR = 20.26,
+      LD = 1,
+      LP = 20.26,
+      LT = 1,
+      LK = -7.49,
+      LE = 1,
+      LV = 1,
+      LS = 1,
+      LG = 1,
+      LA = 1,
+      LL = 1,
+      'NA' = 1
+    )
+  # Divide the amino acid sequence in dipeptides
+  aa <- aaCheck(seq)
+  dp <- lapply(aa, function(aa) {
+    apply(embed(aa, 2)[, 2:1], 1, paste0, collapse = "")
+  })
+  # Apply the formula:
+  # (10/L)*sum(DIWV(XiYi+1) for each dipeptide)
+  # Return the index value rounded to 2 decimals
+  gp <- lapply(dp, function(dp) {
+    (10 / (length(dp) + 1)) * sum(guruprasad[dp], na.rm = TRUE)
+  })
+  return(unlist(gp))
+}
+source('aaCheck.R')#' @export hmoment
+#' @importFrom stats embed
+#' @importFrom utils data
+#' @title Compute the hydrophobic moment of a protein sequence
+#' @description This function compute the hmoment based on Eisenberg, D., Weiss, R. M., & Terwilliger, T. C. (1984). Hydriphobic moment is a quantitative measure of the amphiphilicity perpendicular to the axis of any periodic peptide structure, such as the a-helix or b-sheet. It can be calculated for an amino acid sequence of N residues and their associated hydrophobicities Hn.
+#' @param seq An amino-acids sequence
+#' @param angle A protein rotational angle (Suggested: a-helix = 100, b-sheet=160)
+#' @param window A sequence fraction length
+#' @return The computed maximal hydrophobic moment (uH) for a given amino-acids sequence
+#' @references Eisenberg, D., Weiss, R. M., & Terwilliger, T. C. (1984). The hydrophobic moment detects periodicity in protein hydrophobicity. Proceedings of the National Academy of Sciences, 81(1), 140-144.
+#' @details The hydrophobic moment was proposed by Eisenberg et al. (1982), as a quantitative measure of the amphiphilicity perpendicular to the axis of any periodic peptide structure. It is computed using the standardized Eisenberg (1984) scale, windows (fragment of sequence) of eleven amino acids (by default) and specifying the rotational angle at which it should be calculated.
+#' @examples # COMPARED TO EMBOSS:HMOMENT
+#' # http://emboss.bioinformatics.nl/cgi-bin/emboss/hmoment
+#' # SEQUENCE: FLPVLAGLTPSIVPKLVCLLTKKC
+#' # ALPHA-HELIX ANGLE=100 : 0.52
+#' # BETA-SHEET  ANGLE=160 : 0.271
+#' 
+#' # ALPHA HELIX VALUE
+#' hmoment(seq = "FLPVLAGLTPSIVPKLVCLLTKKC", angle = 100, window = 11)
+#' # [1] 0.5199226
+#' 
+#' # BETA SHEET VALUE
+#' hmoment(seq = "FLPVLAGLTPSIVPKLVCLLTKKC", angle = 160, window = 11)
+#' # [1] 0.2705906
+#' @note This function was written by an anonymous reviewer of the RJournal
+
+hmoment <- function(seq, angle = 100, window = 11) {
+  # Loading hydrophobicity scale
+  h <- AAdata$Hydrophobicity$Eisenberg
+  # Splitting the sequence in amino acids
+  aa <- aaCheck(seq)
+  # Setting the sequence length
+  pep <- lapply(aa, function(aa) {
+      stats::embed(aa, min(c(length(aa), window)))
+    })
+  # Applying the hmoment function to each amino acids window
+  hmoment <- lapply(pep, function(pep) {
+    angle <- angle * (pi / 180) * 1:min(c(length(pep), window))
+    vcos <- h[t(pep)] * cos(angle)
+    vsin <- h[t(pep)] * sin(angle)
+    dim(vcos) <- dim(vsin) <- dim(t(pep))
+    vcos <- colSums(vcos, na.rm = TRUE)
+    vsin <- colSums(vsin, na.rm = TRUE)
+    # Return the max value
+    max(sqrt(vsin * vsin + vcos * vcos) / min(c(length(pep), window)))
+  })
+  return(unlist(hmoment))
+}
+source('aaCheck.R')source('aaCheck.R')aaCheck <- function(seq){
+  if(!any(lengths(seq) > 1)){
+    seq <- toupper(seq)
+    seq <- gsub(pattern = "[[:space:]]+",replacement = "",x = seq)
+    seq <- strsplit(x = seq,split = "")
+  } else {
+    seq <- lapply(seq,toupper)
+  }
+  check <- unlist(lapply(seq,function(sequence){
+    !all(sequence%in%c("A" ,"C" ,"D" ,"E" ,"F" ,"G" ,"H" ,"I" ,"K" ,"L" ,"M" ,"N" ,"P" ,"Q" ,"R" ,"S" ,"T" ,"V" ,"W" ,"Y", "-"))
+  }))
+  if(sum(check) > 0){
+    sapply(which(check == TRUE),function(sequence){warning(paste0("Sequence ",sequence," has unrecognized amino acid types. Output value might be wrong calculated"),call. = FALSE)})
+  }
+  return(seq)
+}
+source('aaCheck.R')aaCheck <- function(seq){
+  if(!any(lengths(seq) > 1)){
+    seq <- toupper(seq)
+    seq <- gsub(pattern = "[[:space:]]+",replacement = "",x = seq)
+    seq <- strsplit(x = seq,split = "")
+  } else {
+    seq <- lapply(seq,toupper)
+  }
+  check <- unlist(lapply(seq,function(sequence){
+    !all(sequence%in%c("A" ,"C" ,"D" ,"E" ,"F" ,"G" ,"H" ,"I" ,"K" ,"L" ,"M" ,"N" ,"P" ,"Q" ,"R" ,"S" ,"T" ,"V" ,"W" ,"Y", "-"))
+  }))
+  if(sum(check) > 0){
+    sapply(which(check == TRUE),function(sequence){warning(paste0("Sequence ",sequence," has unrecognized amino acid types. Output value might be wrong calculated"),call. = FALSE)})
+  }
+  return(seq)
+}
+source('aaCheck.R')

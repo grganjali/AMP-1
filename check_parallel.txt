@@ -1,0 +1,2 @@
+python3 /home/anjali/06/test4.py RGGCWPRGLQQLLVPGG 15643
+python3 /home/anjali/06/test4.py APATPPRPLKRKKLQFTDVTPESSP 15644
