@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ2078	84028900	Q30KJ3		Beta-defensin136	Pan troglodytes	Animalia (Mammals)	MFGNDGVKVRTCTSQKAVCFFGCPPGYRWIAFCHNILSCCKNMTRFQPLQAKDPWVH	57		Antibacterial		Predicted
+CAMPSQ2079	84028899	Q30KP8		Beta-defensin136	Homo sapiens 	Animalia (Mammals)	MFGNDGVKVRTCTSQKAVCFFGCPPGYRWIAFCHNILSCCKNMTRFQPPQAKDPWVH	57		Antibacterial		Predicted
+CAMPSQ2085	84028891	Q30KJ9		Beta-defensin130	Pan troglodytes	Animalia (Mammals)	GVIPGQKQCIALKGVCRDKLCSTLDDTIGICNEGKKCCRRWWILEPYPTPVPKGKSP	57		Antibacterial		Predicted
+CAMPSQ2782				  Im-1 	Isometrus maculatus	Animalia (Arachnids)	FSFKRLKGFAKKLWNSKLARKIRTKGLKYVKNFAKDMLSEGEEAPPAAEPPVEAPQ	56	20139620	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2797				Pilosulin 1 	Myrmecia pilosula	Animalia (Insects)	GLGSVFGRLARILGRVIPKVAKKLGPKVAKVLPKVMKEAIPMAVEMAKSQEEQQPQ	56	7678752	Antimicrobial		Experimentally Validated
+CAMPSQ3336				  AnAFP 	Aspergillus niger	Fungi (Eurotiomycetes)	SKYGGECSVEHNTCTYLKGGKDHIVSCPSAANLRCKTERHHCEYDEHHKTVDCQTPV	57	10512732	Antibacterial, Antifungal	Gram-ve	Experimentally Validated
+CAMPSQ3830		Q9Y4X3	2KUM	  CCL27 	Homo sapiens	Animalia (Mammals)	PPSTACCTQLYRKPLSDKLLRKVIQVELQEADGDCHLQAFVLHLAQRSICIHPQNP	56	12538707	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4303	291220445	D4P8I5		Nasonin-1	Nasonia vitripennis 	Animalia (Insects)	MKAVYFVFLLVAALAYFTSNVAAACNDRDCSLDCIMKGYNTGSCVRGSCQCRRTSG	56		Antimicrobial		Predicted
+CAMPSQ5381	225353262	C0LRB0		Histatin 1	Gorilla gorilla 	Animalia (Mammals)	MKFFVFALILALMISMTRADSHEKRHHGYRRKFHEKHHSHIEFPFYGDYGTNYLYDN	57		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5384	225353268	C0LRB3		Histatin 1	Trachypithecus cristatus 	Animalia (Mammals)	MKFLIFALILALMISMTRADSHIEKHHAHRRKFPERHHSHREFPSYGGYRSNYLYYS	57		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5387	225353276	C0LRB7		Histatin 3	Chlorocebus aethiops 	Animalia (Mammals)	MKFLVFALLLALMVSMIGADSHEERHHGRHGHHGYGRKFHEKHHSHRGYRSNYLYGN	57		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5388	225353278	C0LRB8		Histatin 3	Trachypithecus cristatus 	Animalia (Mammals)	MKFLIFALILALMVSMTRADSHEEKHHGRHGHHEYGRKFQEKHYSHRGYRSNYLYGN	57		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5389	225353280	C0LRB9		Histatin 3	Macaca fascicularis 	Animalia (Mammals)	MKFLVFALILALMVSMTRADSHEERRQGRHGHHEYGRKFHEKHHSHRGYRSNYLYGN	57		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6169	390516623	I4DSZ9		Nisin Z	Lactococcus lactis subsp. lactis 	Bacteria	MSTKDFNLQLVSVSKKDSGASPPITSISLCTPGCKTGALMGANMKTATCHCSIHVSK	57		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6917	541906899	T2C912		Nisin variant	Lactococcus lactis	Bacteria	MSTKDFNLDLVSVSKKNSGASPRITSISLCTPGCKTGAVMGCNMKTATCNCSIHVSK	57	24521354	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6918	541906901	T2C9F0		Nisin variant	Lactococcus lactis subsp. lactis 	Bacteria	MSTKDFNLDLVSVSKKNSGASPRITSVSLCTPGCKTGAVMGCNMKTATCNCSIHVSK	57	24521354	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6938	558851846	V5NST0		NisA-SAA mutant	Lactococcus lactis	Bacteria	MSTKDFNLDLVSVSKKDSGASPRITSISLCTPGCKTGALMGCSAATATCHCSIHVSK	57	24244524	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6939	558851848	V5NT69		NisA-SLS mutant	Lactococcus lactis	Bacteria	MSTKDFNLDLVSVSKKDSGASPRITSISLCTPGCKTGALMGCSLSTATCHCSIHVSK	57	24244524	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6940	558851844	V5NTA4		NisA-NAI mutant	Lactococcus lactis	Bacteria	MSTKDFNLDLVSVSKKDSGASPRITSISLCTPGCKTGALMGCNAITATCHCSIHVSK	57	24244524	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6941	558851842	V5NTN6		NisA-AAK mutant	Lactococcus lactis	Bacteria	MSTKDFNLDLVSVSKKDSGASPRITSISLCTPGCKTGALMGCAAKTATCHCSIHVSK	57	24244524	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6942	558851840	V5NV19		NisA-AAA mutant	Lactococcus lactis	Bacteria	MSTKDFNLDLVSVSKKDSGASPRITSISLCTPGCKTGALMGCAAATATCHCSIHVSK	57	24244524	Antimicrobial		Predicted (Based on signature)
+CAMPSQ7195	392333735			PREDICTED: neutrophil antibiotic peptide NP-2-like [Rattus  norvegicus]. 	Rattus norvegicus	Animalia (Mammals)	MKDQDISISFGGDKGTALQNADVKSGVTCYCRISCQFGERLSGSCRSGGVTYPLCCR	57		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7698		W5PH83		Beta-defensin (Fragment)	Ovis aries 	Animalia (Mammals)	NTVFSLFKARSLFQEGCPPGYYNCRMKCNVNEYAVRYCADWTICCKEKKKFKEKKKW	57		Antimicrobial		Predicted
+CAMPSQ7956		D2HMR6		Beta-defensin (Fragment)	Ailuropoda melanoleuca 	Animalia (Mammals)	FFSLFKARTLFFKDTCSLEGYTCRMKCNADEHAIRYCTDWTICCKEKKIRLKKRKKW	57		Antimicrobial		Predicted
+CAMPSQ8200				Sonorensin	Bacillus sonorensis MT93	Bacteria	CWSCMGHSCWSCMGHSCWSCAGHSCWSCMGHSCWSCMGHSCWSCAGHCCGSCWHGGM	57	24610839	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated

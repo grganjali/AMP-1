@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ394	3915043	O18494		Styelin-C	Styela clava	Animalia	GWFGKAFRSVSNFYKKHKTYIHAGLSAATLL	31	9257708	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ420	41016986	P83640		Dermadistinctin-M 	Phyllomedusa distincta	Animalia (Amphibians)	ALWKTMLKKLGTMALHAGKAAFGAAADTISQ	31	10477123	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ425	41017605	P82742		Ranatuerin-2	Rana catesbeiana	Animalia (Amphibians)	GLFLDTLKGAAKDVAGKLEGLKCKITGCKLP	31	9784389	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ439	41017619	P82878		Ranatuerin-2Ca	Rana clamitans	Animalia (Amphibians)	GLFLDTLKGAAKDVAGKLLEGLKCKIAGCKP	31	10822101	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ673	3913451	P81466		Neutrophil defensin 2 	Mesocricetus auratus	Animalia (Mammals)	CFCKRPVCDSGETQIGYCRLGNTFYRLCCRQ	31	8890190	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ956	152032551	P85175	2B38	Kalata-B8	Oldenlandia affinis 	Viridiplantae	GSVLNCGETCLLGTCYTTGCTCNKYRVCTKD	31	16207177	Antiviral		Experimentally Validated
+CAMPSQ1428	9800542	Q9GYU6		Defensin	Aedes albopictus	Animalia (Insects)	GFGVGDSACAAHCIARRNRGGYCNAKTVCVC	31		Antimicrobial		Predicted
+CAMPSQ1947	3122337	P81052		Bacteriocin leucocin-B	Leuconostoc mesenteroides	Bacteria	KGKGFWSWASKATSWLTGPQQPGSPLLKKHR	31		Antibacterial	Gram+ve	Predicted
+CAMPSQ2206	254808355	P86047	1W9N	Lantibiotic epilancin 15X	Staphylococcus epidermidis 	Bacteria	SASIVKTTIKASKKLCRGFTLTCGCHFTGKK	31		Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2446	312434214	E5KV53		Beta-defensin 1 antimicrobial peptide  	Gallus gallus	Animalia (Aves)	CFRKNGFCAFLKCPYLTLISGKCSRFHLCCK	31		Antimicrobial		Predicted
+CAMPSQ2959				  Dermaseptin-S8 	Phyllomedusa sauvagei	Animalia (Amphibians)	ALWKTMLKKLGTVALHAGKAALGAAADTISQ	31	14599725	Antimicrobial		Experimentally Validated
+CAMPSQ3000		P84522	1ZA8	  Vhl-1 	Viola hederacea	Viridiplantae	SISCGESCAMISFCFTEVIGCSCKNKVCYLN	31	15824119	Antiviral		Experimentally Validated
+CAMPSQ3003				  Circulin D 	Chassalia parvifolia	Viridiplantae	KIPCGESCVWIPCVTSIFNCKCKENKVCYHD	31	10691702	Antiviral		Experimentally Validated
+CAMPSQ3006		P85177	2GJ0	  Cycloviolacin O14 	Viola odorata	Viridiplantae	GSIPACGESCFKGKCYTPGCSCSKYPLCAKN	31	16872274	Antimicrobial		Experimentally Validated
+CAMPSQ3519				  Viphi A 	Viola philippica	Viridiplantae	GSIPCGESCVFIPCISSVIGCACKSKVCYKN	31	21723349	Antimicrobial		Experimentally Validated
+CAMPSQ3521				  Viphi E 	Viola philippica	Viridiplantae	GSIPCGESCVFIPCISAVIGCSCSNKVCYKN	31	21723349	Antimicrobial		Experimentally Validated
+CAMPSQ3725				  Datucin 	Datura stramonium	Viridiplantae	TFPKCAPTRPPGPKPCDINNFKSKFWHIWRA	31	23193597	Antifungal		Experimentally Validated
+CAMPSQ4018		B5L1I8		Pleurain-G1 antimicrobial peptide	Rana pleuraden 	Animalia (Amphibians)	GFWDSVKEGLKNAAVTILNKIKCKISECPPA	31	19028675	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4020		B5L1L3		Pleurain-M1 antimicrobial peptide	Rana pleuraden 	Animalia (Amphibians)	GLLDSVKEGLKKVAGQLLDTLKCKISGCTPA	31	19028675	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4028	426018835	B3EWR4		Antimicrobial peptide 2	Echinochloa crus-galli 	Viridiplantae	DRCSQQCQHHRDPDRKQQCMRECRRHQGRSD	31	22940285	Antifungal		Experimentally Validated
+CAMPSQ6549	77819762	Q30C98		Cyclotide B (Fragment)	Hybanthus epacroides	Viridiplantae	CGETCIYIPCFTEAVGCKCKDKVCYKNSLDN	31	16199617	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6555	77819748	Q30CA5		Cyclotide A (Fragment)	Hybanthus stellarioides	Viridiplantae	CGETCIWGRCYSENIGCHCGFGICTLNSLDN	31	16199617	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6559	77819740	Q30CA9		Cyclotide O (Fragment)	Hybanthus floribundus subsp. floribundus	Viridiplantae	CGETCVIFPCISAAFGCSCKDTVCYKNSLVN	31	16199617	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6560	77819738	Q30CB0		Cyclotide N (Fragment)	Hybanthus floribundus subsp. floribundus	Viridiplantae	CGETCVILPCISAALGCSCKDTVCYKNSLVN	31	16199617	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6566	77819726	Q30CB6		Cyclotide H (Fragment)	Hybanthus floribundus subsp. floribundus	Viridiplantae	CAETCIYIPCFTEAVGCKCKDKVCYKNSLDN	31	16199617	Antimicrobial		Predicted (Based on signature)

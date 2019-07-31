@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ794	27261531	Q8GB47		Circularin A	Clostridium beijerinckii	Bacteria	VAGALGVQTAAATTIVNVILNAGTLVTVLGIIASIASGGAGTLMTIGWATFKATVQKLAKQSMARAIAY	69	Reference: Bull. Chem. Soc. Jpn., 58, 1469-1472 (1985)	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ1729	74837065	Q5G8A6		Scorpine-like peptide Tco 41.46-2	Tityus costatus	Animalia (Arachnids)	GLREKHVQKLVALIPNDQLRSILKAVVHKVAKTQFGCPAYEGYCNNHCQDIERKDGECHGFKCKCAKD	68		Antibacterial		Predicted
+CAMPSQ1854	224471813	P85247		Cytoinsectotoxin-1h	Lachesana tarabaevi	Animalia (Arachnids)	GFFGNAWKKIKGKAEKFFRKKAAKIIAKKEGITKEEAEAKVDTMSKKQIKVYLLKHYGKKALQKASEKL	69	18215128	Antibacterial	Gram-ve	Experimentally Validated
+CAMPSQ3741		P48061	2KOL	  CXCL12 	Homo sapiens	Animalia (Mammals)	KPVSLSYRCPCRFFESHVARANVKHLKILNTPNCALQIVARLKNNNRQVCIDPKLKWIQEYLEKALNK	68	12949249	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4139	442736213	L7VIN3		Cecropin-like peptide 1 precuser 	Hermetia illucens 	Animalia (Insects)	MNFTKLFVVFAVVLVAFAGQSEAGWRKRVFKPVEKFGQRVRDAGVQGIAIAQQGANVLATARGGPPQQG	69		Antimicrobial		Predicted
+CAMPSQ5038	194239844	B4ERK3		Odorranain-P1b	Odorrana schmackeri 	Animalia (Amphibians)	MFTLKKSLLLLFFLGTINSSLCQEERNADEEERRDERDVEVEKRVIPFVASVAAEMMQHVYCAASKKC	68	18423796	Antimicrobial		Predicted (Based on signature)
+CAMPSQ5129	161169463	B5L177		Odorranain-P1c antimicrobial peptide	Odorrana grahami 	Animalia (Amphibians)	MFTLKKPLLLLFFLGTINLSLCQEEERNADEEERRDERDVEVEKRVIPSVASVAAEMMQHVYCAASKKC	69		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5132	161169501	B5L196		Odorranain-P1d antimicrobial peptide	Odorrana grahami 	Animalia (Amphibians)	MFTMKKSLLLLFFLGTINLSFCQEEERNADEEERRDERDVEVEKRVIPFVASVAAEMMQPVYCAASKKC	69		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5135	161169509	B5L1A0		Odorranain-P1e antimicrobial peptide	Odorrana grahami 	Animalia (Amphibians)	MFTMKKSLLLLFFLGAINLSFCQEEERNADEEERRDERDVEVEKRVIPFVASVAAEKMQHVYCAASKKC	69		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5136	161169515	B5L1A3		Odorranain-P1c antimicrobial peptide	Odorrana grahami 	Animalia (Amphibians)	MFTMKKSLLLLFFLGTINLSLCQEEERNADEEERRDERDVEVEKRVIPSVASVAAEMMQHVYCAASKKC	69		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5548	239618991	C5IAZ0		Ranatuerin-3RC antimicrobial peptide	Lithobates catesbeiana 	Animalia (Amphibians)	MFTMKKSLLLLFFLGTISLSLCEPQRDADEVKEVKRGFLDIIKNLGKTFAGHMLDKIKCTIGTCPPSP	68		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5949	348600235	G3XHN9		Palustrin-2ISc protein	Odorrana ishikawae 	Animalia (Amphibians)	MFTLKKSLLLLFFLGSISLSLCEEERSAEDEGEVIEEVKRGFMDTAKNVAKNVAATLLDKLKCKITGGC	69		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6046	348581983	H0W9R2		Beta-defensin	Cavia porcellus 	Animalia (Mammals)	MKLLVLTLAMLLLTAHLTPGDAQKCWNLLGKCRHRCTKKEGVYVYCTNGKMCCVKPKYQPKQKPRWLF	68		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6088	374447817	H8Y205		Antimicrobial peptide	Odorrana tiannanensis 	Animalia (Amphibians)	MFTLKKSLLLLFFLGTINLSFCQEERNADEEERRDERDVEVEKRVLPFVASVAAEMMQHVYCAASKKC	68	21963433	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6089	374447820	H8Y206		Antimicrobial peptide	Odorrana tiannanensis 	Animalia (Amphibians)	MFTMKKSLLLLFFLGTINLSLCQEERNADEEERRDERDVEVEKRVLPFVASVAAEMMQHVYCAASKKC	68	21963433	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6905	449267307	R7VNB0		Gallinacin-7	Columba livia 	Animalia (Aves)	MRILYQLLVVLFVMLQAAAGQRYIPGRFNSCAARNGICIPGICRRPFYWAGRCSNGLTCCKRYVEVQG	68		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6948		W5NQX6		Beta-defensin	Ovis aries 	Animalia (Mammals)	MKTVLLTLAILLLSSQVIADSPEDCWNLHGNCRDSCYKNEKVYVLCLSGKPCCVKPKYQPHGLPKLTKY	69		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6949		W5NQY7		Beta-defensin	Ovis aries 	Animalia (Mammals)	MKTVLLTLAILLLSSQVIPGSTEKCWNLHGHCRDTCSRNEKVFVFCLSGKLCCVKPKFQPNTSPRLINA	69		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7640		G7N561		Beta-defensin	Macaca mulatta 	Animalia (Mammals)	VECWMDGHCRLLCKDGEDSIIRCRNRKRCCVPSRYLTIQPVTIHGILGWTTPRMSTTAPQPKRNIHNG	68		Antimicrobial		Predicted
+CAMPSQ7653		F7IIN5		Beta-defensin	Callithrix jacchus 	Animalia (Mammals)	VECWMDGHCRLLCRDDEDSIIRCRNRKRCCVPSRYLTIEPVTIHGTLGWTTPQIPTTAPQTKRNKNHG	68		Antimicrobial		Predicted
+CAMPSQ7679		G8CY15		Beta-defensin (Fragment)	Bos taurus 	Animalia (Mammals)	EQLKRCWNQHIHGYCRKICRTTEVREVLCENGRYCCISIVELEERKKITRPPRPKLRTLALTFSQDYL	68		Antimicrobial		Predicted
+CAMPSQ7813		M9Z9F1		Beta-defensin	Capra hircus 	Animalia (Mammals)	MTQLLLLLMALLVLGHVPTGRSEFKRCWNGQGACRAYCTKYETYMHLCSDASLCCLPYGLKPVKTEKV	68		Antimicrobial		Predicted
+CAMPSQ7885		G1REJ0		Beta-defensin	Nomascus leucogenys 	Animalia (Mammals)	VECWMDGHCRLLCKDGEDSIIRCRNRKRCCVPSRYLTIQPVTIHGILGWTTPQMSTTAPKMKRNITNR	68		Antimicrobial		Predicted
+CAMPSQ7915		G3QRK3		Beta-defensin	Gorilla gorilla gorilla 	Animalia (Mammals)	VECWMDGHCRLLCKDGEDSIIRCRNRKRCCVPSRYLTIQPVTIHGILGWTTPQMSTTAPKTKTNITNR	68		Antimicrobial		Predicted
+CAMPSQ7954		G1LXR5		Beta-defensin 126	Ailuropoda melanoleuca 	Animalia (Mammals)	SWYVRKCANKTGNCRSMCRVGETAIQPATGICPKEKMCCILSGKEFNSAACGENSKTTREAQASEASTT	69		Antimicrobial		Predicted

@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ1146	74764779	O96447		Antimicrobial peptide lumbricin-1	Lumbricus rubellus	Animalia (Annelids (Clitellata))	FSKYERQKDKRPYSERKNQYTGPQFLYPPERIPPQKVIKWNEEGLPIYEIPGEGGHAEPAAA	62	9784609	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1187	159106938	Q8SQD3		Sperm associated antigen 11 isoform E 	Macaca mulatta	Animalia (Mammals)	GDVPPGIRNTICLMQQGTCRLFFCHSGEKKRDICSDPWNRCCVSNRDEEGKEKPKTDGRSGI	62	15229135	Antibacterial		Predicted
+CAMPSQ1432	41059818	Q6QWJ2		Cecropin A	Pseudoplusia includens	Animalia (Insects)	MNFKKILFFVFACLVFTVTAAPEPRWKFFKKIEKVGQNIRDGIIKAGPAVAVVGQAAAISGK	62		Antimicrobial		Predicted
+CAMPSQ1965	25090995	Q963D0		Penaeidin-3d , Penaeidin-3f	Litopenaeus vannamei	Animalia (Crustaceans (Malacostraca))	QVYKGGYTRPIPRPPPFVRPLPGGPIGPYNGCPISCRGISFSQARSCCSRLGRCCHVGKGYS	62		Antibacterial,Antifungal		Predicted
+CAMPSQ1966	25090988	Q963C7		Penaeidin-3g	Litopenaeus vannamei	Animalia (Crustaceans (Malacostraca))	QVYKGGYTRPIPRPPPFVRPLPGGPISPYNGCPVSCRGISFSQARSCCSRLGRCCHVGKGYS	62		Antibacterial,Antifungal		Predicted
+CAMPSQ1967	25090986	Q963C6		Penaeidin-3h	Litopenaeus vannamei	Animalia (Crustaceans (Malacostraca))	QVYKGGYTRPIPRPPPFVRPLPGGPIGPYNGCPISCRGISFSQARSYCSRLGRCCHVGKGYS	62		Antibacterial,Antifungal		Predicted
+CAMPSQ1968	25090985	Q963C5		Penaeidin-3i	Litopenaeus vannamei	Animalia (Crustaceans (Malacostraca))	QVYKGGYTRPIPRPPPFVRPLPGGPIGPYNGRPVSCRGISFSQARSCCSRLGRCCHVGKGYS	62		Antibacterial,Antifungal		Predicted
+CAMPSQ1974	147721508	P85142		Alpha-lytic protease L1	Lysobacter sp. (strain XL1)	Bacteria	VNVLGGIEYSINNATLCSVGFSVRVFNYAEGAVRGLTQGNACMGRGDSGGSWFTLFERQYGL	62		Antibacterial		Experimentally Validated
+CAMPSQ2187	167888486	C5H0C8		Amolopin-p2 antimicrobial peptide	Amolops loloensis	Animalia (Amphibians)	MFTLKKSLLLLFFLGTISLSLCEQERGADEEENGGEVTEQEVKRNVLSSVANGINRALSFFG	62		Antimicrobial		Predicted
+CAMPSQ2188	167888484	C5H0C7		Amolopin-p1 antimicrobial peptide	Amolops loloensis	Animalia (Amphibians)	MFPMKKSLLLLFFFGPISLSFCDQERGADEEENGGEVTEQEVKRNILSSIVNGINRALSFFG	62		Antimicrobial		Predicted
+CAMPSQ4195	406686418			Temporin-1SR precursor 	Rana sierrae 	Animalia (Amphibians)	MFTMKKSLLLLFFLGTINLSLCEEERDADEEERRDDPEERNVEVEKRFLPIIAKVLGNLLGK	62		Antimicrobial		Predicted
+CAMPSQ4200	403398019	J9R6J5		Ranacyclin-1BY precursor 	Rana boylii 	Animalia (Amphibians)	MFTLKKSLLLLFFLGTISLSLCEEERDADEEDGGEVTEEVVKRVLKGCWTKSYPPKPCFGKR	62		Antimicrobial		Predicted
+CAMPSQ4208	403398017	J9RMW6		Ranacyclin-P precursor 	Rana pipiens 	Animalia (Amphibians)	MFTLKKSLLLLFFLGTISLSLCEQERDSDDEDQGEVTEQVVKRLVRGCWTKSYPPKPCFVRG	62		Antimicrobial		Predicted
+CAMPSQ4968	171262267	B2CZ88		Cecropin-like protein	Antheraea pernyi 	Animalia (Insects)	MNFTKILLFVFACVFAVGTVSAAPWNPFKELERAGQRVRDAIISAGPAVATVAQATALAKGK	62		Antimicrobial		Predicted (Based on signature)
+CAMPSQ4984	187235552	B2ZCV4		Piscicolin-126-like protein	Carnobacterium sp. WFPIS001	Bacteria	MKTVKELSVKEMQLTTGGKYYGNGVSCNKNGCTVDWSKAIGIIGNNAAANSTTGGAAGWNKR	62		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5769	313247982	E5D611		Cecropin 1	Helicoverpa armigera 	Animalia (Insects)	MNFSRIFLFVFACLVAACSVSAAPEPRWKVFKKIEKVGRNIRDGILKAGPAIAVLGEAKALG	62		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5811	296472471	F1MBP7		Beta-defensin 10, TPA: beta-defensin 10 precursor	Bos taurus 	Animalia (Mammals)	MRLHYLLLLLLLVVLSSGSGFTQGVRSYLSCWGNRGICLLNRCPGRMRQIGTCLAPRVKCCR	62		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6110	379046025	H9CWE8		Cecropin	Spodoptera littoralis 	Animalia (Insects)	MNFSRVLFFALACLRAFAMASAAPRWPFKDLEKAGQRVRDAVISAAPAVATVGQAAAMARGK	62		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6501	157106127	Q17NR4		AAEL000621-PA	Aedes aegypti 	Animalia (Insects)	MNFNRLFILVLVAVLVVLGQQQCGVEAAPRWKFGKKLEKVGKNVFNAAKKALPVVAGYKALG	62		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6621	63108671	Q50JA5		Neutrophil beta-defensin 8	Bos taurus 	Animalia (Mammals)	MRLHHLLLALLFLVLSAGSGFTQGVRNFVTCRINRGFCVPIRCPGHRRQIGTCLGPQIKCCR	62		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6849	11066919	Q9EZB2		CoaA	Bacillus coagulans	Bacteria	MKKIEKLTEKEMANIIGGKYYGNGVTCGKHSCSVDWGKATTCIINNGAMAWATGGHQGTHKC	62	11097892	Antimicrobial		Predicted (Based on signature)
+CAMPSQ7068	498453073			Bacteriocin mundticin [Enterococcus pallens]. 	Enterococcus pallens  	Bacteria	MQNIKALSAKELIEITGGKYYGNGLSCGKYSCSVDWGKAIGIIGNNAAANWATGGAAGWNKG	62		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7070	488923500			MULTISPECIES: bacteriocin pediocin PA-1 [Pediococcus]. 	Pediococcus  	Bacteria	MKKIEKLTEKEMANIIGGKYYGNGVTCGKHSCSVDWGKATTCIINNGAMAWATGGHQGNHKC	62		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7071	488922929			Bacteriocin pediocin PA-1 [Pediococcus pentosaceus]. 	Pediococcus pentosaceus  	Bacteria	MKKIEKLTEKEMANIIGGKYYGNGLYCGKHSCSVDWGKATTCIINNGAMAWATGGHQGTHKC	62		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7105	488267981			Bacteriocin SRCAM 602 [Enterococcus faecium]. 	Enterococcus faecium  	Bacteria	MILGIVLLSVSTLGITVDAATYYGNGVYCNKQKCWVDWNKASKEIGKIIVNGWVQHGPWAPR	62		Antimicrobial		Predicted (Based on signature)

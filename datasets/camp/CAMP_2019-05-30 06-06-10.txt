@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ931	150387846	P0C200		Tachystatin-C	Tachypleus tridentatus 	Animalia	DYDWSLRGPPKCATYGQKCRTWSPPNCCWNLRCKAFRCRPR	41	10473569	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ933	71152312	Q91VD6		Beta-defensin 6	Mus musculus	Animalia (Mammals)	QLINSPVTCMSYGGSCQRSCNGGFRLGGHCGHPKIRCCRRK	41		Antibacterial	Gram-ve	Experimentally Validated
+CAMPSQ989	145566912	P85114		Ostricacin-2	Struthio camelus	Animalia (Aves)	APGNKAECEREKGYCGFLKCSFPFVVSGKCSRFFFCCKNIW	41	16459058	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1692	75266171	Q9SPL4		Vicin-like antimicrobial peptide 2b 	Macadamia integrifolia 	Viridiplantae	DPQTDCQQCQRRCRQQESGPRQQQYCQRRCKEICEEEEEYN	41	10571855	Antibacterial,Antifungal		Predicted
+CAMPSQ1698	75207035	Q9SPL3		Vicin-like antimicrobial peptide 2b 	Macadamia integrifolia 	Viridiplantae	DPQTECQQCQRRCRQQESDPRQQQYCQRRCKEICEEEEEYN	41	10571855	Antibacterial,Antifungal		Experimentally Validated
+CAMPSQ2000	123885252	Q0E4V3		Gallinacin-14	Gallus gallus	Animalia (Aves)	ESDTVTCRKMKGKCSFLLCPFFKRSSGTCYNGLAKCCRPFW	41		Antibacterial		Predicted
+CAMPSQ2001	123780122	Q32ZI3		Beta-defensin 5	Rattus norvegicus	Animalia (Mammals)	QSINNPVSCVTHGGICWGRCPGSFRQIGTCGLGKVRCCKKK	41		Antibacterial		Predicted
+CAMPSQ2273	182636874	B2LUN1		Liver-expressed antimicrobial peptide 2 	Paralichthys olivaceus	Animalia (Pisces)	RRVARMTPLWRIMSSKPFGAYCQNNYECSTGLCRAGHCSTS	41		Antimicrobial		Predicted
+CAMPSQ2440	325127109	F1CNA8		Piscidin-like antimicrobial peptide precursor  	Epinephelus malabaricus 	Animalia (Pisces)	RCIALFLVLSLVVLMAEPGEGFFFHIIKGLFHAGRMIHGLV	41		Antimicrobial		Predicted
+CAMPSQ2441	325127105	F1CNA6		Piscidin-like antimicrobial peptide precursor  	Epinephelus bleekeri	Animalia (Pisces)	RCIALFFVLSLVVLMAEPGEGFFFHIIKGLFHAGKMIHGLI	41		Antimicrobial		Predicted
+CAMPSQ2443	325127107	F1CNA7		Piscidin-like antimicrobial peptide precursor  	Epinephelus coioides	Animalia (Pisces)	RCIALFLVLSLVVLMAEPGEGFFFHIVKGLFHAGRMIHGLV	41		Antimicrobial		Predicted
+CAMPSQ2525	291481155	D5KS96		Piscidin-like peptide  	Epinephelus fuscoguttatus	Animalia (Pisces)	RCIALFLVLSLVALMAEPGEGFIFHIIKGLVHAGKMIHGLV	41		Antimicrobial		Predicted
+CAMPSQ2529	310696272, 310696274	E3SZP9, E3SZQ0		Andersonin-M2 peptide precursor, Andersonin-M3 peptide precursor  	Odorrana andersonii (golden crossband frog)  	Animalia (Amphibians)	TLKKPLLVLFFLGTISLSLCEQERDADEEEGSENGAEDIKQ	41		Antimicrobial		Predicted
+CAMPSQ3197				  ADP-1 	Amblyomma hebraeum	Animalia (Arachnids)	FDNPFGCPADEGKCFDHCNNKAYDIGYCGGSYRATCVCYRK	41	14705963	Antibacterial	Gram+ve, Gram-ve	Predicted
+CAMPSQ3198				  ADP-2 	Amblyomma hebraeum	Animalia (Arachnids)	YENPYGCPTDEGKCFDRCNDSEFEGGYCGGSYRATCVCYRT	41	14705963	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3480				  Arasin-likeSp 	Scylla paramamosain	Animalia (Crustaceans (Malacostraca))	SPRVSRRYGRPFGGRPFVGGQFGGRPGCVCIRSPCPCANYG	41	21220028	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4047	409153885	M4HZ11		Anionic antimicrobial peptide 2, partial 	Galleria mellonella 	Animalia (Insects)	TKNFNTQVQNAFDSDKIKSEVNNFIESLGKILNTEKKEAPK	41		Antimicrobial		Predicted
+CAMPSQ7647		F6PVC8		Beta-defensin	Callithrix jacchus 	Animalia (Mammals)	MKCAMTDTYSCFVMRGKCRHECHYFEKTIGFCTKLNQLLYV	41		Antimicrobial		Predicted
+CAMPSQ7814		A0A059U1E2		Beta-defensin	Capra hircus 	Animalia (Mammals)	MKCWNNLGRCRETCEQNEVFHIMCKNEGMCCISPKHLPARN	41		Antimicrobial		Predicted
+CAMPSQ7837		A0A0D9SD66		Beta-defensin (Fragment)	Chlorocebus sabaeus 	Animalia (Mammals)	VKCAMKDTYGCFIIRGKCRHECRDFAKPIDFCTKLNANCYM	41		Antimicrobial		Predicted
+CAMPSQ7844		Q1RLJ6		Beta-defensin (Fragment)	Sus scrofa 	Animalia (Mammals)	MKCWSALGRCRTTCQESEVFHILCRDATMCCVHPKYIPIKT	41		Antimicrobial		Predicted
+CAMPSQ7887		G1QV58		Beta-defensin	Nomascus leucogenys 	Animalia (Mammals)	VKCAMKDTYSCFIMKGKCRHECHDFEKPIGFCTKLNANCYM	41		Antimicrobial		Predicted
+CAMPSQ8073		I3MWS3		Beta-defensin	Spermophilus tridecemlineatus 	Animalia (Mammals)	RSQKSCWAIKGHCRKNCRSGEQVKKPCKHGNYCCVPSKTDS	41		Antimicrobial		Predicted
+CAMPSQ8095		Q14QQ6		Beta-defensin (omDB-1)	Oncorhynchus mykiss 	Animalia (Pisces)	ASFPFSCPTLSGVCRKLCLPTEMFFGPLGCGKGFLCCVSHF	41	19709750	Antibacterial	Gram-ve	Predicted
+CAMPSQ8125		W0FEW1		Beta-defensin CFDB-1	Cynops fudingensis 	Animalia (Amphibians)	FAVWGCADYRGYCRAACFAFEYSLGPKGCTEGYVCCVPNTF	41	24386139	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated

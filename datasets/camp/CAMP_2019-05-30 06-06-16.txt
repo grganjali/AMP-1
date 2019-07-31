@@ -1,0 +1,27 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ3	108533			Bactenecin 5 - bovine	Bos taurus 	Animalia (Mammals)	RFRPPIRRPPIRPPFYPPFRPPIRPPIFPPIRPPFRPPLRFP	42	2229048	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ486	4826692	O15263	1E4Q,1FD3,1FD4,1FQQ	Human beta-defensin-2 WT hBD - 2	Homo sapiens	Animalia (Mammals)	GIGDPVTCLKSGAICHPVFCPRRYKQIGTCGLPGTKCCKKP	41	9727055	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ488	49169806	Q6IV23		Beta-defensin 8 , gallinacin - 8	Gallus gallus	Animalia (Aves)	NNEAQCEQAGGICSKDHCFHLHTRAFGHCQRGVPCCRTVYD	41	17483936	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1027	159163502	Q7YZB4	1X22	SI Moricin	Bean golden mosaic virus-[Brazil]	Virus	GKIPVKAIKKAGAAIGKGLRAINIASTAHDVYSFFKPKHKKK	42	16115804	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1031	189095921	P84818	2JR3	Pelovaterin	Pelodiscus sinensis	Animalia	DDTPSSRCGSGGWGPCLPIVDLLCIVHVTVGCSGGFGCCRIG	42	18341335	Antibacterial	Gram-ve	Experimentally Validated
+CAMPSQ1032	170784960	Q86MA1	2JR8	Manduca Sexta Moricin	Manduca sexta	Animalia (Insects)	GKIPVKAIKQAGKVIGKGLRAINIAGTTHDVVSFFRPKKKKH	42	18265434	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1252	25091528	P83416		VIRE_HELVI Virescein	Heliothis virescens	Animalia (Insects)	GKIPIGAIKKAGKAIGKGLRAVNIASTAHDVYTFFKPKKRH	41		Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2292	387170916	I2C153		Antimicrobial peptide  	Bacillus amyloliquefaciens Y2  	Bacteria	IKLVQSPNGNFAASFVLDGTKWIFKSKYYDSSKGYWVGIYE	41		Antimicrobial		Predicted
+CAMPSQ2551	310696266	E3SZP6		Andersonin-M1 peptide precursor  	Odorrana andersonii (golden crossband frog)  	Animalia (Amphibians)	TLKKPLLVLFFLGTISLSLCEQERSADEEEGSENGTEDIKQ	41		Antimicrobial		Predicted
+CAMPSQ3328				  Duck AvBD9 	Anas platyrhynchos	Animalia (Aves)	ADTLACRQSHQSCSFVACRAPSVDIGTCRGGKLKCCKWAPSS	42	Reference: Liao W, Ma D, Wang R, Han Z, Shao T, Li H, Liu S (2009) mRNA Cloning, Evolutionary Analysis and Biological Characterization of Duck Avian Beta-defensin 10. Acta Veterinaria et Zootechnica Sinica, 2009, 40(9): 1320-1326.
+	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3356				  cBD-1 	Canis lupus	Animalia (Mammals)	KCWNLRGSCREKCIKNEKLYIFCTSGKLCCLKPKFQPNMLQR	42	15845463	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4324				Sakacin A	Lactobacillus sake Lb 706	Bacteria	ARSYGNGVYCNNKKCWVNRGEATQSIIGGMISGWASGKAGM	41	8633865	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ5656	269819033	D3UA78		Ranatuerin-2BLa (Fragment)	Rana blairi	Animalia (Amphibians)	DDGVEITEEEVKRGLMDTVKNVAKNLAGHMLDKLKCKITGSC	42	20179920	Antimicrobial		Predicted (Based on signature)
+CAMPSQ5657	269819035	D3UA79		Ranatuerin-2BLb (Fragment)	Rana blairi	Animalia (Amphibians)	DDGVEITEEEVKRGLMDTVKNAAKNLAGQMLDKLKCKITGSC	42	20179920	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6674	55415753	Q5W5G9		Neutrophil beta-defensin 7 (Fragment)	Bos taurus 	Animalia (Mammals)	FTQGVRNFVTCRINRGFCVPIRCPGHRRQIGTCLGPRIKCCR	42	15520886	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6675	55415749	Q5W5H1		Neutrophil beta-defensin 9 (Fragment)	Bos taurus 	Animalia (Mammals)	FTQGVRNFVTCRINRGFCVPIRCPGHRRQIGTCLAPQIKCCR	42	15520886	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6677	55415743	Q5W5H4		Beta-defensin 405 (Fragment)	Bos taurus 	Animalia (Mammals)	FTQGVRSYLSCWGNRGICLLNRCPGRMRQIGTCLAPRVKCCR	42	15520886	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6678	55415739	Q5W5H6		Beta-defensin 404 (Fragment)	Bos taurus 	Animalia (Mammals)	FTQGVRNHVTCRINRGFCVPIRCPGHRRQIGTCLGPRIKCCR	42	15520886	Antimicrobial		Predicted (Based on signature)
+CAMPSQ7154	298770			Beta-defensin {peptide BNBD-5} [cattle, Peptide, 41 aa]. 	Bos taurus	Animalia (Mammals)	PEVVRNPQSCRWNMGVCIPISCPGNMRQIGTCFGPRVPCCR	41		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7661		G7MPJ8		Beta-defensin (Fragment)	Macaca mulatta 	Animalia (Mammals)	VKCAMKDTYSCFIIRGKCRHECRDFAKPIDFCTKLNANCYM	41		Antimicrobial		Predicted
+CAMPSQ7685		F6RSW1		Beta-defensin	Bos taurus 	Animalia (Mammals)	RKCWNFHGRCRHKCFKKEKVYVYCTNNKLCCVKSRYLPKNLP	42		Antimicrobial		Predicted
+CAMPSQ7689		W5P8Y2		Beta-defensin	Ovis aries 	Animalia (Mammals)	GFFDEKCLKRKGKCIESCQINEELIGFCQKSLKCCVALQPCG	42		Antimicrobial		Predicted
+CAMPSQ7946		G3RG97		Beta-defensin (Fragment)	Gorilla gorilla gorilla 	Animalia (Mammals)	CRSQKSCWIIKGHCRKNCKPGEQVKKPCKNGNYCCIPSNTDS	42		Antimicrobial		Predicted
+CAMPSQ7947		D2I431		Beta-defensin (Fragment)	Ailuropoda melanoleuca 	Animalia (Mammals)	VRSEFDTDKICGYGTAHCRRTCKTEEFQIGGCPNVYPCCLKK	42		Antimicrobial		Predicted
+CAMPSQ7960		G3SIQ4		Beta-defensin	Gorilla gorilla gorilla 	Animalia (Mammals)	RVKCAMKDTYSCFIMRGKCRHECHDFEKPIGFCTKLNVNCYM	42		Antimicrobial		Predicted

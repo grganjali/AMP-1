@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ343	3024356	P81057		Penaeidin-2a 	Litopenaeus vannamei	Animalia (Crustaceans (Malacostraca))	YRGGYTGPIPRPPPIGRPPFRPVCNACYRLSVSDARNCCIKFGSCCHLVK	50	11028917	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ676	42661543	Q70KL2		Beta defensin 40 	Mus musculus	Animalia (Mammals)	LDTIKCLQGNNNCHIQKCPWFLLQVSTCYKGKGRCCQKRRWFARSHVYHV	50	14718547	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ911	75139849	Q7M1F3	1BK8	Defensin AMP1 , Ah-Amp1	Aesculus hippocastanum	Viridiplantae	LCNERPSQTWSGNCGNTAHCDKQCQDWEKASHGACHKRENHWKCFCYFNC	50	7628617	Antifungal		Experimentally Validated
+CAMPSQ1106	49036106	P83952	3NGG	Omwaprin	Oxyuranus microlepidotus	Animalia (Reptiles)	KDRPKKPGLCPPRPQKPCVKECKNDDSCPGQQKCCNYGCKDECRDPIFVG	50	17044815	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ1167	229890071	P0C8Y4		DmAMP1	Dahlia merckii	Viridiplantae	ELCEKASKTWSGNCGNTGHCDNQCKSWEGAAHGACHVRNGKHMCFCYFNC	50	7628617	Antifungal		Experimentally Validated
+CAMPSQ1625	84028197	Q5IAB9		Beta-defensin 104A precursor	Pan troglodytes	Animalia (Mammals)	EFELDRICGYGTARCRKKCRSQEYRIGRCPNTYACCLRKWDESLLNRTKP	50		Antimicrobial		Predicted
+CAMPSQ1970	25090976	Q962A9		Penaeidin-2d	Litopenaeus setiferus	Animalia (Crustaceans (Malacostraca))	QRGGFTGPIPRPPPHGRPPLGPICNACYRLSFSDVRICCNFLGKCCHLVK	50		Antibacterial,Antifungal		Predicted
+CAMPSQ1972	25090919	Q963C4		Penaeidin-2b	Litopenaeus vannamei	Animalia (Crustaceans (Malacostraca))	YRGGYTGPIPRPPPIGRPPLRPVCNACYRLSVSDARNCCIKFGSCCHLVK	50		Antibacterial,Antifungal		Predicted
+CAMPSQ2691	305855198	E0X9N1		Hepcidin precursor  	Ovis aries	Animalia (Mammals)	LTDLQTQHTAGAAAGLTPVLQRRRRDTHFPICIFCCGCCRKGTCGICCKT	50	20723953	Antimicrobial		Predicted
+CAMPSQ2975				  CcD1 	Capsicum chinense	Viridiplantae	QNNICKTTSKHFKGLCFADSKCRKVCIQEDKFEDGHCSKLQRKCLCTKNC	50	16794772	Antifungal		Experimentally Validated
+CAMPSQ3494				  Sm-AMP-D1 	Stellaria media	Viridiplantae	KICERASGTWKGICIHSNDCNNQCVKWENAGSGSCHYQFPNYMCFCYFDC	50	21056078	Antimicrobial		Experimentally Validated
+CAMPSQ3495				  Sm-AMP-D2 	Stellaria media	Viridiplantae	KICERASGTWKGICIHSNDCNNQCVKWENAGSGSCHYQFPNYMCFCYFNC	50	21056078	Antimicrobial		Experimentally Validated
+CAMPSQ3970		A4L7R7		Defensin-1	Pinus sylvestris 	Viridiplantae	RMCKTPSGKFKGYCVNNTNCKNVCRTEGFPTGSCDFHVAGRKCYCYKPCP	50	19683554	Antifungal		Experimentally Validated
+CAMPSQ4500		A4L7R8		Defensin-2	Pinus sylvestris	Animalia (Mammals)	RMCKTPSAKFKGYCVSSTNCKNVCRTEGFPTGSCDFHITSRKCYCYKPCP	50	19253756	Antifungal		Predicted
+CAMPSQ6808	19911781	Q8RR65		Mundticin KS	Enterococcus mundtii	Bacteria	MSQVVGGKYYGNGVSCNKKGCSVDWGKAIGIIGNNSAANLATGGAAGWKS	50	12147478	Antimicrobial		Predicted (Based on signature)
+CAMPSQ7606		Q7PCK3		Beta-defensin (Fragment)	Papio anubis 	Animalia (Mammals)	EFELDRICGYGTARCRNKCRSQEYEIGRCPNSYACCLRKWDESLLNRTKP	50		Antimicrobial		Predicted
+CAMPSQ7775		Q7PCK2		Beta-defensin (Fragment)	Papio anubis 	Animalia (Mammals)	GLEFSEPFPSGRFAVCESCKLGRGKCRKECLENEKPDGSCRLNFLCCRQR	50		Antimicrobial		Predicted
+CAMPSQ7827		A0A0D9RWN1		Beta-defensin	Chlorocebus sabaeus 	Animalia (Mammals)	EFELDRICGYGTARCRNKCRSQEYKIGRCPNSYACCLRKWDESLLNRTKP	50		Antimicrobial		Predicted
+CAMPSQ8026		G1TAL5		Beta-defensin	Oryctolagus cuniculus 	Animalia (Mammals)	KRKYPQYGSLDLSKECIDGNGRCRNYCPENEVRIAYCIRPGTHCCLESEG	50		Antimicrobial		Predicted
+CAMPSQ8059		H0W3A1		Beta-defensin	Cavia porcellus 	Animalia (Mammals)	DLDVNKVCGYGTARCRRECKSQEHKIARCLNTYACCLKPWAYSSLNVKGQ	50		Antimicrobial		Predicted
+CAMPSQ8091		G8ACW1		Beta-defensin (Fragment)	Carduelis flammea 	Animalia (Insects)	CPGDAHGPDICTQGGGLCRVGSCVSGEYLAHYCFEPVILCCKNLSPATTE	50		Antimicrobial		Predicted
+CAMPSQ8097		G8ACU7		Beta-defensin	Parus major 	Animalia (Aves)	HSGDAQGPDSCNHGGGLCRVGTCVSGEYPAQYCFEPIILCCKNLLPATTG	50		Antimicrobial		Predicted
+CAMPSQ8110		G8ACV3		Beta-defensin	Cyanistes caeruleus 	Animalia (Aves)	HPGDAQGPDSCNHGGGLCRVGTCVSGEYPAQYCFEPIILCCKNLPPATTE	50		Antimicrobial		Predicted
+CAMPSQ8111		G8ACV4		Beta-defensin	Cyanistes caeruleus 	Animalia (Aves)	RPGDAQGPDSCNHGGGLCRVGTCVSGEYPAQYCFEPIILCCKNLPPATTE	50		Antimicrobial		Predicted
+CAMPSQ8117		G8ACV2		Beta-defensin (Fragment)	Parus major 	Animalia (Aves)	HSGHAQGPDSCNHGGGLCRVGTCVSGEYPAQYCFEPIILCCKNLLPATTG	50		Antimicrobial		Predicted

@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ657	9756284	P81534	1KJ6	Beta-defensin-3 	Homo sapiens 	Animalia (Mammals)	GIINTLQKYYCRVRGGRCAVLSCLPKEEQIGKCSTRGRKCCRRKK	45	11085990	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1212	25091023	P83421		Psychimicin	Oiketicus kirbyi 	Animalia (Insects)	INNWVRVPPCDQVCSRTNPEKDECCRAHGHAFHATCSGGMQCYRR	45		Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1644	147641199	P84970		Defensin Tk-AMP-D3	Triticum kiharae	Viridiplantae	RDCKSDSHKFHGACFSDTNCANVCQTEGFTRGKCDGIHCHCIKDC	45		Antimicrobial		Predicted
+CAMPSQ1645	147641206	P84971		Defensin Tk-AMP-D4	Triticum kiharae	Viridiplantae	RDCTSQSHKFVGLCLSDRNCASVCLTEYFTGGKCDHRRCVCTKGC	45		Antimicrobial		Predicted
+CAMPSQ1652	75262792	Q9FPM3		Antifungal protein precursor 	Medicago sativa	Viridiplantae	RTCENLADKYRGPCFSGCDTHCTTKENAVSGRCRDDFRCWCTKRC	45	11101813	Antifungal		Predicted
+CAMPSQ1695	75266171	Q9SPL4		Vicin-like antimicrobial peptide 2c-1	Macadamia integrifolia 	Viridiplantae	RQRDPQQQYEQCQERCQRHETEPRHMQTCQQRCERRYEKEKRKQQ	45	10571855	Antibacterial,Antifungal		Predicted
+CAMPSQ1701	75207035	Q9SPL3		Vicin-like antimicrobial peptide 2c-1	Macadamia integrifolia 	Viridiplantae	RQRDPQQQYEQCQKRCQRRETEPRHMQICQQRCERRYEKEKRKQQ	45	10571855	Antibacterial,Antifungal		Experimentally Validated
+CAMPSQ2172	194294269	C5H3Z4		Amolopin-n2 antimicrobial peptide	Amolops loloensis	Animalia (Amphibians)	FTMKKSLLLLFFLGTINLSLCEQERNAEEERRDDLGERQAEVEKR	45		Antimicrobial		Predicted
+CAMPSQ2453	74817293	Q8MVA6		Antimicrobial peptide ISAMP	Ixodes scapularis	Animalia (Arachnids)	DPGQPWQVKAGRPPCYSIPCRKHDECRVGSCSRCNNGLWGDRTCR	45	12177149	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2726				  NmDef02 	Nicotiana megalosiphon	Viridiplantae	RECKAQGRHGTCFRDANCVQVCEKQAGWSHGDCRAQFKCKCIFEC	45	20626828	Antimicrobial		Experimentally Validated
+CAMPSQ2948				  Ee-CBP 	Euonymus europaeus L.	Viridiplantae	QQCGRQAGNRRCANNLCCSQYGYCGRTNEYCCTSQGCQSQCRRCG	45	12387889	Antifungal		Experimentally Validated
+CAMPSQ2950				  pI230 	Pisum sativum	Viridiplantae	NTCENLAGSYKGVCFGGCDRHCRTQEGAISGRCRDDFRCWCTKNC	45	1799696	Antimicrobial		Experimentally Validated
+CAMPSQ3709	350008	P01544	2PLH	  Alpha-purothionin, Purothionin AII	Triticum aestivum	Viridiplantae	KSCCRSTLGRNCYNLCRARGAQKLCAGVCRCKISSGLSCPKGFPK	45	5031563	Antibacterial	Gram-ve	Experimentally Validated
+CAMPSQ3710	229588	P01543	1BHP	  Beta-purothionin 	Triticum aestivum	Viridiplantae	KSCCKSTLGRNCYNLCRARGAQKLCANVCRCKLTSGLSCPKDFPK	45	5031563	Antibacterial	Gram-ve	Experimentally Validated
+CAMPSQ4498		Q9ZUL8		Defensin-like protein 10	Arabidopsis thaliana	Viridiplantae	RTCESPSNKFQGVCLNSQSCAKACPSEGFSGGRCSSLRCYCSKAC	45	15955924	Antifungal		Predicted
+CAMPSQ7020	223457			Avenothionin alpha	Avena sativa	Viridiplantae	KSCCRNTLGRNCYNLCRSRGAPKLCATVCRCKISSGLSCPKDFPK	45		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7023	223458			Avenothionin beta	Avena sativa	Viridiplantae	KSCCKNTLGRNCYNLCRARGAPKLCSTVCRCKLTSGLSCPKDFPK	45		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7025	350301			Purothionin	Hordeum vulgare subsp. vulgare	Viridiplantae	KSCCRSTLGRNCYNLCRVRGAQKLCAGVCRCKLTSSGKCPTGFPK	45		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7566		P63176		Myotoxin-3	Crotalus viridis viridis 	Animalia (Reptiles)	YKRCHKKGGHCFPKTVICLPPSSDFGKMDCRWKWKCCKKGSVNNA	45		Antimicrobial		Predicted
+CAMPSQ7567		P63175		Myotoxin-2 [Cleaved into: Myotoxin-4]	Crotalus viridis viridis 	Animalia (Reptiles)	YKRCHKKEGHCFPKTVICLPPSSDFGKMDCRWKWKCCKKGSVNNA	45		Antimicrobial		Predicted
+CAMPSQ7812		A0A059U0U0		Beta-defensin	Capra hircus 	Animalia (Mammals)	ALVDPERCSKLYGQCKKRCARYEKQIELCLSPSKICCIERAFEDD	45		Antimicrobial		Predicted
+CAMPSQ7824		A0A0D9RK33		Beta-defensin	Chlorocebus sabaeus 	Animalia (Mammals)	QRCWNLYGKCRHRCSRKERVYVYCLNNKMCCVKPKYQPKEKWGPF	45		Antimicrobial		Predicted
+CAMPSQ7834		A0A0D9RK38		Beta-defensin	Chlorocebus sabaeus 	Animalia (Mammals)	VGSIEKCWNYHGSCRDECLKNEKVYVFCMSGKLCCLRPKDQPHLP	45		Antimicrobial		Predicted
+CAMPSQ8051		A0A091ENX3		Beta-defensin	Fukomys damarensis 	Animalia (Mammals)	NTERCWNRRGSCHEKCIKKEIFFIFCTSGKLCCVKPMYRPNLPQK	45		Antimicrobial		Predicted
+CAMPSQ8106		B9UJ32		Beta-defensin	Oryzias latipes 	Animalia (Pisces)	EEKDPVMQYWTCGYRGLCRRFCYAQEYIIGHHGCPRRYRCCAMRF	45	19084554	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated

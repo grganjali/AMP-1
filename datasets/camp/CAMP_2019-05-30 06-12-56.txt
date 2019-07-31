@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ1465	78093596	Q308S4		Cecropin E 	Bombyx mori	Animalia (Insects)	MNFSRALFYVFAVFLVCASVMAAPEPRWKIFKKIEKVGQNIRDGIIKAGPAVAVVGQAATIAHGK	65		Antimicrobial		Predicted
+CAMPSQ1537	75052395	P82017		MAP34-A protein 	Capra hircus	Animalia (Mammals)	SYREAVLRAVDQFNERSAEANLYRLLELDPPPEQDAEDQGARKPVSFRVKETVCPRTSQQPVEQCD	66		Antimicrobial		Predicted
+CAMPSQ1544	75039406	P79360		Cathelicidin	Ovis aries	Animalia (Mammals)	SYREAVLRAVDQFNERSAEANLYRLLELDPPPEQDAEDRGARKPVSFKVKETVCPRTSQQPVEQCD	66		Antibacterial		Predicted
+CAMPSQ1547				ABF-1	Caenorhabditis elegans	Animalia	EASCARMDVPVMQRIAQGLCTSSCTAQKCMTGICKKVDSHPTCFCGGCSNANDVSLDTLISQLPHN	66	11772394	Antimicrobial		Predicted
+CAMPSQ2230	281022082	D2KD89		Antibacterial peptide cecropin 1	Plutella xylostella	Animalia (Insects)	MKLSNIFFFVFMAFFAVASVSAAPRWKPFKKLEKVGRNIRDGIIKAGPAVAVIGQATSIARPTGK	65		Antibacterial		Predicted
+CAMPSQ2251	44921584	Q64JE5		Liver-expressed antimicrobial peptide 2 isoform B	Oncorhynchus mykiss	Animalia (Pisces)	SPIGSHDSRLSLQQGTKLLERRTRMTPLWRFMGTKPTGAYCRDHFECSTQICRRGHCALSGAVHS	65		Antimicrobial		Predicted
+CAMPSQ2293	297614324	D9IX83		Antimicrobial peptide  	Euperipatoides rowelli  	Animalia	KSLLLCVFLAVFALALAAPAVERDNKLLDMLEDIFIGRPRDRDPYPYYPDYRRRGDVVEREVIYE	65	20519222	Antimicrobial		Predicted
+CAMPSQ3275				  Caenacin-3 	Caenorhabditis elegans	Animalia (Chromadorea)	QYGYGPMMGGYGPGMMGGYGPGMMGGYGPGMMGGYGPGMMGGYGMSPMYGGYGMYRPGLLGMLLG	65	15048112	Antifungal		Predicted
+CAMPSQ3798				  PtesALF1 	Portunus trituberculatus	Animalia (Crustaceans (Malacostraca))	YEALVTSILGKLTGLWHNDSVDFMGHICYFRRRPKIRRFKLYHEGKFWCPGWAPFEGRCKYCVVF	65	21168510	Antimicrobial		Predicted
+CAMPSQ4100	483507118			Liver-expressed antimicrobial peptide 2, partial 	Anas platyrhynchos 	Animalia (Aves)	MHCLKVMAIFLFCSLLLSQMHCASLHQPQPHLKRQRRMTPFWRGVSLRPIGASCRDNSECITMLCR	66		Antimicrobial		Predicted
+CAMPSQ4603	384236287			Avian beta-defensin 1	Anas platyrhynchos (Mallard)  	Animalia (Aves)	MRIVYLLFPFILLLVQGAAGSSLAPRNKEKCHREKGFCGFLKCSFPFIISGKCSRFFFCCKKIFG	65	23112840	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4604	337255731			Beta-defensin 5 	Anas platyrhynchos (Mallard)  	Animalia (Aves)	MQILPLLFAVLLLMLQAEPGLSLARGLPQDCERRGGFCSHKSCPPGIGRIGLCSKEDFCCRSRWYS	65	23112840	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ5910	343952427	G3E7R6		Esculentin-2N protein (Fragment)	Pelophylax nigromaculatus 	Animalia (Amphibians)	GTISLSLCEEERNADEEEGGEVQEEEVKRGIFSLIKGAAKVVAKGLGKKVGKFGLDLMACKVTNQC	66		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5911	343952433	G3E7R9		Esculentin-2N protein (Fragment)	Pelophylax nigromaculatus 	Animalia (Amphibians)	GTISLSLCKEERDADEDDGGEVQEEEVKRGIFSLIKGAAKVVAKGLGKEVGKFGLDLMACKVTNQC	66		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5913	343952455	G3E7T0		Esculentin-2N protein (Fragment)	Pelophylax nigromaculatus 	Animalia (Amphibians)	GVVSLSLCKEERDADEDDEGEMKEELEKRGALSIFSAAAKLLGKTLLKNAGKAGLQVAACKAANQC	66		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5914	343952457	G3E7T1		Esculentin-2N protein (Fragment)	Pelophylax nigromaculatus 	Animalia (Amphibians)	GTISLSLCKEERDADEDDGGEMKEELVKRGFLSLLSNAAKFLGKTLLKNVGKAGLETAACKATNQC	66		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6079		H8LBC9		Class II bacteriocin	Enterococcus faecium (strain Aus0004)	Bacteria	MKHLKILSIKETQLIYGGTTHSGKYYGNGVYCTKNKCTVDWAKATTCIAGMSIGGFLGGAIPGKC	65		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6346	404459160			Class II bacteriocin	Enterococcus sp. GMD3E	Bacteria	MKHLKILSIKETQLIYGGTTHSGKYYGNGVYCTKNKCTVDWAKATTCIAGMSIGGFLGGAIPGKC	65		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6858	7271911	Q9L658		Class IIa bacteriocin EntA	Enterococcus faecium 	Bacteria	MKHLKILSIKQTQLIYGGTTHSGKYYGNGVYCTKNKCTVDWAKATTCIAGMSIGGFLGGAIPGKC	65		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6925	548954633	U3UBT3		Phylloseptin-S6	Phyllomedusa sauvagei 	Animalia (Amphibians)	MAFLKKSLFLVLFLGLVSLSICEEEKRETEEEEHDQEEDDKSEEKRFLSLIPHIVSGVASIAKHLG	66		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7086	488260984			Bacteriocin EntA [Enterococcus faecium]. 	Enterococcus faecium  	Bacteria	MRHLKILSIKETQLIYGGTTHSGKYYGNGVYCTKNKCTVDWAKATTCIAGMSIGGFLGGAIPGKC	65		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7405	703890280	A0A0A7DQ67		Antibacterial peptide moricin	Plutella xylostella 	Animalia (Insects)	MRFLHLLMLALAAMTLLLGGSHAAPKVNVNALKKGGRVIKKGLGVIGAAGTAHEVYNHVRNRNQG	65		Antimicrobial		Predicted
+CAMPSQ7642		F7IIN8		Beta-defensin	Callithrix jacchus 	Animalia (Mammals)	MFQEVKEVMKCWGKSGRCRTMCKESEVYYLLCNTEAKCCVDPKYVPVEPPKLPNTNTSLESISAV	65		Antimicrobial		Predicted
+CAMPSQ7659		F6QBZ0		Beta-defensin	Macaca mulatta 	Animalia (Mammals)	GLGAAEGHCLNLSGVCRRDVCKVVEDQIGACRRRMKCCRAWWILMPIPTPLIMSDYQEPLKPKLK	65		Antimicrobial		Predicted
+CAMPSQ7667		F6Q510		Beta-defensin	Callithrix jacchus 	Animalia (Mammals)	GPSVPQKNTREVAERKRECQLVRGACKPECNSWEYVFYYCGVNPCCVVREYKKPIINRSTAKHQK	65		Antimicrobial		Predicted

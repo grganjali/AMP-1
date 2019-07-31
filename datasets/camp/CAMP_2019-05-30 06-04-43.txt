@@ -1,0 +1,27 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ185	160380519	P0C5X5		Brevinin-2DYe / Dybowskin-5	Rana dybowskii	Animalia (Amphibians)	GLFSVVTGVLKAVGKNVAKNVGGSLLEQLKCKISGGC	37	17688900 , 17698251	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ187	1703271	P25403		Antimicrobial peptide 1 	Mirabilis jalapa	Viridiplantae	QCIGNGGRCNENVGPPYCCSGFCLRQPGQGYGYCKNR	37	1733929 , 7647302	Antibacterial,Antifungal	Gram+ve	Experimentally Validated
+CAMPSQ195	1706745	P49913	2FBS,2FBU,2FCG,2K6O,2LMF	Cathelicidin antimicrobial peptide 	Homo sapiens 	Animalia (Mammals)	LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES	37	7890387,11557457	Antibacterial	Gram+,Gram-
+	Experimentally Validated
+CAMPSQ199	1709082	P49932		Antibacterial peptide PMAP-37 	 Sus scrofa	Animalia (Mammals)	GLLSRLRDFLSDRGRRLGEKIERIGQKIKDLSEFFQS	37	7737198	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1705	115503712	Q1KLX5		Antibacterial protein LL-37	Presbytis cristata	Animalia (Mammals)	RLGNFFRKAKEKIGRGLKKIGQKIKDFWGNLVPRTES	37		Antibacterial		Predicted
+CAMPSQ1706	115503711	Q1KLX2		Antibacterial protein LL-37	Pongo pygmaeus	Animalia (Mammals)	LLGDFFRKAREKIGEEFKRIVQRIKDFLRNLVPRTES	37		Antibacterial		Predicted
+CAMPSQ1707	115503710	Q1KLX3		Antibacterial protein LL-37	Papio papio	Animalia (Mammals)	RLGNFFRKVKEKIGGGLKKVGQKIKDFLGNLVPRTAS	37		Antibacterial		Predicted
+CAMPSQ1708	115503709	Q1KLX1		Antibacterial protein LL-37	Pan troglodytes	Animalia (Mammals)	LLGDFFRKSKEKIGKEFKRIVQRIKDFLRNLVPRTES	37		Antibacterial		Predicted
+CAMPSQ1709	115503708	Q1KLY2		Antibacterial protein LL-37	Nomascus gabriellae	Animalia (Mammals)	LPGNFFRKAREKIGKEFKRIVQRIKDFLQHLVPRTEA	37		Antibacterial		Predicted
+CAMPSQ1710	115503707	Q1KLX6		Antibacterial protein LL-37	Macaca tonkeana	Animalia (Mammals)	RLGNFFRKVKEKIGGGLKKVGQKIKDFLGNLVPRTAS	37		Antibacterial		Predicted
+CAMPSQ1711	115503706	Q1KLX7		Antibacterial protein LL-37	Macaca fascicularis	Animalia (Mammals)	RLGNFFRKVKEKIGGGLKKVGQKIKDFLGNLVPRTAS	37		Antibacterial		Predicted
+CAMPSQ1712	115503704	Q1KLX9		Antibacterial protein LL-37	Nomascus leucogenys	Animalia (Mammals)	LLGNFFRKAREKIGKEFKRIVQRIKDFLQHLVPRTEA	37		Antibacterial		Predicted
+CAMPSQ1713	115503703	Q1KLY0		Antibacterial protein LL-37	Nomascus concolor	Animalia (Mammals)	LPGNFFRKAREKIGKEFKRIVQRIKDFLQHLVPRTEA	37		Antibacterial		Predicted
+CAMPSQ1714	115503702	Q1KLY3		Antibacterial protein LL-37	Gorilla gorilla gorilla	Animalia (Mammals)	LLGDFFRKAKEKIGKESKRIVQRIKDFLRNLVPRTES	37		Antibacterial		Predicted
+CAMPSQ1715	115503701	Q1KLY6		Antibacterial protein LL-37	Chlorocebus aethiops	Animalia (Mammals)	RLGKFFRKVKKKIGGGLKKIGQKIKDFLGNLVPRTAS	37		Antibacterial		Predicted
+CAMPSQ1716	115503700	Q1KLY5		Antibacterial protein LL-37	Cebus capucinus	Animalia (Mammals)	RLGGFLQKAREKIARGFKKIGQKINDFLGKLAPRTEA	37		Antibacterial		Predicted
+CAMPSQ1717	115503699	Q1KLY4		Antibacterial protein LL-37	Callithrix jacchus	Animalia (Mammals)	RLGDILQKAREKIEGGLKKLVQKIKDFFGKFAPRTES	37		Antibacterial		Predicted
+CAMPSQ1718	115503698	Q1KLY7		Antibacterial protein LL-37	Ateles fusciceps	Animalia (Mammals)	QLGDVLQKAGEKIVRGLKNIGQRIKDFFGKLTPRTES	37		Antibacterial		Predicted
+CAMPSQ1719	115503697	Q1KLY8		Antibacterial protein LL-37	Ateles fusciceps robustus	Animalia (Mammals)	QLGDVLQKAGEKIVRGLKNIGQRIKDFFGKLTPRTES	37		Antibacterial		Predicted
+CAMPSQ2228	254798553	C7FEV5		Cathelicidin-4	Bubalus bubalis	Animalia (Mammals)	NEDLGTRKPVSFTVKETVCPRTTHQPAEQCGFKERGR	37		Antimicrobial		Predicted
+CAMPSQ3267				  Calcitonin gene-related peptide 	Homo sapiens	Animalia (Mammals)	ACDTATCVTHRLAGLLSRSGGVVKNNFVPTNVGSKAF	37	18603306	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3767				  Esculentin-2CHa 	Lithobates chiricahuensis	Animalia (Amphibians)	GFSSIFRGVAKFASKGLGKDLAKLGVDLVACKISKQC	37	21262304	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4036	425872804	K7ZAL5		Esculentin-2-AJ4 antimicrobial peptide precursor 	Amolops jingdongensis 	Animalia (Amphibians)	GILSLIKNAAKFVGKNLHKQAGKGGLEHLACKAKNEC	37	22828809	Antimicrobial		Predicted
+CAMPSQ7858		L8J3U9		Beta-defensin (Fragment)	Bos mutus	Animalia (Mammals)	AYGGRRRCWNNSGHCKKKCAADEVATAVCKNRQSCCV	37		Antimicrobial		Predicted
+CAMPSQ8130		A0A099Z4D7		Beta-defensin (Fragment)	Tinamus guttatus 	Animalia (Aves)	YGPGSCNHEGGLCRVGNCASGEYLAGFCFEPIILCCK	37		Antimicrobial		Predicted

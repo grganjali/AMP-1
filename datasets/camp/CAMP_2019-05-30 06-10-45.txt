@@ -1,0 +1,27 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ27	110825776	P12026		Acyl-CoA-binding protein 	Sus scrofa	Animalia (Mammals)	KQATVGDINTERPGILDLKGKAKWDAWNGLKGTSKEDAMKAYINKVEELKKKYGI	55	8375398	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ62	1168625	P19661		Bactenecin-7 precursor 	Bos taurus 	Animalia (Mammals)	RRIRPRPPRLPRPRPRPLPFPRPGPRPIPRPLPFPRPGPRPIPRPLPFPRPGPRP	55	2229048	Antibacterial	Gram-ve	Experimentally Validated
+CAMPSQ302	26392176	P83282		Cicadin	Cicada flammata 	Animalia (Insects)	NEYHGFVDKANNENKRKKQQGRDDFVVKPNNFANRRRKDDYNENYYDDVDAADVV	55	11814612	Antifungal,Antiviral		Experimentally Validated
+CAMPSQ1166	18448201	P86030		Pg-AMP	Psidium guajava	Viridiplantae	RESPSSRMECYEQAERYGYGGYGGGRYGGGYGSGRGQPVGQGVERSHDDNRNQPR	55	18448201	Antibacterial	Gram-ve	Experimentally Validated
+CAMPSQ1460	56681295	Q5MAE8		Moricin II 	Hyblaea puera 	Animalia (Insects)	AMSLVSCSTAAPAKIPIKAIKTVGKAVGKGLRAINIASTANDVFNFLKPKKRKH	54		Antimicrobial		Predicted
+CAMPSQ1617	71152321	Q8BGW9		Beta-defensin 29	Mus musculus	Animalia (Mammals)	GLFGFRSSKRQEPWIACELYQGLCRNACQKYEIQYLSCPKTRKCCLKYPRKITSF	55		Antibacterial		Predicted
+CAMPSQ2597	294956524	P0CF38		Im-1 	Isometrus maculatus  	Animalia (Arachnids)	SFKRLKGFAKKLWNSKLARKIRTKGLKYVKNFAKDMLSEGEEAPPAAEPPVEAPQ	55	20139620	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2695	348162075	G5DD15		Hepcidin 2 precursor  	Epinephelus malabaricus	Animalia (Pisces)	EVLTDPEEPVSYEYEETSAETWMMPFNIGGEQQSGAIKCHFCCSCCAFGVCGTCC	55		Antimicrobial		Predicted
+CAMPSQ3274				  Caenacin-2 	Caenorhabditis elegans	Animalia (Chromadorea)	QYGYGGYPGMMGGYGGYPGMMGGYGMRPYGMGYGMGMGGMGMYRPGLLGMLMGK	54	15048112	Antifungal		Predicted
+CAMPSQ3329				  AvBD10 	Anas platyrhynchos	Animalia (Aves)	VLLFLFQAAPGSADAPFADTAACRSQGNFCRAGACPPTFAASGSCHGGLLNCCAK	55	Reference: Liao W, Ma D, Wang R, Han Z, Shao T, Li H, Liu S (2009) mRNA Cloning, Evolutionary Analysis and Biological Characterization of Duck Avian Beta-defensin 10. Acta Veterinaria et Zootechnica Sinica, 2009, 40(9): 1320-1326.
+	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3335		Q01701	2KCN	  PAF 	Penicillium chrysogenum	Fungi (Eurotiomycetes)	AKYTGKCTKSKNECKYKNDAGKDTFIKCPKFDNKKCTKDNNKCTVDTYNNAVDCD	55	12856109	Antifungal		Experimentally Validated
+CAMPSQ4064	426281404	K9NXA6		Hepcidin antimicrobial peptide 	Cyprinus carpio 	Animalia (Pisces)	ESEAPQENQHLTETSQEQTNPLAFFRVKRQSHLSLCRYCCNCCRNKGCGYCCKF	54		Antimicrobial		Predicted
+CAMPSQ4687		A5JPW8		Cecropin D (Fragment)	Spodoptera litura 	Animalia (Insects)	FVFACLLALSAVSAAPEPRWKVFKKIEKMGRNIRDGIIKAGPAVEVLGSAKALGK	55		Antimicrobial		Predicted (Based on signature)
+CAMPSQ4930	161105425	A9QNE3		Hepcidin (Fragment)	Takifugu obscurus 	Animalia (Pisces)	MKTFSVAVVAAVLLALICLQESSALPLSEVDNVEVPVMDDNGAAVYEKMPVDSWK	55		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5777	317415696	E6YCQ7		Lactoferrin (Fragment)	Bos taurus 	Animalia (Mammals)	GLCLAAPRKNVRWCTISQPEWFKCRRWQWRMKKLGAPSITCVRRAFALACIRAIA	55		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5966	349582266	G4Y024		Palustrin-2AM protein (Fragment)	Rana amurensis 	Animalia (Amphibians)	GTISSLCEQEREADEDEVLEEVKRGIWDSIKTFGKKFALNIMDKIKCKIGGGCPP	55		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5967	349582270	G4Y025		Palustrin-2AM protein (Fragment)	Rana amurensis 	Animalia (Amphibians)	GTISSLCEQERDANEDEVLEEVKRGIWDSIKTFGKKFALNIMDKIKCKIGGGCPP	55		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6791	21666448	Q8KWU5		Prebacteriocin	Lactobacillus sakei	Bacteria	MKNAKSLTIQEMKSITGGKYYGNGVSCNSHGCSVNWGQAWTCGVNHLANGGHGVC	55	12450870, 20152920	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6867	18071187	Q9RMH7		Lac705alpha	Lactobacillus curvatus	Bacteria	MDNLNKFKKLSDNKLQATIGGGMSGYIQGIPDFLKGYLHGISAANKHKKGRLGY	54	10754241	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6911	508154386	S0JVW4		Bacteriocin enterocin-P	Enterococcus durans ATCC 6056	Bacteria	MTNFGTKVDAATRSYDNGIYCNNSKCWVNWGEAKENIAGIVISGWASGLAGMGH	54		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7081	283825783			Nisin U2 [synthetic construct]. 	Synthetic construct  		MSTKDFNLDLVSVSKKDSGASPRVTSKSLCTPGCKTGILTGCPLKTATCGCHFG	54		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7116	488227692			Bacteriocin [Enterococcus faecium]. 	Enterococcus faecium  	Bacteria	MTNFGTKVDAATRSYDNGIYCNNSKCWVNWGEAKENIAGIVISGWASGLAGMGH	54		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7740		H2RHY9		Beta-defensin	Pan troglodytes 	Animalia (Mammals)	RSGPNVYIQKIFASCWRLQGTCRPKCLKNEQYHILCDTIHLCCVNPKYLPILTGK	55		Antimicrobial		Predicted
+CAMPSQ7860		L8HZ70		Beta-defensin (Fragment)	Bos mutus	Animalia (Mammals)	LLTARKRFPHYGSVDMRRECAKGNGRCKTECHISEVRIAYCIRPGSLCCLQKYR	54		Antimicrobial		Predicted
+CAMPSQ7941		D2HMR4		Beta-defensin (Fragment)	Ailuropoda melanoleuca 	Animalia (Mammals)	RSGPNMYIRRLFSTCWRTKGVCKKSCGKSEIYHIFCDSAHLCCIDKKYLPVEFGK	55		Antimicrobial		Predicted

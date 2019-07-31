@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ720	50401864	P62562		Caerin-3.1	Litoria splendida 	Animalia (Amphibians)	GLWQKIKDKASELVSGIVEGVK	22	10601876	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ751				PlnA -22	Lactobacillus plantarum	Bacteria	YSLQMGATAIKQVKKLFKKWGW	22	15805109	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ970	3047246	O68586		Mutacin 1140	Streptococcus mutans 	Bacteria	FKSWSLCTPGCARTGSFNSYCC	22	9596742	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ1186	14917004	P36500		Lantibiotic salivaricin-A 	Streptococcus salivarius 	Bacteria	KRGSGWIATITDDCPNSVFVCC	22		Antibacterial	Gram+ve	Predicted
+CAMPSQ1195	3023785	P56249		Frenatin-3	Litoria infrafrenata 	Animalia (Amphibians)	GLMSVLGHAVGNVLGGLFKPKS	22	9225251	Antimicrobial		Predicted
+CAMPSQ1218	50401865	P62563		Caerin-3.1	Litoria gilleni	Animalia (Amphibians)	GLWQKIKDKASELVSGIVEGVK	22		Antibacterial		Predicted
+CAMPSQ1223	3023575	P56241		Caerin-3.4	Litoria caerulea	Animalia (Amphibians)	GLWEKIREKANELVSGIVEGVK	22		Antibacterial		Predicted
+CAMPSQ1251	25090495	P83427		HELN_HELVI Heliocin	Heliothis virescens	Animalia (Insects)	QRFIHPTYRPPPQPRRPVIMRA	22		Antibacterial	Gram-ve	Experimentally Validated
+CAMPSQ1448	11182428	P56924		Melittin-like peptide 	Rana temporaria	Animalia (Amphibians)	FIGSALKVLAGVLPSIVSWVKQ	22	9022710	Antimicrobial		Predicted
+CAMPSQ2480	310696132	E3SZH9		Odorranain-P-RA2 peptide precursor  	Odorrana andersonii (golden crossband frog)  	Animalia (Amphibians)	PFVASVAAEMMQHVYCAASKKC	22		Antimicrobial		Predicted
+CAMPSQ2528	310696288	E3SZQ7		Andersonin-O peptide precursor  	Odorrana andersonii (golden crossband frog)  	Animalia (Amphibians)	PMKKSLLLLFFFGPISLSFCDQ	22		Antimicrobial		Predicted
+CAMPSQ2750		P82066		  Maculatin 1.1 	Litoria genimaculata 	Animalia (Amphibians)	GLFVGVLAKVAAHVVPAIAEHF	22		Antimicrobial	Gram-ve	Predicted
+CAMPSQ2984		P83378		  Serracin-P 23 kDa subunit 	Serratia plymuthica	Bacteria	ALPKKLKYLNLFNDGFNYMGVV	22	12406768	Antibacterial	Gram-ve	Experimentally Validated
+CAMPSQ3285				  Epidermin 	Staphylococcus epidermidis Tü 3298	Bacteria	IASKFICTPGCAKTGSFNSYCC	22	3769923	Antimicrobial		Experimentally Validated
+CAMPSQ3513				  PAM2 	Ornithorhynchus anatinus	Animalia (Mammals)	RPWAGNGSVHRYTVLSPRLKTQ	22	21912615	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3760				  Warnericin RK 	Staphylococcus warneri RK	Bacteria	MQFITDLIKKAVDFFKGLFGNK	22	18339450	Antibacterial		Experimentally Validated
+CAMPSQ3787				  Pis1 	Gadus morhua	Animalia (Pisces)	FIHHIIGWISHGVRAIHRAIHG	22	22178249	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3793				  Plantaricin-149	Lactobacillus plantarum NRIC 149	Bacteria	YSLQMGATAIKQVKKLFKKKGG	22	17266050	Antibacterial		Experimentally Validated
+CAMPSQ3806				  Chionodracine 	Chionodraco hamatus	Animalia (Pisces)	FFGHLYRGITSVVKHVHGLLSG	22	22982327	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3810				  BacCH91 	Staphylococcus aureus CH-91	Bacteria	ITSFIGCTPGCGKTGSFNSFCC	22	23196985	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3980		P86528		Chitin-binding protein 3 	Moringa oleifera 	Viridiplantae	CPAIQRCCQQLRNIQPPCRCCQ	22	23193603	Antifungal		Experimentally Validated
+CAMPSQ4040	425872780	K7Z8Z4		Brevinin-1-AJ3 antimicrobial peptide precursor 	Amolops jingdongensis 	Animalia (Amphibians)	FLPLAVSLAANFLPKLFCKITK	22	22828809	Antimicrobial		Predicted
+CAMPSQ4492		P86505		Caerin-3.1	Litoria rothii	Animalia (Amphibians)	GLWQKIKDKASELVSGIVEGVK	22	16124032, 19539637	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4592		P82357	1ZRV, 1ZRW	Spingerin C-4	Pseudacanthotermes spiniger	Animalia (Insects)	KKVADKVLLLKQLRIMRLLTRL	22	11053427	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ8141		U4N938		Sm-AMP-X1	Stellaria media 	Viridiplantae	CKHQCMSTRGDQARKICESVCM	22	24081691	Antifungal		Experimentally Validated

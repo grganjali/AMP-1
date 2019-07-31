@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ454	416724	P32424		Brevinin-2	Rana porosa brevipoda 	Animalia (Amphibians)	GLLDSLKGFAATAGKGVLQSLLSTASCKLAKTC	33	1449472	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ455	416725	P32413		Brevinin-2E	Rana esculenta (edible frog )	Animalia (Amphibians)	GIMDTLKNLAKTAGKGALQSLLNKASCKLSGQC	33	8508915	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ704				OdC1, Brevinin -2 GrB	Odorrana grahami	Animalia (Amphibians)	GVLGTVKNLLIGAGKSAAQSVLKTLSCKLSNDC	33	17272268 , 16621155	Antibacterial,Antifungal 	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ705				OdD1	Odorrana grahami	Animalia (Amphibians)	GFLDTFKNLALNAAKSAGVSVLNSLSCKLFKTC	33	17272268	Antibacterial,Antifungal 	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ961	6137611	P38580	1CW5,1RY3	Carnobacteriocin B2 	Carnobacterium maltaromaticum	Bacteria	XNYGNGVSCSKTKCSVNWGQAFQERYTAGINSF	33	10569926	Antimicrobial		Experimentally Validated
+CAMPSQ980	1706115	P51437		Cathelin-related antimicrobial peptide 	 Mus musculus	Animalia (Mammals)	GLLRKGGEKIGEKLKKIGQKIKNFFQKLVPQPE	33	9148921	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2240	270304512	D2K8J4		Brevinin-2-RA20 antimicrobial peptide	Rana andersonii	Animalia (Amphibians)	GLLDTLKNMAINAAKDAGVSVLNTLSCKLSKTC	33		Antimicrobial		Predicted
+CAMPSQ2244	270304470	D2K8H3		Brevinin-2-RA14 antimicrobial peptide precursor 	Rana andersonii	Animalia (Amphibians)	SFLTSFKDMAIKVAKDAGVNILNTISCKISKTC	33		Antimicrobial		Predicted
+CAMPSQ2246	270304404	D2K8C6		Brevinin-2-RA6 antimicrobial peptide	Rana andersonii	Animalia (Amphibians)	GLLDTLKNMAINAAKGAGVSVLNALSCKLSKTC	33		Antimicrobial		Predicted
+CAMPSQ2247	270304380	D2K8C8		Brevinin-2-RA13 antimicrobial peptide	Rana andersonii	Animalia (Amphibians)	SFLTSFKDMAIKVAKDAGVNILNTISCKIFKTC	33		Antimicrobial		Predicted
+CAMPSQ2249	160554560	C0ILF8		Rugosin-RN antimicrobial peptide	Rana nigrovittata	Animalia (Amphibians)	SFLSKFKDIALDVAKNAGKGVLTTLACKIDGSC	33		Antimicrobial		Predicted
+CAMPSQ2252	222784785	B9W1Q3		Brevinin-2LTc antimicrobial peptide	Rana latouchii	Animalia (Amphibians)	GVLDTFKDVAIGVAKGAGTGVLKALLCKLDKSC	33		Antimicrobial		Predicted
+CAMPSQ2752		P46157		  Chicken Heterophil Peptide 2 	Gallus gallus	Animalia (Aves)	GRKSDCFRKNGFCAFLKCPYLTLISGLCSFHLC	33	7964174	Antimicrobial		Predicted
+CAMPSQ3018				  Cycloviolacin Y2 	Viola philippica	Viridiplantae	GGTIFDCGESCFLGTCYTAGCSCGNWGLCYGTN	33	18081258	Antiviral		Predicted
+CAMPSQ3019				  Cycloviolacin Y3 	Viola philippica	Viridiplantae	GGTIFDCGETCFLGTCYTAGCSCGNWGLCYGTN	33	18081258	Antiviral		Predicted
+CAMPSQ4037	425872792	K7ZGR5		Brevinin-2-AJ6 antimicrobial peptide precursor 	Amolops jingdongensis 	Animalia (Amphibians)	GILSTLKQFGKAAVKGVAQSFLNTASCKLAKTC	33	22828809	Antimicrobial		Predicted
+CAMPSQ4038	425872788	K7ZJ56		Brevinin-2-AJ4 antimicrobial peptide precursor 	Amolops jingdongensis 	Animalia (Amphibians)	GFMSTFKQVGISAIKGAAKNVLDVLSCKIAKTC	33	22828809	Antimicrobial		Predicted
+CAMPSQ4039	425872784	K7ZAL2		Brevinin-2-AJ2 antimicrobial peptide precursor 	Amolops jingdongensis 	Animalia (Amphibians)	GLMSTFKQVGISAIKGAAKNVLDVLSCKIAKTC	33	22828809	Antimicrobial		Predicted
+CAMPSQ4042	425872794	K7ZAL3		Brevinin-2-AJ7 antimicrobial peptide precursor 	Amolops jingdongensis 	Animalia (Amphibians)	GLVSTFKQVGISAIKGAAKNVLDVLSCKIAKTC	33	22828809	Antimicrobial		Predicted
+CAMPSQ4043	425872790	K7Z8Z5		Brevinin-2-AJ5 antimicrobial peptide precursor 	Amolops jingdongensis 	Animalia (Amphibians)	GILSTLKQFGKAAVKGVAQSLLNTASCKLAKTC	33	22828809	Antimicrobial		Predicted
+CAMPSQ4044	425872786	K7Z432		Brevinin-2-AJ3 antimicrobial peptide precursor 	Amolops jingdongensis 	Animalia (Amphibians)	GLMSTFKQVGISAIKGAAQNVLGVLSCKLAKTC	33	22828809	Antimicrobial		Predicted
+CAMPSQ4045	425872782	K7ZGR3		Brevinin-2-AJ1 antimicrobial peptide precursor 	Amolops jingdongensis 	Animalia (Amphibians)	GLMSTFKRVGISAIKGAAKNVLDVLSCKIAKTC	33	22828809	Antimicrobial		Predicted
+CAMPSQ7103	80424			Subtilosin A - Bacillus subtilis. 	Bacillus subtilis  	Bacteria	XGLGLWGNKGCATCSIGAACLVDGPIPDZIAGA	33		Antimicrobial		Predicted (Based on signature)
+CAMPSQ8142				Sm-AMP-L	Synthetic construct		VDPDVRAYCKHQCLSTRGDQARKICESVCLRQD	33	24081691	Antifungal		Experimentally Validated
+CAMPSQ8143		U4N938		Antimicrobial peptide X precursor (Sm-AMP-X)	Stellaria media 	Viridiplantae	VDPDVRAYCKHQCMSTRGDQARKICESVCMRQD	33	24081691	Antifungal		Experimentally Validated

@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ413	41016814	P82845		Brevinin-1Pe	Rana pipiens	Animalia (Amphibians)	FLPIIASVAAKVFPKIFCAISKKC	24	10651828	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ414	41016815	P82871		Brevinin-1S	Rana sylvatica	Animalia (Amphibians)	FLPVVAGLAAKVLPSIICAVTKKC	24	11042268	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ427	41017607	P82819		Ranatuerin-4	Rana catesbeiana	Animalia (Amphibians)	FLPFIARLAAKVFPSIICSVTKKC	24	9784389	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ453	416722	P32423		Brevinin-1	Rana porosa brevipoda 	Animalia (Amphibians)	FLPVLAGIAAKVVPALFCKITKKC	24	1449472	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ709	110560664	A6MBR0		OdP1a	Odorrana grahami	Animalia (Amphibians)	VIPFVASVAAEMMQHVYCAASKKC	24	17272268	Antibacterial,Antifungal 	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2241	270304508	D2K8J2		Brevinin-1-RAA10 antimicrobial peptide	Rana andersonii	Animalia (Amphibians)	FLPAVIRVAANVLPTAFCAISKKC	24		Antimicrobial		Predicted
+CAMPSQ2242	270304492	D2K8C5		Brevinin-1-RAA5 antimicrobial peptide	Rana andersonii	Animalia (Amphibians)	FLPAVIRVAANVLPTVFCAISKKC	24		Antimicrobial		Predicted
+CAMPSQ2245	270304464, 270304388	D2K8G7, D2K8D2		Brevinin-1-RAB2 antimicrobial peptide	Rana andersonii	Animalia (Amphibians)	FLPLIAGLAANFLPKLFCKITKKC	24		Antimicrobial		Predicted
+CAMPSQ2716		P01505		  Bombinin 	Bombina variegata	Animalia (Amphibians)	GIGALSAKGALKGLAKGLAEHFAN	24		Antimicrobial		Predicted
+CAMPSQ2749		P81252		  Caerin 1.9 	Litoria chloris 	Animalia (Amphibians)	GLFGVLGSIAKHVLPHVVPVIAEK	24		Antimicrobial		Predicted
+CAMPSQ2757		P81568		  Defensin D5	Spinacia oleracea 	Viridiplantae	MFFSSKKCKTVSKTFRGPCVRNAN	24	9762899	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2982				  So-D6 	Spinacia oleracea	Viridiplantae	GIFSNMYARTPAGYFRGPAGYAAN	24	9762899	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3228				  Brevinin-1Ya  	Rana blairi	Animalia (Amphibians)	FLPVIAGVAANFLPKLFCAISKKC	24	19254736	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3229				  Brevinin-1Yb  	Rana blairi	Animalia (Amphibians)	FLPIIAGAAAKVVQKIFCAISKKC	24	19254736	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3230				  Brevinin-1Yc  	Rana blairi	Animalia (Amphibians)	FLPIIAGAAAKVVEKIFCAISKKC	24	19254736	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3233				  Brevinin-1AUa 	Rana aurora aurora	Animalia (Amphibians)	FLPILAGLAAKLVPKVFCSITKKC	24	15325526	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3234				  Brevinin-1AUb 	Rana aurora aurora	Animalia (Amphibians)	FLPILAGLAANILPKVFCSITKKC	24	15325526	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3240				Brevinin-1LT1 	Hylarana latouchii	Animalia (Amphibians)	FMGSALRIAAKVLPAALCQIFKKC	24	19340924	Antimicrobial		Experimentally Validated
+CAMPSQ3241				Brevinin-1LT2 	Hylarana latouchii	Animalia (Amphibians)	FFGSVLKVAAKVLPAALCQIFKKC	24	19340924	Antimicrobial		Experimentally Validated
+CAMPSQ3498				Jindongenin-1a 	Amolops jingdongensis	Animalia (Amphibians)	DSMGAVKLAKLLIDKMKCEVTKAC	24	21816202	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3503				  Brevinin-1ISa 	Odorrana ishikawae	Animalia (Amphibians)	FLPGVLRLVTKVGPAVVCAITRNC	24	21867685	Antimicrobial	Gram+ve	Experimentally Validated
+CAMPSQ3763				  Gaegurin-LK1 	Limnonectes kuhlii	Animalia (Amphibians)	FIGPVLKMATSILPTAICKGFKKC	24	23054029	Antimicrobial		Experimentally Validated
+CAMPSQ3764				  Gaegurin-LK2 	Limnonectes kuhlii	Animalia (Amphibians)	FLGPIIKMATGILPTAICKGLKKC	24	23054029	Antimicrobial		Experimentally Validated
+CAMPSQ3770				  Brevinin-1CHa 	Lithobates chiricahuensis	Animalia (Amphibians)	FLPIIAGVAAKVLPKLFCAITKKC	24	21262304	Antimicrobial		Experimentally Validated
+CAMPSQ4514		P85065		Lantibiotic 107891	Microbispora sp	Bacteria	VTSWSLCTPGCTSPGGGSNCSFCC	24	21520894	Antibacterial	Gram+ve	Experimentally Validated

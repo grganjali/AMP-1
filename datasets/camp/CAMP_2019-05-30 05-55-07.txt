@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ215	18202402	P82419		Ponericin-G6	Pachycondyla goeldii 	Animalia (Insects)	GLVDVLGKVGGLIKKLLP	18	11279030	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ239	20664097	P82358	1KFP	Gomesin	Acanthoscurria gomesiana	Animalia (Arachnids)	ZCRRLCYKQRCVTYCRGR	18	10942757	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ722	20138939	P82068		Maculatin-2.1	Litoria genimaculata	Animalia (Amphibians)	GFVDFLKKVAGTIANVVT	18	9620615	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ725	913449			Antimicrobial peptide , immobilized peptide E18KGG 	Synthetic construct		LKLLKKLLKLLKKLGGGK	18	7726486	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ753				P18	Synthetic construct		KWKLFKKIPKFLHLAKKF	18	12005420	Antibacterial,Antitumor		Experimentally Validated
+CAMPSQ963	159162438		1HU7	T7 Novispirin	Synthetic construct		KNLRRITRKIIHIIKKYG	18	11932493	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ972	88909659	P84763		Bacteriocin thuricin-S	Bacillus thuringiensis serovar entomocidus	Bacteria	DWTAWSALVAAACSVELL	18	17496978	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1017				CA	Synthetic construct		KWKLFKKIGIGAVLKVLT	18	1733777	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1275	3286715	P29004		Bombinin H-like peptide 1	Bombina orientalis	Animalia (Amphibians)	IIGPVLGLVGKPLESLLE	18		Antimicrobial		Predicted
+CAMPSQ1485	1730506	P49933	1N5H,1N5P	Protegrin-4	Sus scrofa	Animalia (Mammals)	RGGRLCYCRGWICFCVGR	18		Antimicrobial		Predicted
+CAMPSQ1486	1730507	P49934		Protegrin-5	Sus scrofa	Animalia (Mammals)	RGGRLCYCRPRFCVCVGR	18		Antimicrobial		Predicted
+CAMPSQ1755	91207085	Q2M591		Peptide BmKb2	Mesobuthus martensii	Animalia (Arachnids)	FLSSLIPSAISGLISAFK	18		Antimicrobial		Predicted
+CAMPSQ3532				  Andersonin-Y1 	Odorrana andersonii	Animalia (Amphibians)	FLPKLFAKITKKNMAHIR	18	22029824	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3820		L0P402		  Medusin-PH 	Agalychnis callidryas	Animalia (Amphibians)	LLGMIPVAISAISALSKL	18	23415652	Antibacterial, Antifungal	Gram+ve	Experimentally Validated
+CAMPSQ3821	433285849	L0P3K3		  Medusin-PD 	Agalychnis callidryas	Animalia (Amphibians)	LLGMIPLAISAISSLSKL	18	23415652	Antimicrobial		Experimentally Validated
+CAMPSQ4069	425872843	K7ZAL9		Temporin-AJ10 antimicrobial peptide precursor 	Amolops jingdongensis 	Animalia (Amphibians)	FLPIVGKLLSGLSGLLGK	18	22828809	Antimicrobial		Predicted
+CAMPSQ4596		P0CF03		Dinoponeratoxin Da-1837	Dinoponera australis	Animalia (Insects)	FLGGLIGPLMSLIPGLLK	18	19879289	Antibacterial		Predicted
+CAMPSQ7127	159162436			Chain A, Solution Structure Of Ovispirin-1. 	Synthetic construct		XNLRRIIRKIIHIIKKYG	18		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7128	159162437			Chain A, Solution Structure Of G10 Novispirin. 	Synthetic construct		XNLRRIIRKGIHIIKKYG	18		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7135	355332853			Chain A, Solution Structure Of Gf-17 In Complex With Micelles. 	Synthetic construct  		GFKRIVQRIKDFLRNLVX	18		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7152	1470343			Defensin HNP1 [human, wound and blister fluid, Peptide Partial, 18  aa]. 	Homo sapiens	Animalia (Mammals)	ACYCRIPACIAGERRYGT	18		Antimicrobial		Predicted (Based on signature)
+CAMPSQ8182	803374877	A0A0A1I6E7		Antimicrobial peptide AcrAP1	Androctonus crassicauda	Animalia (Arachnids)	FLFSLIPHAISGLISAFK	18	25332684	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ8183	803374878	A0A0A1I6N9		Antimicrobial peptide AcrAP2	Androctonus crassicauda	Animalia (Arachnids)	FLFSLIPNAISGLLSAFK	18	25332684	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ8184				AcrAP1a	Synthetic construct  		FLFKLIPKAIKGLIKAFK	18	25332684	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ8185				AcrAP2a	Synthetic construct  		FLFKLIPKAIKGLLKAFK	18	25332684	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated

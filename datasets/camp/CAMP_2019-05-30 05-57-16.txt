@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ12	110279027	Q2LKX9		Ixosin	Ixodes sinensis  	Animalia (Arachnids)	GLHKVMREVLGYERNSYKKFFLR	23	16087274	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ280	2499726	P80952		Skin peptide tyrosine-tyrosine 	Phyllomedusa bicolor	Animalia (Amphibians)	PEEMNKYLTALRHYINLVTRQRY	23	8601432	Antibacterial,Antifungal		Experimentally Validated
+CAMPSQ1009				Brevinin-1TSa	Rana tsushimensis	Animalia (Amphibians)	FLGSIVGALASALPSLISKIRN	22	16413829	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1304	29123268	Q800R5		Caerin 1.15	Litoria caerulea	Animalia (Amphibians)	GLFGLAKGSVAKPHVVPVISQLV	23		Antibacterial		Predicted
+CAMPSQ1816	3121862	O18492		Clavanin-E	Styela clava	Animalia	LFKLLGKIIHHVGNFVHGFSHVF	23		Antimicrobial		Predicted
+CAMPSQ2307	325305999	F1AQK3		Rhacophorin-1 antimicrobial peptide precursor  	Rhacophorus feae	Animalia (Amphibians)	IGPMIKIATNLLPTVICKIFKKC	23		Antimicrobial		Predicted
+CAMPSQ2308	304442744	E1AWD5		Brevinin-1CG2 antimicrobial peptide precursor  	Amolops chunganensis	Animalia (Amphibians)	LPIVAGLAANFLPKIVCKITKKC	23		Antimicrobial		Predicted
+CAMPSQ2309	304442740	E1AWD3		Brevinin-1CG4 antimicrobial peptide precursor  	Amolops chunganensis	Animalia (Amphibians)	LSTLLNVASKVVPTLFCKITKKC	23		Antimicrobial		Predicted
+CAMPSQ2310	304442742	E1AWD4		Brevinin-1CG1 antimicrobial peptide precursor  	Amolops chunganensis	Animalia (Amphibians)	LSTALKVAANVVPTLFCKITKKC	23		Antimicrobial		Predicted
+CAMPSQ2311	304442738	E1AWD2		Brevinin-1CG3 antimicrobial peptide precursor  	Amolops chunganensis	Animalia (Amphibians)	LSTLLNVASNVVPTLICKITKKC	23		Antimicrobial		Predicted
+CAMPSQ2314	318055953	E7EKK7		Brevinin-1TR7 antimicrobial peptide precursor  	Amolops torrentis  	Animalia (Amphibians)	LGTLLGVGAKILPSLICKISGKC	23		Antimicrobial		Predicted
+CAMPSQ2315	318055945	E7EKK5		Brevinin-1TR5 antimicrobial peptide precursor  	Amolops torrentis  	Animalia (Amphibians)	LGALLGAAANIVPSLICKISRKC	23		Antimicrobial		Predicted
+CAMPSQ2317	318055877	E7EKH1		Brevinin-1SN1 antimicrobial peptide precursor  	Hylarana spinulosa	Animalia (Amphibians)	LPAVLKVAAHILPTAICAISRRC	23		Antimicrobial		Predicted
+CAMPSQ2322	318055783, 318055781	E7EKC3		Brevinin-1HN1 antimicrobial peptide precursor, Brevinin-1HN1_2 antimicrobial peptide precursor   	Odorrana hainanensis  	Animalia (Amphibians)	LPLIASLAANFVPKIFCKITKKC	23		Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ2323	318055879	E7EKH2		Brevinin-1SN2 antimicrobial peptide precursor  	Hylarana spinulosa	Animalia (Amphibians)	MGTALKIAANVLPAAFCKIFKKC	23		Antimicrobial		Predicted
+CAMPSQ2326	307646251	E2JDR0		Brevinin-1LF3 antimicrobial peptide precursor  	Amolops lifanensis	Animalia (Amphibians)	LPIVASLAASFLPKIICKITKKC	23		Antimicrobial		Predicted
+CAMPSQ2327	304442918	E1B2T6		Brevinin-1LF2 antimicrobial peptide precursor  	Amolops lifanensis	Animalia (Amphibians)	LPMLAGLAANFLPKIICKITKKC	23		Antimicrobial		Predicted
+CAMPSQ2329	304442876	E1B240		Brevinin-1MT1 antimicrobial peptide precursor  	Amolops mantzorum  	Animalia (Amphibians)	LPLVASLAANFLPKLFCKITKKC	23		Antimicrobial		Predicted
+CAMPSQ2816		P49913	2LMF	  human LL-23 	Homo sapiens	Animalia (Mammals)	LLGDFFRKSKEKIGKEFKRIVQR	23	17012259	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ3063				  Magainin-AM2 	Xenopus amieti	Animalia (Amphibians)	GVSKILHSAGKFGKAFLGEIMKS	22	20226221	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3065				  PGLa-AM1 	Xenopus amieti	Animalia (Amphibians)	GMASKAGSVLGKVAKVALKAAL	22	20226221	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3313				  PP13 	Pteromalus puparum	Animalia (Insects)	GAARKSIRLHRLYTWKATIYTR	22	19950104	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3324				  Ocellatin-6 	Leptodactylus ocellatus	Animalia (Amphibians)	AVLDFIKAAGKGLVTNIMEKVG	22	19739090	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ8177		P0C0H9		Lantibiotic streptin	Streptococcus pyogenes serotype M1	Bacteria	GSRYLCTPGSCWKLVCFTTTVK	22		Antimicrobial		Predicted
+CAMPSQ8194				HBc153-175	Synthetic construct		GRSPRRRTPSPRRRRSQSPRRRR	23	23785287	Antibacterial	Gram-ve	Experimentally Validated

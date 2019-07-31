@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ197	1709080	P49930		Antibacterial peptide PMAP-23 	 Sus scrofa	Animalia (Mammals)	RIIDLLWRVRRPQKPKFVTVWVR	23	8132502	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ206	17529687	Q8UUG2		Moronecidin	Morone chrysops	Animalia (Pisces)	FFHHIFRGIVHVGKTIHKLVTGG	23	11739390	Antibacterial,Antifungal 	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ207	17940118	Q8UUG0	2JOS,2OJM	Moronecidin	Morone saxatilis	Animalia (Pisces)	FFHHIFRGIVHVGKTIHRLVTGG	23	11739390	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ208	18034013	Q8UUG2		Moronecidin	Morone chrysops	Animalia (Pisces)	FFHHIFRGIVHVGRTIHKLVTGG	23	11739390	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ209	18034015	Q8UUG0	2JOS,2OJM	Moronecidin	Morone saxatilis	Animalia (Pisces)	FFHHIFRGIVHVGRTIHRLVTGG	23	11739390	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ456	41688509	Q95NH6		Attacin-C	Drosophila melanogaster	Animalia (Insects)	QRPYTQPLIYYPPPPTPPRIYRA	23	14744858	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ716				OdW1	Odorrana grahami	Animalia (Amphibians)	GLFGKSSVHGRKYYVDLAGCAKA	23	17272268	Antibacterial,Antifungal 	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1220	3023578	P56244		Caerin-4.3	Litoria caerulea	Animalia (Amphibians)	GLWQKIKNAAGDLASGIVEGIKS	23		Antibacterial		Predicted
+CAMPSQ1221	3023577	P56243		Caerin-4.2	Litoria caerulea	Animalia (Amphibians)	GLWQKIKSAAGDLASGIVEAIKS	23		Antibacterial		Predicted
+CAMPSQ1222	3023576	P56242		Caerin-4.1	Litoria caerulea	Animalia (Amphibians)	GLWQKIKSAAGDLASGIVEGIKS	23		Antibacterial		Predicted
+CAMPSQ1488	159162222	P11006	1DUM,2MAG	Magainin 2	Synthetic construct		GIGKYLHSAKKFGKAWVGEIMNS	23		Antimicrobial		Predicted
+CAMPSQ2495	310695400	E3SYG2		Brevinin-1-RAB1 peptide precursor  	Odorrana andersonii (golden crossband frog)  	Animalia (Amphibians)	FPLIAGLAANFLPQILCKIARKC	23		Antimicrobial		Predicted
+CAMPSQ2496	310695396	E3SYG1		Brevinin-1-RAA9 peptide precursor, partial  	Odorrana andersonii (golden crossband frog)  	Animalia (Amphibians)	FPAVIRVAANVKPTVFCPISKKC	23		Antimicrobial		Predicted
+CAMPSQ2497	310695392	E3SYF9		Brevinin-1-RAA7 peptide precursor  	Odorrana andersonii (golden crossband frog)  	Animalia (Amphibians)	LPAVIRVAANVLPTVFCAITKKC	23		Antimicrobial		Predicted
+CAMPSQ2498	310695388	D2K8C5		Brevinin-1-RAA5 peptide precursor  	Odorrana andersonii	Animalia (Amphibians)	LPAVIRVAANVLPTVFCAISKKC	23		Antimicrobial		Predicted
+CAMPSQ2499	310695316	E3SYC1		Brevinin-1-RAA4 peptide precursor  	Odorrana andersonii (golden crossband frog)  	Animalia (Amphibians)	LPAVIRVAADVLPTVFCAISKKC	23		Antimicrobial		Predicted
+CAMPSQ2500	310695308	E3SYB7		Brevinin-1-RAA2 peptide precursor  	Odorrana andersonii (golden crossband frog)  	Animalia (Amphibians)	LPAVIHVAANVLPTVFCAISKKC	23		Antimicrobial		Predicted
+CAMPSQ2513	310695426	E3SYH6		Brevinin-1-RAB5 peptide precursor  	Odorrana andersonii (golden crossband frog)  	Animalia (Amphibians)	LPLIAGLAVNFLPKLFCKITKKC	23		Antimicrobial		Predicted
+CAMPSQ2514	310695394	E3SYG0		Brevinin-1-RAA8 peptide precursor  	Odorrana andersonii (golden crossband frog)  	Animalia (Amphibians)	LPAVIRVTANVLPTVFCAISKEC	23		Antimicrobial		Predicted
+CAMPSQ2515	310695390	E3SYF8		Brevinin-1-RAA6 peptide precursor  	Odorrana andersonii (golden crossband frog)  	Animalia (Amphibians)	LPAVIRVAGNVLPTVFCAISKKC	23		Antimicrobial		Predicted
+CAMPSQ2516	310695310	E3SYB8		Brevinin-1-RAA3 peptide precursor  	Odorrana andersonii (golden crossband frog)  	Animalia (Amphibians)	LPAVIRVAANVLPTVLCAISKKC	23		Antimicrobial		Predicted
+CAMPSQ2751		P82067		  Maculatin 1.2 	Litoria genimaculata 	Animalia (Amphibians)	GLFVGLAKVAAHNNPAIAEHFQA	23		Antimicrobial		Predicted
+CAMPSQ2760			0W78	  Galensin 	Kassina senegalensis 	Animalia (Amphibians)	CYSAAKYPGFQEFINRKYKSSRF	23	Reference: Reid C.N., Bjourson A.J., Shaw C. (2001) Galensin, a novel homodimeric antimicrobial peptide from the defensive skin secretion of Kassina senegalensis: isolation, structural characterisation and cloning of precursor cDNA. Submitted (JUL-2001) t	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3785				  TP3 	Oreochromis niloticus	Animalia (Pisces)	FIHHIIGGLFSVGKHIHSLIHGH	23	23226256	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3789				  Oreoch-1 	Oreochromis niloticus	Animalia (Pisces)	FIHHIIGGLFSVGKHIHGLIHGH	23	Reference: Acostaa J, Monterob V, Carpioa Y, Velázqueza J, Garayc HE, Reyesc O, Cabralesc A, Masforrolc Y, Moralesa A, Estrada MP (2013) Cloning and functional characterization of three novel antimicrobial peptides from tilapia (Oreochromis niloticus). A	Antibacterial, Antifungal		Experimentally Validated

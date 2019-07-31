@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ13	110279043	P0C1M6		Dominulin-A	Polistes dominulus	Animalia (Insects)	INWKKIAEVGGKILSSL	17	16446098	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ15	110279045	P0C1M7		Dominulin-B	Polistes dominulus	Animalia (Insects)	INWKKIAEIGKQVLSAL	17	16446098	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ580	68053340	P69020		Aurein-3.1	Litoria raniformis	Animalia (Amphibians)	GLFDIVKKIAGHIAGSI	17	10951191	Antibacterial,Anticancer	Gram+ve	Experimentally Validated
+CAMPSQ1798	221222719	P86020		Ranatuerin-2Ra	Rana ridibunda	Animalia (Amphibians)	AAKLLLNPKFRCKAAFC	17		Antimicrobial		Predicted
+CAMPSQ1799	221222716	P86019		Ranatuerin-2R	Rana ridibunda	Animalia (Amphibians)	AVNIPFKVKFRCKAAFC	17		Antimicrobial		Predicted
+CAMPSQ1811	223635796			Thiostrepton	Streptomyces azureus	Bacteria	IASASCTTCICTCSCSS	17		Antibacterial		Predicted
+CAMPSQ1827	68565869	P84571		Phylloseptin-6	Phyllomedusa hypochondrialis	Animalia (Amphibians)	SLIPHAINAVSAIAKHF	17		Antimicrobial		Predicted
+CAMPSQ2348	315189834	F6K5S5		Antimicrobial peptide meucin-18-1 precursor  	Mesobuthus eupeus	Animalia (Arachnids)	FGHLFKFATKIIPSLFQ	17		Antimicrobial		Predicted
+CAMPSQ2576	288561897	B5A9T1		Dybowskin-2CDYa	Rana dybowskii 	Animalia (Amphibians)	AVGRHGRRFGLRKHRKH	17	19539775	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3082			2RLG	  RP-1 	Synthetic construct		ALYKKFKKKLLKSLKRL	17	12435692	Antibacterial	Gram-ve	Experimentally Validated
+CAMPSQ3392				  Pm_mastoparan PMM 	Polistes dorsalis	Animalia (Insects)	INWKKIASIGKEVLKAL	17	18375018	Antimicrobial		Experimentally Validated
+CAMPSQ3599				  Schmackerin-C1 	Odorrana schmackeri	Animalia (Amphibians)	AAPRGGKGFFCKLFKDC	17	22029824	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3611				  CPF-PG1 	Xenopus pygmaeus	Animalia (Amphibians)	GFGSLLGKALKIGTNLL	17	22123629	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3612				  CPF-L1 	Xenopus lenduensis	Animalia (Amphibians)	GIGSLLAKAAKLGANLL	17	22123629	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3613				  CPF-L2 	Xenopus lenduensis	Animalia (Amphibians)	GIGSALAKAAKLVAGIV	17	22123629	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3620				  Ranacyclin-B-AL1 	Amolops loloensis	Animalia (Amphibians)	AAFRGCWTKNYSPKPCL	17	21927839	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ3852		P84782		Napin-like polypeptide 	Brassica oleracea var. alboglabra 	Viridiplantae	PAQPFRIKKRQGPFERP	17	15485558	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4356		P86159		Brevinin-1AVa	Rana arvalis	Animalia (Amphibians)	FLPLLAASFACTVTKKC	17	18280749	Antimicrobial		Predicted
+CAMPSQ4357		P86160		Brevinin-1AVb	Rana arvalis	Animalia (Amphibians)	FVPLLVSKLVCVVTKKC	17	18280749	Antimicrobial		Predicted
+CAMPSQ6427	7994712	P82033		Uperin-3.2	Uperoleia inundata 	Animalia (Amphibians)	GVLDAFRKIATVVKNLV	17		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6428	7994713	P82034		Uperin-3.3	Uperoleia inundata 	Animalia (Amphibians)	GVLDAFKKIATVVKNLV	17		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6429	7994720	P82041		Uperin-3.4	Uperoleia mjobergii 	Animalia (Amphibians)	GVGDLIRKAVAAIKNIV	17		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6430	7994723	P82044		Uperin-3.7	Uperoleia mjobergii 	Animalia (Amphibians)	GVGDIFRKIVSTIKNVV	17		Antimicrobial		Predicted (Based on signature)
+CAMPSQ8202				Model amphipathic peptide (MAP)	Synthetic construct		KLALKALKALKAALKLA	17	23689723	Antibacterial	Gram-ve	Experimentally Validated
+CAMPSQ8215				RN7-IN10	Synthetic construct		FLGGLIKWKWPWWPWRR	17	26046345	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated

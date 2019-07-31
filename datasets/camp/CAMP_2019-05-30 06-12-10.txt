@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ1507	46195389	Q712Q0		MchS2 protein	Escherichia coli	Bacteria	MNLNGLPASTNVIDLRGKDMGTYIDANGACWAPDTPSIIMYPGGSGPSYSMSSSTSSANSGS	62		Antibacterial		Predicted
+CAMPSQ4188	406686428			Temporin-1DRb precursor 	Rana draytonii 	Animalia (Amphibians)	MFTLKKSLLLLFFLGTINLSLCEEERNADEEERRDDPEERAVEVEKRNFLGTLVNLAKKILGK	63		Antimicrobial		Predicted
+CAMPSQ4673		A3RJ38		Beta-defensin 4	Bubalus bubalis 	Animalia (Mammals)	MRLHHLLLAVLFLDLSAGSGFTQSVRNPQSCRWNMDVCIPFLCRVGMRQIGTCFGPRVPCCRR	63		Antimicrobial		Predicted (Based on signature)
+CAMPSQ4706	110560027	A6MAU9		Esculentin-1-OG2 antimicrobial peptide (Fragment)	Odorrana grahami 	Animalia (Amphibians)	CQEERAADEDEGSEIKRGLFSKFAGKGIKNFLIKGVKHIGKEVGMDVIRTGIDVAGCKIKGEC	63	17272268	Antimicrobial		Predicted (Based on signature)
+CAMPSQ4709	110560035	A6MAV2		Esculentin-1-OG2 antimicrobial peptide (Fragment)	Odorrana grahami 	Animalia (Amphibians)	CEQERDADEDEGNEIKRGLFSKFAGKGIKNFLIKGVKHIGKEVGMDVIRTGIDVAGCKIKGEC	63	17272268	Antimicrobial		Predicted (Based on signature)
+CAMPSQ4710	110560037	A6MAV4		Esculentin-1-OG2 antimicrobial peptide (Fragment)	Odorrana grahami 	Animalia (Amphibians)	CEQERDADEDEGSEIKRGLFSKFAGKGIKNFLIKGVKHIGKEVGMDVIRTGIDVAGCKIKGEC	63	17272268	Antimicrobial		Predicted (Based on signature)
+CAMPSQ4711	110560039	A6MAV5		Esculentin-1-OG1 antimicrobial peptide (Fragment)	Odorrana grahami 	Animalia (Amphibians)	CQEERTADEDEGNEIKRGLFSKFAGKGIKNFLIKGVKHIGKEVGMDVIRTRIDVAGCKIKGEC	63	17272268	Antimicrobial		Predicted (Based on signature)
+CAMPSQ5150	161169725	B5L1K8		Pleurain-G7 antimicrobial peptide	Babina pleuraden 	Animalia (Amphibians)	MFTLKKTLLLLFFLGTISLSLCEQERGADEDEGEAVEEIKRGIFDSIKEGFKNAAVTLLNKIK	63	19028675	Antimicrobial		Predicted (Based on signature)
+CAMPSQ5393	161897799	C1IBY1		Cecropin TY1	Tabanus yao 	Animalia (Mammals)	MNFLKYAFVLVVIVAVFSGQAEAGWLKKIGKKIERVGQNVRNAAISTLPIAQGAAGVAGALNG	63		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5664	289719656	D3YJ56		Beta-defensin 1 (Fragment)	Capra hircus 	Animalia (Mammals)	ILHHLLLVLFFVVLSAGSGFTQGIRSRRSCHRNKGVCALTRCPRNMRQIGTCFGPPVKCCRKK	63		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5721	304442780	E1AXE1		Jingdongin-1-GN1 antimicrobial peptide	Amolops granulosus 	Animalia (Amphibians)	MFTLKKSLLLLFFLGTINLSLCEQERDADEEERRDDDEMDVEVEKRFLPLFLPKIICEITKKC	63		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5723	304442886	E1B245		Jingdongin-1-MT1 antimicrobial peptide	Amolops mantzorum	Animalia (Amphibians)	MFTLKKSLLLLFFLGTINLSLCEQERDADEEERRDDDEMDVEVEKRFLPLFLPKIICAITKKC	63		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5857	335906202	F8TET4		Pre-pediocin	Enterococcus faecium 	Bacteria	MKKNEKLTEKEMANIIGGKYYGNGVTCGKHSCSVDWGKATTCIINNGAMAWATGGHQGNHKC	62		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5952	7301920	G4LU52		MIP29670p1	Drosophila melanogaster 	Animalia (Insects)	MNFNKIFVFVALILAISLGNSEAGWLRKLGKKIERIGQHTRDASIQVLGIAQQAANVAATARG	63		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5974	351714253	G5C6L1		Beta-defensin	Heterocephalus glaber 	Animalia (Mammals)	MRTFLLALVVLLLLFQVIPGNTKRCWNHRGSCSERCIKKEIFFIFCTSGYLCCVKPKHKPNLL	63		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5981	357612601	G6DEK0		Cecropin-D	Danaus plexippus 	Animalia (Insects)	MKFFNLFTFVFAYFMAFGLATAAPWNPFKELEKAGQRVRDAIISAAPAVEVVGQASSILKGKN	63		Antimicrobial		Predicted (Based on signature)
+CAMPSQ5983	357604612	G6DQH5		Hyphancin-3E	Danaus plexippus 	Animalia (Insects)	MKFGKLLFFVFACIMAFSTVSGAPSPKWKFFKKIEKVGRNIRDGIIKAGPAVQVLGEAKAIGK	63		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6623	18390350	Q53278		Prepediocin AcH	Pediococcus acidilactici	Bacteria	MKKIEKLTEKEMANIIGGKYYGNGVTCGKHSCSVDWGKATTCIINNGAMAWATGGHQGNDKC	62	1368421	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6631	313247968	Q58H98		Cecropin	Helicoverpa armigera 	Animalia (Insects)	MNFSRVLLFVFACLVAACSVSAAPEPRWKVFKKIEKVGRNVRDGVIKAGPAIAVLGEAKALG	62		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6934		U5MYK9		Class II bacteriocin	Clostridium saccharobutylicum DSM 13864	Bacteria	MEKFTMLTDAEMEIISGGKYYGNGVSCDDNGCTVDWGKAWNCGVNRWAAAAATGGKGGDIGNC	63		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6962	220950874			CecC-PA, partial	Synthetic construct  		MNFYKIFVFVALILAISIGQSEAGWLKKLGKRIERIGQHTRDATIQGLGIAQQAANVAATARG	63		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7504	827029672			Cecropin A1 	Spodoptera exigua 	Animalia (Insects)	MKFSRVFLFVFACLVALSAVSAAPEPRWKVFKKIEKMGRNIRDGIIKAGPAVEVLGSAKALGK	63		Antimicrobial		Predicted
+CAMPSQ7506	827029678			Cecropin C 	Spodoptera exigua 	Animalia (Insects)	MNSKILIFLCVCFVIMSTASAWDLFKEIEGVGQRVRDAVISAGPAVDVLAKAKNLARGSSEED	63		Antimicrobial		Predicted
+CAMPSQ7507	827029681			Cecropin D 	Spodoptera exigua 	Animalia (Insects)	MKFSRVFLFVFACLVALSAVSAAPEPRWKVFKKIEKMGRNIRDGIVKAGPAIEVLGSAKALGK	63		Antimicrobial		Predicted
+CAMPSQ7508	827029684			Cecropin E 	Spodoptera exigua 	Animalia (Insects)	MNFTKIFLFVFACFVLMVTVSGAPEPRWKVLKKIEKAGQRIRDSIIKAGPAVAVVGSAAAIGK	63		Antimicrobial		Predicted

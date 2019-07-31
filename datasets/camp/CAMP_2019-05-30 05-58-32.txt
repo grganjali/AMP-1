@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ242	21542188	P83188		Pseudin-1	Pseudis paradoxa	Animalia (Amphibians)	GLNTLKKVFQGLHEAIKLINNHVQ	24	11689009	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ243	21542189	P83189		Pseudin-2	Pseudis paradoxa	Animalia (Amphibians)	GLNALKKVFQGIHEAIKLINNHVQ	24	11689009	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ253	236997	P39080		Antimicrobial peptide PGQ	Xenopus laevis	Animalia (Amphibians)	GVLSNVIGYLKKLGTGALNAVLKQ	24	1717472	Antibacterial,antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ495	51241751	Q68Y23		Pilosulin 3	Myrmecia banksi 	Animalia (Insects)	IIGLVSKGTCVLVKTVCKKVLKQG	24	15246874	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ499	51701304, 403398045	P84111, J9RS19		Brevinin-1BYa	Rana boylii 	Animalia (Amphibians)	FLPILASLAAKFGPKLFCLVTKKC	24	14531844	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ500	51701305	P84112		Brevinin-1BYb	Rana boylii 	Animalia (Amphibians)	FLPILASLAAKLGPKLFCLVTKKC	24	14531844	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ501	51701306	P84113		Brevinin-1BYc	Rana boylii 	Animalia (Amphibians)	FLPILASLAATLGPKLLCLITKKC	24	14531844	Antibacterial,Antifungal	Gram+ve	Experimentally Validated
+CAMPSQ735	206557920	P85028		Cryptonin	Cryptotympana dubia	Animalia (Insects)	GLLNGLALRLGKRALKKIIKRLCR	24	18000874	Antibacterial,Antifungal		Experimentally Validated
+CAMPSQ993				Brevinin -1 Gra	Rana grahami	Animalia (Amphibians)	FLPLLAGLAANFLPKIFCKITKKC	24	16621155	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ997				Brevinin-1CSa	Rana cascadae	Animalia (Amphibians)	FLPILAGLAAKIVPKLFCLATKKC	24	17451843	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1030	109157593	P49913	2FBS,2FBU,2FCG,2K6O,2LMF	C-terminal fragment, LL-37	Synthetic construct		IGKEFKRIVQRIKDFLRNLVPRTES	25	16637646	Antibacterial,Anticancer	Gram-ve	Experimentally Validated
+CAMPSQ1286	68052843	Q58T94		Maximin y type 2 precursor	Bombina maxima	Animalia (Amphibians)	GIGGALLSAGKAALKGLAKGFAEHF	25		Antibacterial,Antifungal		Predicted
+CAMPSQ1513	115098	P01505		Bombinin	Bombina variegata	Animalia (Amphibians)	GIGALSAKGALKGLAKGLAZHFAN	24		Antimicrobial		Predicted
+CAMPSQ1527	13959340	O93455		Dermaseptin PD-3-7	Pachymedusa dacnicolor	Animalia (Amphibians)	LLGDLLGQTSKLVNDLTDTVGSIV	24		Antibacterial	Gram+ve, Gram-ve	Predicted
+CAMPSQ1529	29337225	P81490		Dermaseptin-B6	Phyllomedusa bicolor	Animalia (Amphibians)	ALWKDILKNAGKAALNEINQLVNQ	24		Antibacterial	Gram+ve, Gram-ve	Predicted
+CAMPSQ1765	221271913	P86149		Brevinin-1E	Rana ridibunda	Animalia (Amphibians)	FLPLLAGLAANFLPKIFCKITRKC	24		Antibacterial	Gram+ve, Gram-ve	Predicted
+CAMPSQ1766	221271912	P86150		Brevinin-1Ecb	Rana ridibunda	Animalia (Amphibians)	FLPLLAGLAANFFPKIFCKITRKC	24		Antibacterial	Gram+ve, Gram-ve	Predicted
+CAMPSQ1813	47605662	Q801Y3		Hepcidin-1	Salmo salar	Animalia (Pisces)	QIHLSLCGLCCNCCHNIGCGFCCKF	25		Antimicrobial		Predicted
+CAMPSQ1817	158562907	P85279		Syphaxin	Leptodactylus syphax	Animalia (Amphibians)	GVLDILKGAAKDLAGHVATKVINKI	25		Antibacterial		Predicted
+CAMPSQ4328	115311725	Q1ELU5		  Latarcin 4a	Lachesana tarabaevi	Animalia (Arachnids)	GLKDKFKSMGEKLKQYIQTWKAKF	24	16735513	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4333		P0CJ29		Ascaphin-5	Ascaphus truei	Animalia (Amphibians)	GIKDWIKGAAKKLIKTVASHIANQ	24	15207717	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4336				  Brevinin-1SPa	Rana septentrionalis	Animalia (Amphibians)	FFPIIAGMAAKLIPSLFCKITKKC	24	15556063	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4337				  Brevinin-1SPb	Rana septentrionalis	Animalia (Amphibians)	FLPIIAGMAAKVIPSLFCAITKKC	24	15556063	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4338				  Brevinin-1SPd	Rana septentrionalis	Animalia (Amphibians)	FLPIIASVAAKLIPSIVCRITKKC	24	15556063	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4350		B6CPR5		Brevinin-1PLa	Rana palustris	Animalia (Amphibians)	FFPNVASVPGQVLKKIFCAISKKC	24	11087945	Antimicrobial		Predicted

@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ198	1709081	P49931		Antibacterial peptide PMAP-36 	Sus scrofa 	Animalia (Mammals)	GRFRRLRKKTRKRLKKIGKVLKWIPPIVGSIPLGCG	36	8293820	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ266	2493349	P80956		Rugosin-C	Rana rugosa 	Animalia (Amphibians)	GILDSFKQFAKGVGKDLIKGAAQGVLSTMSCKLAKTC	37	7612013	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ450	4102640	P25068		Tracheal antimicrobial peptide 	Bos taurus 	Animalia (Mammals)	NPVSCVRNKGICVPIRCPGNMKQIGTCVGRAVKCCR	36	8506305	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ496	51241753	Q68Y22		Pilosulin 4	Myrmecia banksi 	Animalia (Insects)	FDITKLNIKKLTKATCKVISKGASMCKVLFDKKKQE	36	15246874	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ742	41016819	P83653	1Q3J	Antimicrobial peptide Alo-3	Acrocinus longimanus	Animalia (Insects)	CIKNGNGCQPNGSQGNCCSGYCHKQPGWVAGYCRRK	36	14661954	Antifungal		Experimentally Validated
+CAMPSQ780	75050050	Q9GLV5		RL-37	Macaca mulatta	Animalia (Mammals)	RLGNFFRKVKEKIGGGLKKVGQKIKDFLGNLVPRTAS	37	11557457	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ781				LL-37 pentamide	Synthetic construct		LLGNFFRKSKQKIGKQFKRIVQRIKNFFRNLVPRTQS	37	11557457	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ789	115503705	Q1KLX8		HmdSL-37, Antibacterial protein LL-37	Hylobates moloch	Animalia (Mammals)	SLGNFFRKARKKIGEEFKRIVQRIKDFLQHLIPRTEA	37	16720578	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ790				PobRL-37	Cercopithecidae	Animalia (Mammals)	RLGNFFRKAKKKIGRGLKKIGQKIKDFLGNLVPRTES	37	16720578	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ973	145566911	P85113		Ostricacin-1	Struthio camelus	Animalia (Aves)	LFCRKGTCHFGGCPAHLVKVGSCFGFRACCKWPWDV	36	16459058	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1266	46395627	O76146		CECD_BOMMO Cecropin-D precursor	Bombyx mori	Animalia (Insects)	GNFFKDLEKMGQRVRDAVISAAPAVDTLAKAKALGQ	36	10392453	Antibacterial	Gram+ve, Gram-ve	Predicted
+CAMPSQ1276	47116734	Q9BDS9		Beta-defensin 2  	Macaca mulatta	Animalia (Mammals)	DPVTCLKNGAICHPVFCPRRYKQIGTCGLPGTKCCK	36		Antibacterial		Predicted
+CAMPSQ1277	125662767	A3FPG7		Beta defensin-6-like antimicrobial peptide	Anas platyrhynchos 	Animalia (Aves)	DTLACRQSHGSCSFVACRAPSVDIGTCRGGKLKCCK	36		Antimicrobial		Predicted
+CAMPSQ1279	110729307	Q0PGY0		Lingual antimicrobial peptide	Capra hircus	Animalia (Mammals)	SRRSCHRNKGVCALTRCPRNMRQIGTCFGPPVKCCR	36		Antimicrobial		Predicted
+CAMPSQ1555	25089619	Q8WSV4		Andropin	Drosophila simulans 	Animalia (Insects)	VFIDILDKMENAIHKAAQAGIGIAKPIENMILPKLTK	37		Antibacterial	Gram+ve	Predicted
+CAMPSQ1736	115502147	Q17UZ0		Distinctin-like peptide	Phyllomedusa azurea 	Animalia (Amphibians)	NLVSALIEGRKYLKNVLKKLNRLKEKNKAKNSKENN	36		Antimicrobial		Predicted
+CAMPSQ1788	221271994	P86016		Esculentin-2R	Rana ridibunda	Animalia (Amphibians)	GILSLVKVAKLAGKTFAKEGGKFGLEFIACKVTNQC	36		Antimicrobial		Predicted
+CAMPSQ2505	310695526	E3SYM6		Esculentin-2-RA2 peptide precursor  	Odorrana andersonii	Animalia (Amphibians)	IFTLIKGAAKLIGKTVAKEAGKTGLELMACKITNQC	36		Antimicrobial		Predicted
+CAMPSQ2754		P80392		  THP-2 	Meleagris gallopavo 	Animalia (Aves)	LFCKRGTCHFGRCPSHLIKVGSCFGFRSCCKWPWDA	36	7964174	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2761		P28312		  Cryptdin-5 	Mus musculus 	Animalia (Mammals)	LSKKLICYCRIRGCKRRERVFGTCRNLFLTFVFCCS	36		Antimicrobial		Predicted
+CAMPSQ2770		P80952		  Skin peptide tyrosine-tyrosine 	Phyllomedusa bicolor	Animalia (Amphibians)	YPPKPESPGEDASPEEMNKYLTALRHYINLVTRQRY	36	7937944	Antifungal		Predicted
+CAMPSQ2827	269818977	A7WNV5		  Esculentin-2PLa   	Rana palustris	Animalia (Amphibians)	GLFSILKGVGKIALKGLAKNMGKMGLDLVSCKISKEC	37	11087945	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ5579	254832580	C7F445		Penaeidin-like antimicrobal peptide (Fragment)	Penaeus monodon 	Animalia (Crustaceans (Malacostraca))	MRLVVCLVFLASFALVCQAQGYQGGYTRPFPRPPYG	36		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7124	264292			Mesentericin Y105=anti-Listeria bacteriocin [Leuconostoc  mesenteroides, ssp. mesenteroides, Y105, Peptide, 36 aa]. 	Leuconostoc mesenteroides  	Bacteria	KYYGNGVHCTKSGCSVNWGEAASAGIHRLANGGNGF	36		Antimicrobial		Predicted (Based on signature)
+CAMPSQ8197				HBc147-183(34AA)	Synthetic construct		TVVRRRGRSPRRRTPSPRRAASQSPRRAASQSRESQC	37	23785287	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated

@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ932	18202534	Q43413		Defensin J1-1	Capsicum annuum	Viridiplantae	KICEALSGNFKGLCLSSRDCGNVCRREGFTDGSCIGFRLQCFCTKPCA	48	8883377	Antifungal		Experimentally Validated
+CAMPSQ1438	168192741	B0UPS4		Hypothetical protein M446_0103 	Methylobacterium sp. 4-46 	Bacteria	CLASPSVFRRLTDPPGDARGRRRLAASLHRYLMRAVGRATPNGLWAGI	48		Antimicrobial		Predicted
+CAMPSQ1756	119390856	Q1JS88		Palustrin-3b	Odorrana versabilis	Animalia (Amphibians)	GIFPKIIGKGIKTGIVNGIKSLVKGVGMKVFKAGLSNIGNTGCNEDEC	48		Antimicrobial		Predicted
+CAMPSQ2002	123780121	Q32ZI2		Beta-defensin 9	Rattus norvegicus	Animalia (Mammals)	ELKHLGLKTEFEQCQRIRGYCLNTYCRFPTSHVGSCYPEKRYCCKNIR	48		Antibacterial		Predicted
+CAMPSQ2010	123780093	Q32ZF3		Beta-defensin 43	Rattus norvegicus	Animalia (Mammals)	FLANQECFSEYRHCRMKCKANEYAIRYCADWTICCRVKKREAKKKIMW	48		Antibacterial		Predicted
+CAMPSQ2225	255648512	C7E001		Neutrophil beta defensin 10	Bubalus bubalis	Animalia (Mammals)	LLLLLVVLSSGSGFTQGVGSNLTCWRNRGICQLKQGPVRMNQIGTCFG	48		Antimicrobial		Predicted
+CAMPSQ2978				  NpThio1  	Nicotiana paniculata	Viridiplantae	KSTCKAESNTFPGLCITKPPCRKACLSEKFTDGKCSKILRRCICYKPC	48	Reference: Komori, T., Yamada, S., Imaseki, H. (1997). Plant Physiol. 115, 314.	Antimicrobial		Experimentally Validated
+CAMPSQ3276				  Caenacin-4 	Caenorhabditis elegans	Animalia (Chromadorea)	QWGYGPYGGYGGGYPGMYGGYGMRPYGMYGGYGMGMYRPGLLGMLIGK	48	15048112	Antifungal		Predicted
+CAMPSQ3526				  HIMS-Defensin 	Haemaphysalis longicornis	Animalia (Arachnids)	DFGCARGMIFVCMRRCARMYPGSTGYCQGFRCMCDTMIPIRRPPFIMG	48	22033149	Antibacterial, Antifungal		Experimentally Validated
+CAMPSQ6307	440912541	L8J3U4		Beta-defensin (Fragment)	Bos mutus	Animalia (Mammals)	GGTRKCWNFHGKCRHKCFKKEKVYVYCTNNKLCCVKSRYLPKNLPWQI	48		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6838	13605360	Q99Q15		Butyrivibriocin	Butyrivibrio fibrisolvens	Bacteria	MNKDLNALTNPIDEKELEQILGGGDGVFRTISHECAMNTWMFIFTCCS	48		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6839	13605362	Q99Q16		Butyrivibriocin	Butyrivibrio fibrisolvens	Bacteria	MNKDLNALTNPIDEKELEQILGGGDGVFRTISHECHMNTWMFIFTCCS	48		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7574		P24330		Myotoxin (CAM-toxin)	Crotalus adamanteus 	Animalia (Reptiles)	YKRCHKKGGHCFPKTVICLPPSSDFGKMDCRWRWKCCKKGSVNNAISI	48		Antimicrobial		Predicted
+CAMPSQ7575		P01477		Myotoxin (Crotamine-4) (Toxic peptide C)	Crotalus oreganus helleri 	Animalia (Reptiles)	YKRCHKKGGHCFPKTVICLPPSSDFGKMDCRWKWKCCKKGSVNNAISI	48		Antimicrobial		Predicted
+CAMPSQ7590		A0A096LNP1		Beta-defensin	Homo sapiens 	Animalia (Mammals)	FTSNDECPSEYYHCRLKCNADEHAIRYCADFSICCKLKIIQIDGQKKW	48		Antimicrobial		Predicted
+CAMPSQ7604		Q30KT0		Beta-defensin	Canis familiaris 	Animalia (Mammals)	EFKRCWKGQGACRTYCTRQETYLHMCPDASLCCLPYGSRPLSSKPEYV	48		Antimicrobial		Predicted
+CAMPSQ7607		F7FL31		Beta-defensin	Macaca mulatta 	Animalia (Mammals)	KKKYPEYGSLDLRRECRMGNGRCKNQCHENEIRIAYCIRPGTHCCLQQ	48		Antimicrobial		Predicted
+CAMPSQ7608		Q30KU2		Beta-defensin	Canis familiaris 	Animalia (Mammals)	TKKYPQYGSLDLRRQCRKGNGRCRLECHESEIRIAFCMRPATHCCLQK	48		Antimicrobial		Predicted
+CAMPSQ7643		F6QH88		Beta-defensin	Callithrix jacchus 	Animalia (Mammals)	KKKYPEYGSLDLRRECREGNGRCKNQCHENEIRIAYCIRPGTHCCLQQ	48		Antimicrobial		Predicted
+CAMPSQ7849		Q6SC67, K7GNA0		Beta-defensin	Sus scrofa 	Animalia (Mammals)	RKRYPQYGGLDLRRECRRGNGRCKLECREGEIRIAYCMRPATYCCLQK	48		Antimicrobial		Predicted
+CAMPSQ7875		G1QV55		Beta-defensin	Nomascus leucogenys 	Animalia (Mammals)	KKKYPEYGSLDLRRECRMGNGRCKNQCHENEIRIAYCIRPGTHCCLQQ	48		Antimicrobial		Predicted
+CAMPSQ7889		G1RYL8		Beta-defensin	Nomascus leucogenys 	Animalia (Mammals)	FISNNECPLEYYHCRLKCNADEHAIRYCADFSICCKLKIIEIDGQKKW	48		Antimicrobial		Predicted
+CAMPSQ7894		Q30KT9		Beta-defensin	Canis familiaris 	Animalia (Mammals)	ATCTLIDPDQCSNKFGHCRRRCFRGEKRIDICFLPNKICCIERLYDED	48		Antimicrobial		Predicted
+CAMPSQ8090		D2WPD0		Beta-defensin	Paralichthys olivaceus 	Animalia (Pisces)	DQPKPDRPKLDCSTIQGVCKDSCLSTEFSIGALGCSAESSTVCCITKP	48	19900559	Antibacterial		Predicted
+CAMPSQ8098		G8ACW9		Beta-defensin	Taeniopygia guttata 	Animalia (Aves)	CPGDAHGPDSCNHGGGLCRMGSCVSGEYVAQYCFEPIILCCKNPTPAT	48		Antimicrobial		Predicted

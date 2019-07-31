@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ1065				CGA 41-70	Synthetic construct		TLRGDERILSILRHQNLLKELQDLALQGAK	30	10753865	Antifungal		Experimentally Validated
+CAMPSQ1820	29336873	Q90ZK5		Dermaseptin DRG2	Phyllomedusa bicolor	Animalia (Amphibians)	RGLWSKIKEAGKAALTAAGKAALGAVSDAV	30		Antimicrobial		Predicted
+CAMPSQ1822	13959330	O93221		DermaseptinAA-1-1	Agalychnis annae	Animalia (Amphibians)	SLGSFMKGVGKGLATVGKIVADQFGKLLEA	30		Antibacterial	Gram+ve, Gram-ve	Predicted
+CAMPSQ2590	391359323	B3EWI9		L-amino-acid oxidase	Bothropoides matogrossensis  	Animalia (Reptiles)	KFEPPLPPKKAHKKFWEDDGIYYPPNHNFP	30	22438972	Antibacterial, Antiparasitic		Experimentally Validated
+CAMPSQ2592	74837090	Q5H7N5		Cecropin-P3	Ascaris suum	Animalia	WLSKTAKKLENSAKKRISEGIAIAIKGGSR	30	15850460	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2593	74837091	Q5H7N6		Cecropin-P2	Ascaris suum	Animalia	WLSKTYKKLENSAKKRISEGIAIAIQGGPR	30	15850460	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2594	74837089	Q5H7N4		Cecropin-P4	Ascaris suum	Animalia	WLSKTYKKLENSAKKRISEGVAIAILGGLR	30	15850460	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2599	380876852	B3EWF0		Antifungal protein 1	Passiflora alata  	Viridiplantae	GAGSQEERMQGQMEGQDFSHEERFLSMVRE	30	20955745	Antifungal		Experimentally Validated
+CAMPSQ2604	306755860	P86696		Antifungal protein 1	Musca domestica	Animalia (Insects)	SAPAPEVSGDAVFSAIQNGXLKNLGNAFFW	30	19728925	Antifungal		Experimentally Validated
+CAMPSQ2847				  HFIAP-3 	Myxine glutinosa	Animalia (Pisces)	GWFKKAWRKVKNAGRRVLKGVGIHYGVGLI	30	15019197	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3098				  Plantaricin EF	Lactobacillus plantarum C1	Bacteria	FNRGGYNFGKSVRHVVDAIGSVAGILKSIR	30	9603847	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ3343				  Centrocin 1 	Strongylocentrotus droebachiensis	Animalia (Echinoidea)	GWFKKTFHKVSHAVKSGIHAGQRGCSALGF	30	20438753	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3344				  Centrocin 2 	Strongylocentrotus droebachiensis	Animalia (Echinoidea)	SWFSRTVHNVGNAVRKGIHAGQGVCSGLGL	30	20438753	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3372				  Staphylococcin C55 	Staphylococcus aureus C55	Bacteria	CSTNTFSLSDYWGNKGNWCTATHECMSWCK	30	9835565	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ3374				  Epilancin 15X 	Staphylococcus epidermidis 15X154	Bacteria	AUIVKTTIKASKKLCRGFTLTCGCHFTGKK	30	22524291	Antibacterial		Experimentally Validated
+CAMPSQ3621	365824243	G9I0X2		Hedyotide B1 	Hedyotis biflora	Viridiplantae	GTRCGETCFVLPCWSAKFGCYCQKGFCYRN	30	21979955	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3856		P86395		Bacteriocin SRCAM 37	Paenibacillus polymyxa 	Bacteria	FVYGNGVTSILVQAQFLVNGQRRFFYTPDK	30	15690798	Antibacterial	Gram-ve	Experimentally Validated
+CAMPSQ4379		P86642		Dermaseptin-J10	Phasmahyla jandaia	Animalia (Amphibians)	ALWKSLLKGAGQLVGGVVQHFMGSQGQPES	30	20932854	Antimicrobial		Predicted
+CAMPSQ6413	17433006	P58442		Cycloviolacin-O10	Viola odorata 	Viridiplantae	GIPCGESCVYIPCLTSAVGCSCKSKVCYRN	30	16872274	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6414	17433009	P58445		Cyclotide hypa-A	Hybanthus parviflorus 	Viridiplantae	GIPCAESCVYIPCTITALLGCSCKNKVCYN	30		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6415	17433128	P58455		Kalata-B3	Oldenlandia affinis	Viridiplantae	GLPTCGETCFGGTCNTPGCSCSSWPICTRN	30		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6416	17433128	P58455		Kalata-B6	Oldenlandia affinis	Viridiplantae	GLPTCGETCFGGTCNTPGCTCDPWPICTRD	30		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6417	291463373	P58456		Kalata-B5	Oldenlandia affinis	Viridiplantae	GTPCGESCVYIPCISGVIGCSCTDKVCYLN	30		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6431	17433722	P82230		Cycloviolacin-O1	Viola odorata 	Viridiplantae	GIPCAESCVYIPCTVTALLGCSCSNRVCYN	30		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6443	190358835	P85526		Cycloviolacin-O2	Viola biflora 	Viridiplantae	GIPCGESCVWIPCISSAIGCSCKSKVCYRN	30	18191970	Antimicrobial		Predicted (Based on signature)

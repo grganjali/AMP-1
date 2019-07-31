@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ1835	209572850	P0C8A4		Defensin-A4	Ornithorhynchus anatinus	Animalia (Mammals)	HSCVCRRICAARQVRKGRCSRRRRICCLY	29		Antimicrobial		Predicted
+CAMPSQ2331	304442790	E1AXE6		Granulosusin-D2 antimicrobial peptide precursor  	Amolops granulosus	Animalia (Amphibians)	GFMDTAKNVAKNVAVTLLDKLKCKITGGC	29		Antimicrobial		Predicted
+CAMPSQ2341	304442788	E1AXE5		Granulosusin-D1 antimicrobial peptide precursor  	Amolops granulosus	Animalia (Amphibians)	GFMDTAKNVFKNVAVTLLDKLKCKIAGGC	29		Antimicrobial		Predicted
+CAMPSQ2343	304442730	E1AWC8		Odorranain-F-MG1 antimicrobial peptide precursor  	Odorrana margaretae	Animalia (Amphibians)	GFMDTAKNVAKNVAVTLLDNLRCKITKAC	29		Antimicrobial		Predicted
+CAMPSQ2598	357580501	F8J4S0	2L3I	Oxyopinin-4a	Oxyopes takobius  	Animalia (Arachnids)	IRCPKSWKCKAFKQRVLKRLLAMLRQHAF	29	21933345	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2614	343952533	G3E7W9, G3E7X0		Ranatuerin-2N protein precursor, partial  	Pelophylax nigromaculatus	Animalia (Amphibians)	ILTDTLKGAAKNVAGVLLDKLKCKITGGC	29		Antimicrobial		Predicted
+CAMPSQ2615	343952529	G3E7W7		Ranatuerin-2N protein precursor, partial  	Pelophylax nigromaculatus	Animalia (Amphibians)	ILKDTLKGAATNVAGVLLDKLKCKITGGC	29		Antimicrobial		Predicted
+CAMPSQ2869		P56254	1KAL	  Kalata B1 	Oldenlandia affinis	Viridiplantae	GLPVCGETCVGGTCNTPGCTCSWPVCTRN	29	10430870	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3371				  Plantaricin W 	Lactobacillus plantarum	Bacteria	KCKWWNISCDLGNNGHVCTLSHECQVSCN	29	11238971	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ3872		P86037		Raniseptin-1 	Hypsiboas raniceps 	Animalia (Amphibians)	AWLDKLKSLGKVVGKVALGVAQNYLNPQQ	29	18976634	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3888		O87237		Lantibiotic lacticin 3147 A2	Lactococcus lactis subsp. lactis 	Bacteria	TTPATPAISILSAYISTNTCPTTKCTRAC	29		Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ4386		P86683		Dermaseptin-J5	Phasmahyla jandaia	Animalia (Amphibians)	GLWSKIKEAGKAAVKAAGKAALGAVANSV	29	20932854	Antimicrobial		Predicted
+CAMPSQ4387		P86684		Dermaseptin-J6	Phasmahyla jandaia	Animalia (Amphibians)	GLWSKIKEAGKAAVKAAGKAALGAVADSV	29	20932854	Antimicrobial		Predicted
+CAMPSQ4389		P86640		Dermaseptin-J8	Phasmahyla jandaia	Animalia (Amphibians)	GLWKSLLKNVGKAAGKAALNAVTDMVNQA	29	20932854	Antimicrobial		Predicted
+CAMPSQ4391		P86641		Dermaseptin-J9	Phasmahyla jandaia	Animalia (Amphibians)	GLWKSLLKNVGKAAGKAALNAVTDMVNQS	29	20932854	Antimicrobial		Predicted
+CAMPSQ5662	269819049	D3UA86		Ranatuerin-2PTb (Fragment)	Rana pretiosa	Animalia (Amphibians)	AFFTTVKNLVTNVAGTVIDKMKCKLTGEC	29	20179920	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6418	17433130	P58457		Kalata-B7	Oldenlandia affinis	Viridiplantae	GLPVCGETCTLGTCYTQGCTCSWPICKRN	29		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6419	17433131	P58458		Kalata-S	Oldenlandia affinis	Viridiplantae	GLPVCGETCVGGTCNTPGCSCSWPVCTRN	29		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6434	46577590	P83836		Cycloviolacin-O12	Viola odorata 	Viridiplantae	GLPICGETCVGGTCNTPGCSCSWPVCTRN	29		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6435	47117392	P83838		Vodo peptide N	Viola odorata 	Viridiplantae	GLPVCGETCTLGKCYTAGCSCSWPVCYRN	29		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6436	47117393	P83839		Vodo peptide M	Viola odorata 	Viridiplantae	GAPICGESCFTGKCYTVQCSCSWPVCTRN	29		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6437	152031627	P83938		Kalata-B4	Oldenlandia affinis	Viridiplantae	GLPVCGETCVGGTCNTPGCTCSWPVCTRD	29		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6441	152013460	P85179		Cycloviolacin-O16	Viola odorata 	Viridiplantae	GLPCGETCFTGKCYTPGCSCSYPICKKIN	29	16872274	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6442	190411620	P85525		Cyclotide varv-A	Viola biflora 	Viridiplantae	GLPVCGETCVGGTCNTPGCSCSWPVCTRN	29	18191970	Antimicrobial		Predicted (Based on signature)
+CAMPSQ6964	1083925			Kalata B1 [validated]	Oldenlandia affinis  	Viridiplantae	SWPVCTRNGLPVCGETCVGGTCNTPGCTC	29		Antimicrobial		Predicted (Based on signature)

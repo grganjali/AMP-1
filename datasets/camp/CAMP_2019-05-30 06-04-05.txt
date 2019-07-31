@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ888	37999545	Q86QI5		Defensin	Dermacentor variabilis	Animalia (Arachnids)	GFGCPLNQGACHNHCRSIRRRGGYCSGIIKQTCTCY	36	11439245	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1135	46396047	Q9XZG9		Cecropin-A	Spodoptera litura	Animalia (Insects)	RWKVFKKIEKVGRNVRDGIIKAGPAIGVLGQAKALG	36	11790350	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1377	134802595	A4H1Z9		Beta defensin 103	Gorilla gorilla	Animalia (Mammals)	QKYYCRVRGGRCAVLSCLPKEEQIGKCSTRGRKCCR	36		Antimicrobial		Predicted
+CAMPSQ1378	134802587	A4H1Z7		Beta defensin 2	Pongo pygmaeus	Animalia (Mammals)	NPVTCLRSGAICHPGFCPRRYKHIGTCGLSVIKCCK	36		Antimicrobial		Predicted
+CAMPSQ1379	134802583	G7PCC6		Beta-defensin 1	Macaca fascicularis	Animalia (Mammals)	DHYNCVRSGGQCLYSACPIYTRIQGTCYHGKAKCCK	36		Antimicrobial		Predicted
+CAMPSQ1382	92098407	O02775		Defensin  beta 1	Bos taurus 	Animalia (Mammals)	NPLSCRLNRGICVPIRCPGNLRQIGTCFTPSVKCCR	36		Antimicrobial		Predicted
+CAMPSQ1390	110431264	Q0W9Q1		Beta defensin 2	Equus caballus	Animalia (Mammals)	NPISCARNRGVCIPIGCLPGMKQIGTCGLPGTKCCR	36		Antimicrobial		Predicted
+CAMPSQ1393	109085542	F6SW26		Defensin, beta 103A	Macaca mulatta	Animalia (Mammals)	QKYYCRVRGGRCAVLSCLPKEEQIGKCSTRGRKCCR	36		Antimicrobial		Predicted
+CAMPSQ1394	102657309	Q19AK9		Beta defensin	Capra hircus	Animalia (Mammals)	NHRSCHRIKGVCAPDRCPRNMRQIGTCFGPPVKCCR	36		Antimicrobial		Predicted
+CAMPSQ1397	40792697	Q6R953		Beta-defensin 2	Sus scrofa	Animalia (Mammals)	DHYICAKKGGTCNFSPCPLFNRIEGTCYSGKAKCCI	36		Antimicrobial		Predicted
+CAMPSQ1399	31071997			TPA_exp: DEFB103-like protein	Papio anubis	Animalia (Mammals)	QKYYCRVRGGRCAVLSCLPKEEQIGKCSTRGRKCCR	36		Antibacterial,Antifungal,Antiviral	Gram+ve	Predicted
+CAMPSQ1629	152060597	P60023		Beta-defensin 1	Pan troglodytes	Animalia (Mammals)	DHYNCVSSGGQCLYSACPIFTKIQGTCYGGKAKCCK	36		Antibacterial		Predicted
+CAMPSQ1634	47115610	P61262		Beta-defensin 1	Papio anubis	Animalia (Mammals)	DHYNCVRSGGQCLYSACPIYTRIQGTCYHGKAKCCK	36		Antibacterial		Predicted
+CAMPSQ1635	47115611	P61263		Beta-defensin 1	Pongo pygmaeus	Animalia (Mammals)	DHYNCVSSGGQCLYSACPIFTKIQGTCYRGKAKCCK	36		Antibacterial		Predicted
+CAMPSQ1636	61211582	Q7JGM0		Beta-defensin 1	Presbytis cristata	Animalia (Mammals)	DHYNCVRSGGQCLYSACPIYTKIQGTCYHGKAKCCK	36		Antibacterial		Predicted
+CAMPSQ1637	61211660	Q95J18		Beta-defensin 1	Presbytis melalophos	Animalia (Mammals)	DHYNCVRSGGQCLYSACPIYTKIQGTCYHGKAKCCK	36		Antibacterial		Predicted
+CAMPSQ1638	61211581	Q7JGL9		Beta-defensin 1	Presbytis obscura	Animalia (Mammals)	DHYNCVRSGGQCLYSACPIYTKIQGTCYHGKAKCCK	36		Antibacterial		Predicted
+CAMPSQ1640	61211663	Q95M66		Beta-defensin 1	Saguinus oedipus	Animalia (Mammals)	DHYNCVKGGGQCLYSACPIYTKVQGTCYGGKAKCCK	36		Antibacterial		Predicted
+CAMPSQ2397	318055867	E7EKG6		Taipehensin-B1 antimicrobial peptide precursor  	Hylarana taipehensis	Animalia (Amphibians)	TMKKLLLLFFFLGTISSSLCEKERDADEDEVNRGEA	36		Antimicrobial		Predicted
+CAMPSQ2406	304442868	E1B236		Palustrin-GN1 antimicrobial peptide precursor  	Amolops granulosus	Animalia (Amphibians)	TLKKSMLLLFFLGTISLSLCEQERNADEDDGEMTEE	36		Antimicrobial		Predicted
+CAMPSQ2420	304442792	E1AXE7		Granulosusin-E1 antimicrobial peptide precursor  	Amolops granulosus	Animalia (Amphibians)	TMKKSLLVLFFLGIVSLSLCEEERNADEDDGEMTEE	36		Antimicrobial		Predicted
+CAMPSQ2421	304442784	E1AXE3		Granulosusin-C1 antimicrobial peptide precursor  	Amolops granulosus	Animalia (Amphibians)	TLKKSLLLLFFLGMISLSLCKQERDANEERRDNPDE	36		Antimicrobial		Predicted
+CAMPSQ7532		Q9Y0Y0		AalCecB	Aedes albopictus 	Animalia (Insects)	GGLKKLGKKLEGVGKRVFKASEKALPVLTGYKAIGK	36	10413113	Antimicrobial		Predicted
+CAMPSQ7533		Q963A8		AalCecC	Aedes albopictus 	Animalia (Insects)	GGLKKLGKKLEGAGKRVFNAAEKALPVVAGAKALGK	36	10413113	Antimicrobial		Predicted
+CAMPSQ7799		F7BFE6		Beta-defensin 126	Equus caballus 	Animalia (Mammals)	NWYVRKCGNKIGKCRSSCRKGEVPIDPPTGMCSKEK	36		Antimicrobial		Predicted

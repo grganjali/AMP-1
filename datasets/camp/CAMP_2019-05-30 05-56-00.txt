@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ608	730091	Q07932		Pilosulin-1 	Myrmecia pilosula	Animalia (Insects)	GLGSVFGRLARILGRVIPKV	20	15639237	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ610	730587	P39084		Ranalexin	Rana catesbeiana	Animalia (Amphibians)	FLGGLIKIVPAMICAVTKKC	20	8144672	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ862	14030271	Q90WJ0		Winter flounder 1a	Pseudopleuronectes americanus	Animalia (Pisces)	WLRRIGKGVKIIGGAALDHL	20	12878506	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1119	68064399	P83958		Thaumatin-like protein , Actc2	Actinidia chinensis	Viridiplantae	ATFNFINNCPFTVWAAAVPG	20	12165295 , 12417892	Antifungal,Antiviral		Experimentally Validated
+CAMPSQ1133	93204534	P84794		Antifungal protein J 	Solanum tuberosum	Viridiplantae	LPSDATLVLDQTGKELDARL	20	16076139	Antifungal		Experimentally Validated
+CAMPSQ1157	254674358	C7C1L0		Kasseptin 1Mc	Kassina maculata (spotted running frog)	Animalia (Amphibians)	FVGAIAAALPHVISAIKNAL	20	19427345	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ1158	254674356	C7C1K9		Kasseptin 1Mb	Kassina maculata (spotted running frog)	Animalia (Amphibians)	FFGAIAAALPHVISAIKNAL	20	19427345	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ1658	159162709		1MQZ	Lantibiotics Mersacidin	Bacillus sp. HIL Y-85,54728	Bacteria	CXFXLPGGGGVCXLXXECIX	20		Antimicrobial		Predicted
+CAMPSQ2151	148839571	P85152		Lysozyme	Lysobacter sp. (strain XL1)	Bacteria	IAIQGGXGYLXQPGDGYKYA	20		Antibacterial		Experimentally Validated
+CAMPSQ2395	318055899	E7EKI1		Nigroain-B-SN1 antimicrobial peptide precursor  	Hylarana spinulosa	Animalia (Amphibians)	TLKKHLLLIFFLGAISLSLC	20		Antimicrobial		Predicted
+CAMPSQ2396	318055895	E7EKI0		Esculentin-2SN1 antimicrobial peptide precursor  	Hylarana spinulosa	Animalia (Amphibians)	TMKKSLLFLFFLGTISLSLC	20		Antimicrobial		Predicted
+CAMPSQ2402	304442910	E1B257		Odorranain-C-MG2 antimicrobial peptide precursor  	Odorrana margaretae	Animalia (Amphibians)	TTKKPMLLLFFLGTISLSLC	20		Antimicrobial		Predicted
+CAMPSQ2404	304442902	E1B253		Pleurain-G-DN1 antimicrobial peptide precursor  	Babina daunchina	Animalia (Amphibians)	TLKKSLLLIFVLGTISLSLC	20		Antimicrobial		Predicted
+CAMPSQ2411	304442774	E1AXD8		Bradykinin-GN_4 antimicrobial peptide precursor  	Amolops granulosus	Animalia (Amphibians)	TMKKSLLVLFFLGTISLSLC	20		Antimicrobial		Predicted
+CAMPSQ2414	304442728, 304442718	E1AWC7, E1AWC2		Odorranain-C-MG1 antimicrobial peptide precursor, Nigrosin-MG1 antimicrobial peptide precursor   	Odorrana margaretae	Animalia (Amphibians)	TSKKSMLLLFFLGTISLSLC	20		Antimicrobial		Predicted
+CAMPSQ2415	304442932, 304442928	E1B2U3, E1B2U1		Adenopleurain-D2 antimicrobial peptide precursor, Adenopleurain-D1 antimicrobial peptide precursor  	Babina adenopleura	Animalia (Amphibians)	TLKKSMILLFFLGTISLSLC	20		Antimicrobial		Predicted
+CAMPSQ2418	304442844	E1AZ84		Brevinin-2LF1 antimicrobial peptide precursor  	Amolops lifanensis	Animalia (Amphibians)	TTKKPLLVLFFLGIVSLALC	20		Antimicrobial		Predicted
+CAMPSQ2423	304442750	E1AWD8		Temporin-CG2 antimicrobial peptide precursor  	Amolops chunganensis	Animalia (Amphibians)	TLKKPLLVLFFLATINLSLC	20		Antimicrobial		Predicted
+CAMPSQ2664	326367528	F2YHN9		Hainanenin-1-1  	Amolops hainanensis	Animalia (Amphibians)	KKSMLLLFFLGTINLSLCEQ	20		Antimicrobial		Predicted
+CAMPSQ2906				  Ranalexin-1G 	Rana grylio	Animalia (Amphibians)	FLGGLMKIIPAAFCAVTKKC	20	10828493	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2940				  Phylloxin-S1 	Phyllomedusa sauvagei	Animalia (Amphibians)	GWMSKIASGIGTFLSGVQQG	20	18644413	Antimicrobial		Predicted
+CAMPSQ3454				  Lariatin B 	Rhodococcus jostii K01-B0171	Bacteria	GSQLVYREWVGHSNVIKGPP	20	16756302	Antimicrobial		Experimentally Validated
+CAMPSQ3462				  Maximin H39 	Bombina maxima	Animalia (Amphibians)	ILGPVLGLVGNALGGLIKKL	20	21338048	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3957		P83143		Antifungal protein 2 large subunit 	Malva parviflora 	Viridiplantae	PEDPQRRYQEXQREXRXQQE	20	11118343	Antifungal		Experimentally Validated
+CAMPSQ7525		B3EWI6		Putative antimicrobial protein 2 (Fragment)	Cenchritis muricatus 	Animalia (Molluscs (Gastropoda))	DLPECCSATELELDSGKQTS	20	22367403	Antimicrobial		Predicted

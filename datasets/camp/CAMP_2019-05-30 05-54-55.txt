@@ -1,0 +1,29 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ310	2735690	P35618	1OG7,1OHM,1OHN	Sakacin P	Lactobacillus sakei 	Bacteria	KYYGNGVHCGKHSCTVDW	18	8636023	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ329	29336553	Q90WP7		Peptide leucine arginine precursor 	Rana pipiens	Animalia (Amphibians)	LVRGCWTKSYPPKPCFVR	18	14636071	Antibacterial,Antifungal	Gram+ve	Experimentally Validated
+CAMPSQ358	32396192	Q7SZG7		Pleurocidin-like peptide GC3.2	Glyptocephalus cynoglossus	Animalia (Pisces)	GWKKWFTKGERLSQRHFA	18	12878506	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ552	59798983	P84386		Antimicrobial peptide 6 	Xenopus tropicalis	Animalia (Amphibians)	GFLGSLLKTGLKVGSNLL	18	11738090	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ613	730587	P39084		Ranalexin 	Rana catesbeiana	Animalia (Amphibians)	GGLIKIVPAMICAVTKKC	18	8144672	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ842	223635305	P86170		Melectin 	Melecta albifrons	Animalia (Insects)	GFLSILKKVLPKVMAHMK	18	18942691	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ858	1730503	P32194	1PG1,1ZY6	Protegrin-1	Sus scrofa	Animalia (Mammals)	RGGRLCYCRRRFCVCVGR	18	8647100	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ860	1730505	P32196	1KWI,1LXE,1PFP	Protegrin-3	Sus scrofa	Animalia (Mammals)	RGGGLCYCRRRFCVCVGR	18	8335113	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2638	295004056	D4YWD0		Temporin-1Sd precursor, partial	Pelophylax saharicus	Animalia (Amphibians)	LPAALAGIGGILGKLFGK	18	20308076	Antimicrobial		Predicted
+CAMPSQ2892				  BTD-3 	Papio anubis	Animalia (Mammals)	RCVCTRGFCRCVCTRGFC	18	18852242	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2917				  BTD-4 	Papio anubis	Animalia (Mammals)	RCVCTRGFCRCICLLGIC	18	18852242	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2918				  BTD-7 	Papio anubis	Animalia (Mammals)	RCVCTRGFCRCFCRRGVC	18	18852242	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3107				  Retrocyclin-1 	Synthetic construct		GICRCICGRGICRCICGR	18	15210812	Antiviral		Experimentally Validated
+CAMPSQ3108			2LZI	  Retrocyclin-2 	Synthetic construct		GICRCICGRRICRCICGR	18	15210812	Antiviral		Experimentally Validated
+CAMPSQ3109				  Retrocyclin-3 	Synthetic construct		RICRCICGRRICRCICGR	18	15210812	Antiviral		Experimentally Validated
+CAMPSQ3125				  CM-3 	Synthetic construct		ALKAALLAILKIVRVIKK	18	Reference: Patel S, Stott I P, Bhakoo M, Elliott P (1988) Patenting computer-designed peptides. Journal of Computer-Aided Molecular Design, 12: 543–556.
+
+
+	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3408				  Shuchin 1  	Rana shuchinae	Animalia (Amphibians)	NALSMPRNKCNRALMCFG	18	20553780	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3409				  Shuchin 2  	Rana shuchinae	Animalia (Amphibians)	NALSSPRNKCDRASSCFG	18	20553780	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3414				  PhTD1 	Papio hamadryas	Animalia (Mammals)	RCVCRRGVCRCVCTRGFC	18	20155756	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3415				  PhTD3 	Papio hamadryas	Animalia (Mammals)	RCVCTRGFCRCVCTRGFC	18	20155756	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3416				  RTD-4 	Macaca mulatta	Animalia (Mammals)	GICRCICTRGFCRCICVL	18	21084627	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3417				  RTD-5 	Macaca mulatta	Animalia (Mammals)	GICRCLCRRGVCRCICVL	18	21084627	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3942		P85982		Hylin-a1 	Hypsiboas albopunctatus 	Animalia (Amphibians)	IFGAILPLALGALKNLIK	18	19056441	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4134	403399460	E4VP50		Venom antimicrobial peptide-9	Mesobuthus eupeus 	Animalia (Arachnids)	FFGHLFKLATKIIPSLFQ	18	19088182	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4148	453055539		2M1P	[Aba5-14] BTD-2	Synthetic construct		GVCRXVCRRGVCRXVCRR	18	23430740	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated

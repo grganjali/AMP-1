@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ14	110279044	P0C1M4		Mastoparan-like peptide 12a	Vespa magnifica 	Animalia (Insects)	INWKGIAAMAKKLL	14	16330062	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ25	110810422	P0C1Q4		Mastoparan-1 	Polybia paulista	Animalia (Insects)	IDWKKLLDAAKQIL	14	16129513	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ28	111118804	Q0PJU7		Astacidin 2 	Pacifastacus leniusculus	Animalia (Crustaceans (Malacostraca))	RPRPNYRPRPIYRP	14	17049601	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ254	246037	P33046	1G89,1G8C,1HR1,1QX9,1QXQ	Indolicidin 	Bos taurus 	Animalia (Mammals)	ILPWKWPWWPWRR	13	1537821	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ505	51701932	P84116		Temporin-1BYa	Rana boylii 	Animalia (Amphibians)	FLPIIAKVLSGLL	13	14531844	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ533	56748934	P84292		Hylaseptin-P1 	Hypsiboas punctatus	Animalia (Amphibians)	GILDAIKAIAKAAG	14	14715660	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1011				Temporin-1TSa	Rana tsushimensis	Animalia (Amphibians)	FLGALAKIISGIF	13	16413829	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1013	159163245		1VM2	Anticancer peptide A2	Synthetic construct		GLFDKLKSLVSDF	13	15572363	Antibacterial	Gram-ve	Experimentally Validated
+CAMPSQ1014	159163247		1VM4	Anticancer peptide A4	Synthetic construct		GLFDIVKKLVSDF	13	15572363	Antibacterial	Gram-ve	Experimentally Validated
+CAMPSQ1808	115502228	P84957		Hyposin-HA4	Phyllomedusa azurea 	Animalia (Amphibians)	FRPALIVRTKGTRL	14		Antimicrobial		Predicted
+CAMPSQ2560	310696094	E3SZG0		Odorranain-H-RA5 peptide precursor  	Odorrana andersonii (golden crossband frog)  	Animalia (Amphibians)	LLLFFLGTISLSLC	14		Antimicrobial		Predicted
+CAMPSQ2806				  Temporin-1TSc 	Rana tsushimensis	Animalia (Amphibians)	FLPLLGNLLRGLL	13	16413829	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2808				  Temporin-1SPb 	Rana septentrionalis	Animalia (Amphibians)	FLSAITSLLGKLL	13	15556063	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ3347				  Japonicin-1Npa 	Nanorana parkeri	Animalia (Amphibians)	FLLFPLMCKIQGKC	14	20153801	Antimicrobial		Experimentally Validated
+CAMPSQ3349				  Japonicin-1Npb 	Nanorana parkeri	Animalia (Amphibians)	FVLPLVMCKILRKC	14	20153801	Antimicrobial		Experimentally Validated
+CAMPSQ3605				  Temporin-Ra 	Rana ridibunda	Animalia (Amphibians)	FLKPLFNAALKLLP	14	21956830	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3846		R4JNJ5		  Pantinin-1	Pandinus imperator	Animalia (Arachnids)	GILGKLWEGFKSIV	14	23624072	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4079	425872837	K7ZJ59		Temporin-AJ7 antimicrobial peptide precursor 	Amolops jingdongensis 	Animalia (Amphibians)	FLPIVGKLPSGLL	13	22828809	Antimicrobial		Predicted
+CAMPSQ4080	425872833	K7ZAL7		Temporin-AJ5 antimicrobial peptide precursor 	Amolops jingdongensis 	Animalia (Amphibians)	FPPIVGKLLFGLL	13	22828809	Antimicrobial		Predicted
+CAMPSQ4081	425872822	K7Z900		Temporin-AJ3 antimicrobial peptide precursor 	Amolops jingdongensis 	Animalia (Amphibians)	FFPIVGKLLSGLL	13	22828809	Antimicrobial		Predicted
+CAMPSQ4082	425872806	K7Z438		Temporin-AJ1 antimicrobial peptide precursor 	Amolops jingdongensis 	Animalia (Amphibians)	FLPIVTGLLSSLL	13	22828809	Antimicrobial		Predicted
+CAMPSQ4593		A7WNV7		Temporin-1PLa	Rana palustris	Animalia (Amphibinas)	FLPLVGKILSGLI	13	11087945	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ8174		P0DMF0		Peptide Hp1478	Heterometrus petersii 	Animalia (Arachnids)	ILGKFCDEIKRIV	13	24315793	Antiviral		Predicted
+CAMPSQ8175		P0DME8		Peptide Hp1239	Heterometrus petersii 	Animalia (Arachnids)	ILSYLWNGIKSIF	13	24315793	Antiviral		Experimentally Validated
+CAMPSQ8218				RN7-IN7	Synthetic construct		FLGGLIKPWWPWRR	14	26046345	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated

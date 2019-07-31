@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ66	1168639	P46171		Beta-defensin 13 . BNDB-13	Bos taurus 	Animalia (Mammals)	SGISGPLSCGRNGGVCIPIRCPVPMRQIGTCFGRPVKCCRSW	42	8454635	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ334	298768	P46161		Beta-defensin 3 , BNBD-3	Bos taurus 	Animalia (Mammals)	EGVRNHVTCRINRGFCVPIRCPGRTRQIGTCFGPRIKCCRSW	42	8454635	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ337	298771			Beta-defensin 6 , BNBD-6	Bos taurus 	Animalia (Mammals)	EGVRNHVTCRIYGGFCVPIRCPGRTRQIGTCFGRPVKCCRRW	42	8454635	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ592	71152326	Q7TNV7		Beta-defensin 38 	Mus musculus	Animalia (Mammals)	IGPDTKKCVQRKNACHYFECPWLYYSVGTCYKGKGKCCQKRY	42	14718547	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ594	71796859	Q0R5P1		Cathelicidin-related antimicrobial peptide	Chinchilla lanigera 	Animalia (Mammals)	AKRGGFWRKVGRKLGKGIRKIGKTIKSQLGKFRPRLQYRYQF	42	17113647	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ827				Penocin A	Pediococcus pentosaceus ATCC 25745	Bacteria	KYYGNGVHCGKKTCYVDWGQATASIGKIIVNGWTQHGPWAHR	42	16735728	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ1074	150387845	P0C1Z9	2DCW	Tachystatin-B2	Tachypleus tridentatus 	Animalia	YITCLFRGARCRVYSGRSCCFGYYCRRDFPGSIFGTCSRRNF	42	10473569	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ1090	20138941, 1246017	P82818, O96059	1KV4	Moricin-1, Moricin-2	Bombyx mori	Animalia (Insects)	AKIPIKAIKTVGKAVGKGLRAINIASTANDVFNFLKPKKRKH	42	8530391	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1612	71152317	Q8R2I4		Beta-defensin 13	Mus musculus	Animalia (Mammals)	TLYRRFLCKKMNGQCEAECFTFEQKIGTCQANFLCCRKRKEH	42		Antibacterial		Predicted
+CAMPSQ1622	3023390	O19038		Beta-defensin 1	Ovis aries	Animalia (Mammals)	QGVRNRLSCHRNKGVCVPSRCPRHMRQIGTCRGPPVKCCRKK	42		Antibacterial		Predicted
+CAMPSQ1623	3023391	O19039		Beta-defensin 2	Ovis aries	Animalia (Mammals)	HGVTDSLSCRWKKGICVLTRCPGTMRQIGTCFGPPVKCCRLK	42		Antibacterial		Predicted
+CAMPSQ1833	209572852	P0C8A6		Defensin-B2	Ornithorhynchus anatinus	Animalia (Mammals)	GLNNKCAYFRGQCRRKCPQRDIFFGFCRNHDQCCLSSLHTRH	42		Antimicrobial		Predicted
+CAMPSQ1840	82126773	Q6QLR2		Gallinacin-7	Gallus gallus	Animalia (Aves)	RPIDTCRLRNGICFPGICRRPYYWIGTCNNGIGSCCARGWRS	42		Antibacterial		Predicted
+CAMPSQ1877	3123187	P80493		Bacteriocin bavaricin-MN	Lactobacillus sakei 	Bacteria	TKYYGNGVYCNSKKCWVDWGQAAGGIGQTVVXGWLGGAIPGK	42		Antimicrobial		Predicted
+CAMPSQ2358	290543346	Q91X12		Cathelicidin antimicrobial peptide precursor  	Cavia porcellus	Animalia (Mammals)	LRKKFRKTRKRIQKLGRKIGKTGRKVWKAWREYGQIPYPCRI	42	9278433	Antibacterial	Gram+ve, Gram-ve	Predicted
+CAMPSQ2372	325127103	F1CNA5		Hepcidin-like antimicrobial peptide precursor  	Epinephelus fuscoguttatus	Animalia (Pisces)	YEETSAETWMMPFNIRGEQQSGAIKCHFCCSCCAFGVCGTCC	42		Antimicrobial		Predicted
+CAMPSQ3402		P01475	1Z99	  Crotamine 	Crotalus durissus terrificus	Animalia (Reptiles)	YKQCHKKGGHCFPKEKICLPPSSDFGKMDCRWRWKCCKKGSG	42	19706485	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3419				  Beta-amyloid peptide(1-42) 	Homo sapiens	Animalia (Mammals)	DAEFRHDSGYEVHHQKLVFFAEDVGSNKGAIIGLMVGGVVIA	42	20209079	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ4128	408387563	B3EWQ3		Antimicrobial peptide 3	Taraxacum officinale 	Viridiplantae	ANKCIIDCMKVKTTCGDECKGAGFKTGGCALPPDIMKCCHNC	42	22640720	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ6474	113707408	Q0GA15		Beta defensin (Fragment)	Bubalus bubalis 	Animalia (Mammals)	FTQGISNPSSCRRNRGFCLAFWCPGSMRQIGTCFGFPVKCCR	42		Antimicrobial		Predicted (Based on signature)
+CAMPSQ6750	33089997	Q7YXL8		Cecropin (Fragment)	Hyalophora cecropia 	Animalia (Insects)	LEKRKWKLFKKIEKVGQRVRDAVISAGPAVATVAQATALAKN	42		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7711		H0XRH1		Beta-defensin	Otolemur garnettii 	Animalia (Mammals)	ECWMDGHCRLVCNDDEDSVIRCRNRKRCCVPSRYLTIQPVRV	42		Antimicrobial		Predicted
+CAMPSQ7727		H2P2P8		Beta-defensin (Fragment)	Pongo abelii 	Animalia (Mammals)	CRSQKSCWIIKGHCRKNCKPGEQVKKPCKNGDYCCIPSNTDS	42		Antimicrobial		Predicted
+CAMPSQ7749		H2RCW3		Beta-defensin (Fragment)	Pan troglodytes 	Animalia (Mammals)	CRSQKSCWIIKGHCRKNCKPGEQVKKPCKNGDYCCIPSNTDS	42		Antimicrobial		Predicted
+CAMPSQ7757		M3WL33		Beta-defensin	Felis catus 	Animalia (Mammals)	EFKRCWKGQGACRTYCTRHETYMHMCPDASLCCVAYGIRPLP	42		Antimicrobial		Predicted

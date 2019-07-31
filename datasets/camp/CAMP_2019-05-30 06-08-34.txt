@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ772				White cloud bean defensin 	Phaseolus vulgaris	Viridiplantae	KTCENLADTFRGPCFATSNCDDHCKNKEHLLSGRCRDDFRCWCTRNC	47	16687191	Antibacterial,Antifungal		Experimentally Validated
+CAMPSQ1058	55583802	P82243	2B9K	Antimicrobial peptide LCI	Bacillus subtilis 	Bacteria	AIKLVQSPNGNFAASFVLDGTKWIFKSKYYDSSKGYWVGIYEVWDRK	47		Antibacterial	Gram-ve	Experimentally Validated
+CAMPSQ1337	106880052			Dermaseptin S9	Phyllomedusa sauvagii	Animalia (Amphibians)	DEEKRENEDEENQEDDEQSEMRRGLRSKIWLWVLLMIWQESNKFKKM	47		Antimicrobial		Predicted
+CAMPSQ1541	17373811	O65740		Defensin J1-2	Capsicum annuum	Viridiplantae	RTCESQSHRFKGLCFSKSNCGSVCHTEGFNGGHCRGFRRRCFCTRHC	47	8883377	Antifungal		Predicted
+CAMPSQ1791	221271990	P86155		Esculentin-1a/b	Rana ridibunda	Animalia (Amphibians)	GIFSKLAGKKLKNLLISGLKNVGKEVGMDVVRTGIDIAGCKIKGEC	46		Antibacterial	Gram+ve, Gram-ve	Predicted
+CAMPSQ2037	209572883	Q32ZH5		Beta-defensin 17	Rattus norvegicus	Animalia (Mammals)	KRSYPEYGSLDLRKECRMSKGHCKLQCSENEIRIAFCIRPGTHCCI	46		Antibacterial		Predicted
+CAMPSQ2107	74762871	Q4QY38		Beta-defensin134	Homo sapiens 	Animalia (Mammals)	GINSLSSEMHKKCYKNGICRLECYESEMLVAYCMFQLECCVKGNPAP	47		Antibacterial		Predicted
+CAMPSQ2801				Tu-AMP 1 	Tulipa gesneriana L	Viridiplantae	KSCCRNTVARNCYNVCRIPGTPRPVCAATCDCKLITGTKCPPGYEK	46	15056889	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2864				  gamma1-purothionin 	Triticum aestivum	Viridiplantae	KICRRRSAGFKGPCMSNKNCAQVCQQEQWQQQNCDQPFRRCKCIRQC	47	2226781	Antimicrobial		Predicted
+CAMPSQ2865				  gamma2-purothionin 	Triticum turgidum	Viridiplantae	KVCRQRSAQFKGPCVSDKNCAQVCLQEQWQQQNCDQPFRRCKCIRQC	47	2226781	Antimicrobial		Predicted
+CAMPSQ2866				  P322 	Solanum tuberosum	Viridiplantae	RHCESLSHRFKGPCTRDSNCASVCETERFSGGNCHGFRRRCFCTKPC	47	24272339	Antimicrobial		Experimentally Validated
+CAMPSQ2867		P20230		Gamma1-hordothionin 	Hordeum vulgare	Viridiplantae	RICRRRSAGFKGPCVSNKNCAQVCMQEGWGGGNCDGPLRRCKCMRRC	47		Antimicrobial		Experimentally Validated
+CAMPSQ3332				  Longicornsin 	Haemaphysalis longicornis	Animalia (Arachnids)	DFGCGQGMIFMCQRRCMRLYPGSTGFCRGFRCMCDTHIPLRPPFMVG	47	20027626	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3566				  Esculentin-1-OA5 	Odorrana andersonii	Animalia (Amphibians)	GLFSKFAGKGIKNFLIKGVKHIGKEVGMDVIRVGIDVAGCKIKGVC	46	22029824	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3568				  Esculentin-1-OR1 	Odorrana rotodora	Animalia (Amphibians)	GIFSKISGKAIKNLFIKGAKNVGKEVGMDVVRTGIDVVGCKIKGEC	46	22029824	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3570				  Esculentin-1-OR3 	Odorrana rotodora	Animalia (Amphibians)	GIFSKISGKAIKNLFIKGAKNVGKRVGMDVVRTGMDVVGCKIKGEC	46	22029824	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3571				  Esculentin-1-OR4 	Odorrana rotodora	Animalia (Amphibians)	GIFSKISGKAIKNLFIKGAENVGKHVGIDVVRTGIDVVGCKIKGEC	46	22029824	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3572				  Esculentin-1-OR5 	Odorrana rotodora	Animalia (Amphibians)	GIFSKISGKAIKNLFIKGAKNVGKEVGIDVVRTGMDVVGCKIKGEC	46	22029824	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3893		P35518		Bacteriocin lactococcin-B 	Lactococcus lactis subsp. cremoris 	Bacteria	SLQYVMSAGPYTWYKDTRTGKTICKQTIDTASYTFGVMAEGWGKTFH	47		Antimicrobial		Predicted
+CAMPSQ4335				  Esculentin-1PLb 	Rana palustris	Animalia (Amphibians)	GIFTKINKKKAKTGVFNIIKTIGKEAGMDVIRAGIDTISCKIKGEC	46	11087945	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ7708		H0XFT6		Beta-defensin	Otolemur garnettii 	Animalia (Mammals)	RRRYPEYGSLDLRRECRKGNGQCKTQCHENEVRIAYCIRPGSHCCLE	47		Antimicrobial		Predicted
+CAMPSQ7728		H2PRK4		Beta-defensin	Pongo abelii 	Animalia (Mammals)	GINSLSSEMHKKCYKKGICRLECYKSEMLVAYCMFQLECCVKGNPAP	47		Antimicrobial		Predicted
+CAMPSQ7918		G3SEN6		Beta-defensin	Gorilla gorilla gorilla 	Animalia (Mammals)	EKCWNFRGSCCDECLKNERVYVFCVSGKLCCLKPKDQPHLPQHIKN	46		Antimicrobial		Predicted
+CAMPSQ7971		G7PCE0		Beta-defensin	Macaca fascicularis 	Animalia (Mammals)	GINSLPSEMHKKCYKNGICRLECYESEMLVAYCMFQLECCVTGNPAP	47		Antimicrobial		Predicted
+CAMPSQ7995		G1PSK8		Beta-defensin	Myotis lucifugus 	Animalia (Mammals)	ARGGSRRHIRCAKMSGRCEIECLSFEDKIGGCRAELTPFCCKKRKRN	47		Antimicrobial		Predicted

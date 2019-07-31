@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ357	32396188	Q7SZG9		Pleurocidin-like peptide GcSc4B7	Glyptocephalus cynoglossus	Animalia (Pisces)	FWGKLLKLGMHGIGLLHQHLG	21	12878506	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ375	38257917	P83674		Ruminococcin-A 	Ruminococcus gnavus 	Bacteria	GNGVLKTISHECNMNTWQFLF	21	11526013	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ609	730432	Q99134		PYLa/PGLa precursor 	Xenopus laevis	Animalia (Amphibians)	GMASKAGAIAGKIAKVALKAL	21	1717472	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ648	8928532	P82282		Bombinin-H1/H3	Bombina variegata	Animalia (Amphibians)	IIGPVLGMVGSALGGLLKKIG	21	8223491	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ869				Witch flounder GcSc4B7	Glyptocephalus cynoglossus	Animalia (Pisces)	GFWGKLFKLGLHGIGLLHLHL	21	12878506	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1098	223635234	A1Z0M0		Hepcidin	Larimichthys crocea	Animalia (Pisces)	RCRFCCRCCPRMRGCGICCRF	21		Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1156	254674360	C7C1L1		Kasseptin 1Md	Kassina maculata (spotted running frog)	Animalia (Amphibians)	IIGAIAAALPHVINAIKNTFG	21	19427345	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ1396	93359274	Q1KLZ5		Antibacterial peptide chensirin-1	Rana chensinensis	Animalia (Amphibians)	FTMKKSLLLLFFLGTINFSLC	21		Antimicrobial		Predicted
+CAMPSQ2386	318055889			Brevinin-2SN4 antimicrobial peptide precursor  	Hylarana spinulosa	Animalia (Amphibians)	TMKKPMLLLFFLGMISMSLCQ	21		Antimicrobial		Predicted
+CAMPSQ2680	380855371	H9C3M5		Hepcidin-2  	Scophthalmus maximus	Animalia (Pisces)	MKCKFCCNCCNLNGCGVCCDF	21	22381569	Antimicrobial		Predicted
+CAMPSQ2681	380855367	H9C3M3		Hepcidin-2  	Scophthalmus maximus	Animalia (Pisces)	MKCKFCCNCRNLNGCGVCCDF	21	22381569	Antimicrobial		Predicted
+CAMPSQ2682	380855363	H9C3M1		Hepcidin-2  	Scophthalmus maximus	Animalia (Pisces)	MKCKFCCNCCNMNGCGMCCDF	21	22381569	Antimicrobial		Predicted
+CAMPSQ2683	380855355	H9C3L7		Hepcidin-2  	Scophthalmus maximus	Animalia (Pisces)	MKCKFCCNCCNFNGCGVCCDF	21	22381569	Antimicrobial		Predicted
+CAMPSQ2684	380855369	H9C3M4		Hepcidin-2  	Scophthalmus maximus	Animalia (Pisces)	MKCKFCCNCCNMNGCGVCCDF	21	22381569	Antimicrobial		Predicted
+CAMPSQ2685	380855357	H9C3L8		Hepcidin-2  	Scophthalmus maximus	Animalia (Pisces)	MKCKFCCNCRNLSGCGVCCDF	21	22381569	Antimicrobial		Predicted
+CAMPSQ2919				  Catestatin 	Homo sapiens	Animalia (Mammals)	SSMKLSFRARAYGFRGPGPQL	21	15723172	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2928				  Brevinin-1Ja 	Rana japonica	Animalia (Amphibians)	FLGSLIGAAIPAIKQLLGLKK	21	18558801	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ2934				  SP-B 	Sus scrofa	Animalia (Mammals)	APPGARPPPGPPPPGPPPPGP	21	17883246	Antifungal		Experimentally Validated
+CAMPSQ3153				  Odorranain-H1 	Odorrana grahami	Animalia (Amphibians)	GIFGKILGVGKKVLCGLSGWC	21	17272268	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3157				  Nigrocin-OG13 	Odorrana grahami	Animalia (Amphibians)	GLLSGILGAGKHIVCGLSGLK	21	17272268	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3158				  Nigrocin-OG21 	Odorrana grahami	Animalia (Amphibians)	GLLSGVLGVGKKVDCGLSGLC	21	17272268	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3420				  PvD1 	Phaseolus vulgaris 	Viridiplantae	KTCENLADTYKGPCFTTGSCD	21	18786582	Antifungal		Experimentally Validated
+CAMPSQ3436				  Nigrocin-2ISa  	Odorrana ishikawae	Animalia (Amphibians)	GIFSTVFKAGKGIVCGLTGLC	21	 21193000	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3437				  Nigrocin-2ISb  	Odorrana ishikawae	Animalia (Amphibians)	GILGTVFKAGKGIVCGLTGLC	21	 21193000	Antibacterial, Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ3673				  Bmkb1 	Mesobuthus martensii	Animalia (Arachnids)	FLFSLIPSAISGLISAFKGRR	21	15062994	Antibacterial	Gram+ve, Gram-ve	Experimentally Validated

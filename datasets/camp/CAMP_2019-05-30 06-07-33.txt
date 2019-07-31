@@ -1,0 +1,26 @@
+  Camp_ID	gi	UniProt_id	PDBID	Title	Source_Organism	Taxonomy	Seqence	Length	Pubmed_id	Activity	Gram_Nature	Validation
+CAMPSQ623	74834657	P84156	1OZZ,1P00,1P0A	Defensin ARD1	Archaeoprepona demophon 	Animalia (Insects)	DKLIGSCVWGAVNYTSNCNAECKRRGYKGGHCGSFANVNCWCET	44	14978308	Antifungal		Experimentally Validated
+CAMPSQ880	74849791	Q9U8X3	1CIX	Tachystatin-A2	Tachypleus tridentatus 	Animalia	YSRCQLQGFNCVVRSYGLPTIPCCRGLTCRSYFPGSTYGRCQRY	44	10473569 , 11959852	Antibacterial,Antifungal	Gram+ve, Gram-ve	Experimentally Validated
+CAMPSQ1145	263406454	P85966	2LB7	WAMP-1a	Triticum kiharae	Viridiplantae	AQRCGDQARGAKCPNCLCCGKYGFCGSGDAYCGAGSCQSQCRGC	44	19583772	Antifungal		Experimentally Validated
+CAMPSQ1374	103485147	Q8IZN7		Defensin, beta 107B 	Homo sapiens 	Animalia (Mammals)	AIHRALISKRMEGHCEAECLTFEVKIGGCRAELAPFCCKNRKKH	44		Antimicrobial		Predicted
+CAMPSQ1632	84029478	Q5IAA9		Beta-defensin 107A	Pan troglodytes	Animalia (Mammals)	AIHRALISKRMEGHCEAECLTFEVKTGGCRAELAPFCCKNRKKH	44		Antibacterial		Predicted
+CAMPSQ1916	152112331	A4H216		Beta-defensin 107A	Pongo pygmaeus	Animalia (Mammals)	AIHRALICKRMEGHCEAECLTFEVKIGGCRAELAPFCCKNRKKH	44		Antibacterial		Predicted
+CAMPSQ1917	152112330	A4H218		Beta-defensin107A	Macaca fascicularis	Animalia (Mammals)	AIHRALICKRMEGHCEAECLTFEVKIGGCRAELTPYCCKKRKKD	44		Antibacterial		Predicted
+CAMPSQ2141	123659995	Q4L5M5		Antibacterial protein 1 homolog	Staphylococcus haemolyticus (strain JCSC1435)	Bacteria	MQKLAEAIAAAVQAGQDKDWGKMGTSIVGIVENGISVLGKIFGF	44		Antibacterial	Gram-ve	Predicted
+CAMPSQ2142	123659994	Q4L5M2		Antibacterial protein 2 homolog	Staphylococcus haemolyticus (strain JCSC1435)	Bacteria	MEKIANAVKSAIEAGQNQDWTKLGTSILDIVSNGVTELSKIFGF	44		Antibacterial	Gram-ve	Predicted
+CAMPSQ2143	123659993	Q4L5M1		Antibacterial protein 3 homolog	Staphylococcus haemolyticus (strain JCSC1435)	Bacteria	MSKLVQAISDAVQAGQNQDWAKLGTSIVGIVENGVGILGKLFGF	44		Antibacterial	Gram-ve	Predicted
+CAMPSQ2147	121140	P11699		Antibacterial protein 3	Staphylococcus haemolyticus	Bacteria	MSKLVQAISDAVQAQQNQDWAKLGTSIVGIVENGVGILGKLFGF	44		Antibacterial	Gram-ve	Experimentally Validated
+CAMPSQ2148	121139	P11698		Antibacterial protein 2	Staphylococcus haemolyticus	Bacteria	MEKIANAVKSAIEAGQNQDWTKLGTSILDIVSNGVTELSKIFGF	44		Antibacterial	Gram-ve	Experimentally Validated
+CAMPSQ2149	121138	P11697		Antibacterial protein1	Staphylococcus haemolyticus	Bacteria	MQKLAEAIAAAVSAGQDKDWGKMGTSIVGIVENGITVLGKIFGF	44		Antibacterial	Gram-ve	Experimentally Validated
+CAMPSQ2374	306850696	E2IFI1		Hepcidin-like antimicrobial peptide precursor  	Epinephelus coioides	Animalia (Pisces)	YEETSAETWMMPFNIEGEQQSGAIKCRFCCSCCAFGVCGPCCKF	44		Antimicrobial		Predicted
+CAMPSQ2400	318055801	E7EKD3		Hainanensin-4 antimicrobial peptide precursor  	Odorrana hainanensis  	Animalia (Amphibians)	TTKKSLLLLFFLATINLSLCEEERNAEEKRRDDPDEMNVEMEKR	44		Antimicrobial		Predicted
+CAMPSQ2409	304442822	E1AXG2		Temporin-MT3 antimicrobial peptide precursor  	Amolops mantzorum  	Animalia (Amphibians)	TMKKSLLLLFFLGTINLSLCEQERNAEEERRDDLGERQAEVEKR	44		Antimicrobial		Predicted
+CAMPSQ2412	304442766	E1AXD4		Daunchinain-D1 antimicrobial peptide precursor  	Babina daunchina	Animalia (Amphibians)	TMKKSLLLLFFLGTINLSLCEQEGNAEEETGDNPDQREDEVEKR	44		Antimicrobial		Predicted
+CAMPSQ2422	304442760	E1AXD1		Daunchinain-B1 antimicrobial peptide precursor  	Babina daunchina	Animalia (Amphibians)	TSKKPLLLLFFLGTINLSLCEQERNAEEETGDYPDQRDVEVEKR	44		Antimicrobial		Predicted
+CAMPSQ2656	332692909	F6M2J1		Big defensin 3  	Crassostrea gigas	Animalia (Molluscs (Bivalvia))	QAQILLPIASYAGLTVTAPVFAALVAAYGIYAVTRYAIRKRRIV	44	21980497	Antimicrobial		Predicted
+CAMPSQ2657	332692905	F6M2I9		Big defensin 3  	Crassostrea gigas	Animalia (Molluscs (Bivalvia))	QAQILLPIASYAGLTVTAPVLAALVAAYGIYAVTRYAIRKRRIV	44	21980497	Antimicrobial		Predicted
+CAMPSQ2912				  Coagulin 	Bacillus coagulans I-4	Bacteria	KYYGNGVTCGKHSCSVDWGKATTCIINNGAMAWATGGHQGTHKC	44	9721655	Antibacterial	Gram+ve	Experimentally Validated
+CAMPSQ4678	144226128	A4PIL5		Neutrophil beta defensin 4 (Fragment)	Bubalus bubalis 	Animalia (Mammals)	GSGFTQGVGNPVSCARNKGICVPSRCPGNMRQIGTCLGPPVKCA	44		Antimicrobial		Predicted (Based on signature)
+CAMPSQ7787		G3W2A3		Beta-defensin	Sarcophilus harrisii 	Animalia (Mammals)	DSKFIFRPKCEKNGVCRDECKSSEMLIAYCKNSQECCVLGHPWS	44		Antimicrobial		Predicted
+CAMPSQ8004		G1PZS2		Beta-defensin	Myotis lucifugus 	Animalia (Mammals)	DLDADKICGYGTARCRWNCKRQEFKIGVCPNTSPCCLKGRMAPH	44		Antimicrobial		Predicted
+CAMPSQ8014		G1U9J0		Beta-defensin	Oryctolagus cuniculus 	Animalia (Mammals)	AIQRRKSCVRMNGRCEAECLTFEVKLGGCRAELTPYCCKKMRKN	44		Antimicrobial		Predicted
