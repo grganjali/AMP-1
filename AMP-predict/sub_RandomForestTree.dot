@@ -1,0 +1,28 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="VHSE6 <= 1.14\ngini = 0.48\nsamples = 79\nvalue = [31, 86, 10, 0]\nclass = NAMP", fillcolor="#47e53992"] ;
+1 [label="KF2 <= -0.79\ngini = 0.42\nsamples = 70\nvalue = [19, 82, 10, 0]\nclass = NAMP", fillcolor="#47e539af"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="VHSE5 <= -0.15\ngini = 0.43\nsamples = 10\nvalue = [11, 5, 0, 0]\nclass = AMP", fillcolor="#e581398b"] ;
+1 -> 2 ;
+3 [label="column_NonPolar_number <= 0.09\ngini = 0.15\nsamples = 7\nvalue = [11, 1, 0, 0]\nclass = AMP", fillcolor="#e58139e8"] ;
+2 -> 3 ;
+4 [label="gini = 0.0\nsamples = 5\nvalue = [10, 0, 0, 0]\nclass = AMP", fillcolor="#e58139ff"] ;
+3 -> 4 ;
+5 [label="ST3 <= -0.74\ngini = 0.5\nsamples = 2\nvalue = [1, 1, 0, 0]\nclass = AMP", fillcolor="#e5813900"] ;
+3 -> 5 ;
+6 [label="gini = 0.0\nsamples = 1\nvalue = [1, 0, 0, 0]\nclass = AMP", fillcolor="#e58139ff"] ;
+5 -> 6 ;
+7 [label="gini = 0.0\nsamples = 1\nvalue = [0, 1, 0, 0]\nclass = NAMP", fillcolor="#47e539ff"] ;
+5 -> 7 ;
+8 [label="gini = 0.0\nsamples = 3\nvalue = [0, 4, 0, 0]\nclass = NAMP", fillcolor="#47e539ff"] ;
+2 -> 8 ;
+9 [label="PP2 <= 1.17\ngini = 0.32\nsamples = 60\nvalue = [8, 77, 10, 0]\nclass = NAMP", fillcolor="#47e539c9"] ;
+1 -> 9 ;
+10 [label="F6 <= -0.45\ngini = 0.24\nsamples = 54\nvalue = [8, 71, 3, 0]\nclass = NAMP", fillcolor="#47e539d9"] ;
+9 -> 10 ;
+11 [label="ST7 <= 0.01\ngini = 0.51\nsamples = 13\nvalue = [5, 10, 1, 0]\nclass = NAMP", fillcolor="#47e53974"] ;
+10 -> 11 ;
+12 [label="BLOSUM9 <= -1.47\ngini = 0.44\nsamples = 12\nvalue = [3, 10, 1, 0]\nclass = NAMP", fillcolor="#47e539a2"] ;
+11 -> 12 ;
